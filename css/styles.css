@@ -2,7 +2,7 @@
 body {
     /*font: 400 15px Lato, sans-serif;*/
     line-height: 1.8;
-    font: 400 15px Abel, sans-serif;
+    font: 400 15px "Muli", sans-serif;
     background-color: #f4f7f6;
     color: #202121;
 }
@@ -28,7 +28,7 @@ h5 {
 .jumbotron {
     color: #fff;
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 .container-fluid {
     padding: 50px 40px;
@@ -36,97 +36,11 @@ h5 {
     margin-bottom: 30px;
 }
 
-.bg-grey {
-    background-color: #f6f6f6;
-}
-.logo-small {
-    /*color: #f4511e;*/
-    /*color: #00838f;*/
-    font-size: 50px;
-    color: #49c5b6;
-}
-.logo {
-    /*color: #f4511e;*/
-    /*color: #00838f;*/
-    font-size: 200px;
-    color: #49c5b6;
-}
-.thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-}
-.thumbnail, .thumbnail-logo img {
-    width: 100%;
-    margin-bottom: 10px;
-}
-.thumbnail p {
-    padding: 0 10px;
-}
-
-.carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
-}
-.carousel-indicators li {
-    border-color: #f4511e;
-}
-.carousel-indicators li.active {
-    background-color: #f4511e;
-}
-.item h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    font-weight: 400;
-    font-style: italic;
-    margin: 70px 0;
-}
-.item span {
-    font-style: normal;
-}
-.panel {
-    border: 1px solid #f4511e;
-    border-radius:0 !important;
-    transition: box-shadow 0.5s;
-}
-.panel:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-}
-.panel-footer .btn:hover {
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e;
-}
-.panel-heading {
-    color: #fff !important;
-    background-color: #f4511e !important;
-    padding: 25px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-.panel-footer {
-    background-color: white !important;
-}
-.panel-footer h3 {
-    font-size: 32px;
-}
-.panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
-}
-.panel-footer .btn {
-    margin: 15px 0;
-    background-color: #f4511e;
-    color: #fff;
-}
 .navbar {
     margin-bottom: 0;
     /*background-color: #484848;*/
     /*background-color: #00838f;*/
-    background-color: #49c5b6;
+    background-color: #202121;
     z-index: 1;
     border: 0;
     font-size: 12px !important;
@@ -138,47 +52,14 @@ h5 {
 
 }
 .navbar li a {
-    color: #fff !important;
+    color: #ffffff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a{
-    /*color: #484848 !important;*/
-    color: #00838f !important;
-    background-color: #fff !important;
-}
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-}
-
-.open .dropdown-toggle {
-    color: #00838f;
-    background-color: #fff !important;
-}
-
-.dropdown-menu {
-    border: 0px;
-    border-radius: 0px;
-    min-width: 120px;
-}
-
-.dropdown-menu li a {
-    color: #00838f !important;
-    background-color: #fff !important;
-}
-
-.dropdown-menu li a:hover {
-    background-color: #f6f6f6 !important;
-    cursor: pointer;
+    color: #ffffff !important;
+    background-color: #49c5b6 !important;
 }
 
 
-
-footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    /*color: #484848;*/
-    color: #00838f;
-}
 .slideanim {visibility:hidden;}
 .slide {
     animation-name: slide;
@@ -222,8 +103,10 @@ footer .glyphicon {
       font-size: 150px;
   }
 }
+
+
 /* Header section */
-.header-section {
+.header {
   background-image: url("../assets/images/covers/cover.jpg");
   height: 430px;
   min-height: 100%;
@@ -231,43 +114,15 @@ footer .glyphicon {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.bottom-line {
-    border-bottom: 1px solid #444;
-    margin-bottom: 30px;
-}
+
 .max-width {
     max-width: 1200px;
 }
-.full-width {
-    background-color: white;
-}
-.full-width-grey {
-    background-color: #f2f2f2;
-}
+
 .navbar-brand img {
-    width: 30px;
     height: 30px;
     margin-top: -7px;
 }
-.thumbnail:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.slideanim > img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.services-section {
-  background-image: url("../img/services-pic.jpg");
-  background-position: center;
-  background-size: cover;
-  color: #ffffff;
-}
-.services-container-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 
 /* Speakers */
 #speakers h2 {
@@ -314,4 +169,41 @@ footer .glyphicon {
 /* Location */
 .location-container {
     height: 400px;
+}
+
+.location-school-info {
+    font-size: 15px;
+}
+
+/* Footer */
+#footer {
+    height: 330px;
+    background-color: #202121;
+    margin-bottom: 0px;
+}
+
+/* Sponsors */
+.sponsor-logo img {
+    max-width: 230px;
+}
+
+.sponsors-info {
+    margin-bottom: 20px;
+}
+
+/* Organizers */
+.organizer h4 {
+    color: #49c5b6;
+}
+
+.organizers-text {
+    margin-top: 32px;
+}
+
+.sponsor-logo .kmutnb-logo {
+    width: 100px;
+}
+
+.organizers-list {
+    margin-top: 10px;
 }
