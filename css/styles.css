@@ -106,8 +106,13 @@ h5 {
 
 
 /* Header section */
+<<<<<<< HEAD
 .header {
   background-image: url("../assets/images/covers/cover.jpg");
+=======
+.header-section {
+  background-image: url("../assets/images/covers/cover.JPG");
+>>>>>>> fd3750df82be81151c86eacfc51d28d8e50f0d43
   height: 430px;
   min-height: 100%;
   background-position: center;
