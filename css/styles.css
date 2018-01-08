@@ -208,3 +208,20 @@ h5 {
 .organizers-list {
     margin-top: 10px;
 }
+
+/* Registration */
+.payment-link-container {
+    width: 60%; 
+    text-align: center; 
+    background-color: #49c5b6; 
+    height:  40px; 
+    padding-top: 6px; 
+    border-radius: 30px; 
+    margin-left: 20%; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.registration-link {
+    color:  #ffffff; 
+}
