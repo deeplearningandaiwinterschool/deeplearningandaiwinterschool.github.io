@@ -35,7 +35,6 @@ h5 {
     background-color: #ffffff;
     margin-bottom: 30px;
 }
-
 .navbar {
     margin-bottom: 0;
     /*background-color: #484848;*/
@@ -58,8 +57,6 @@ h5 {
     color: #ffffff !important;
     background-color: #49c5b6 !important;
 }
-
-
 .slideanim {visibility:hidden;}
 .slide {
     animation-name: slide;
@@ -68,6 +65,7 @@ h5 {
     -webkit-animation-duration: 1s;
     visibility: visible;
 }
+
 @keyframes slide {
   0% {
     opacity: 0;
