@@ -105,7 +105,7 @@ h5 {
 
 /* Header section */
 .header {
-  background-image: url("../assets/images/covers/cover_opt.gif");
+  background-image: url("../assets/images/covers/cover.gif");
   height: 430px;
   min-height: 100%;
   background-position: center;
@@ -169,6 +169,9 @@ h5 {
     width: 100%;
 }
 
+.program-table {
+    
+}
 
 /* Location */
 .location-container {
