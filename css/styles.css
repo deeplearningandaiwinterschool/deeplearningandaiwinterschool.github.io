@@ -175,6 +175,14 @@ h5 {
     width: 100%;
 }
 
+.program-table th, .program-table td {
+    text-align: center;
+}
+
+.program-table .col-1, .program-table .row-3 td, .program-table .row-6 td, .program-table .row-10 td, .program-table .row-13 td, .program-table .row-14 td {
+    font-weight: 700;
+}
+
 
 /* Location */
 .location-container {
