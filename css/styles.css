@@ -111,7 +111,6 @@ body {
   .header-1 {
     background-image: url("../assets/images/covers/opt_hero_dl_event.jpg");
     height: 430px;
-    min-height: 100%;
     background-position: center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
