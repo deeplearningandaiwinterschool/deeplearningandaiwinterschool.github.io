@@ -22,9 +22,15 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>                <a class="navbar-brand" href="#myPage"> <img src="assets/images/logos/dp_winter_school_2018_logo2.png" alt="Logo"> </a></div>
-            <div
-                class="collapse navbar-collapse" id="myNavbar">
+            <div class="navbar-header">
+                <button id="navBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage"> <img src="assets/images/logos/dp_winter_school_2018_logo2.png" alt="Logo"> </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" onclick="checkToggle()">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="about-nav" href="#about">ABOUT</a></li>
                     <li><a class="program-nav" href="#program">PROGRAM</a></li>
@@ -33,7 +39,7 @@
                     <li><a class="organizer-nav" href="#sponsors-organizers">SPONSOR</a></li>
                     <li><a class="location-nav" href="#location">LOCATION</a></li>
                 </ul>
-        </div>
+            </div>
         </div>
     </nav>
     <div class="header-1 jumbotron text-center">
@@ -381,5 +387,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
     <script src="js/app.js" defer></script>
 </body>
-
+<script>
+    function checkToggle() {
+        if ($('#myNavbar')[0].classList.value == "navbar-collapse collapse in") {
+            $('#myNavbar')[0].classList.value = "navbar-collapse collapse";
+        }
+    }
+</script>
 </html>
