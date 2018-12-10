@@ -35,7 +35,7 @@ $(document).ready(function() {
       days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
     if (distance < 0) {
       clearInterval(timer);
-      document.getElementById("countdown-timer").innerHTML = "EXPIRED";
+      document.getElementById("countdown-timer").innerHTML = "EVENT TIME!";
     }
   }, 1000);
 });
