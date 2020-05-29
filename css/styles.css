@@ -108,17 +108,21 @@ h5  {
 }
 .header-1  {
     background-image:  url("../assets/images/covers/opt_hero_dl_event.jpg");
-    height:  430px;
-    background-position:  center;
-    background-size:  cover;
-    background-color:  rgba(0,  0,  0,  0.5);
+}
+.header-2 {
+    background-image:  url("../assets/images/covers/dlai2_cover.jpg");
+}
+.header-3 {
+    background-image:  url("../assets/images/covers/dlai3_cover.jpg");
+    filter: grayscale(30%);
+    text-shadow: 2px 2px 4px #013220;
 }
 .header  {
-    background-image:  url("../assets/images/covers/dlai2_cover.jpg");
     height:  430px;
     background-position:  center;
     background-size:  cover;
     background-color:  rgba(0,  0,  0,  0.5);
+    min-height: 500px;
 }
 .max-width  {
     max-width:  1200px;
@@ -127,9 +131,15 @@ h5  {
     height:  30px;
     margin-top:  -7px;
 }
+#date-location-info {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+}
 #countdown-timer  {
     font-size:  36px;
     font-weight:  bold;
+    margin: 10px;
 }
 #speakers h2  {
     margin-bottom:  30px;
