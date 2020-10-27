@@ -7,9 +7,12 @@ body {
 h2 {
   font-size: 24px;
   text-transform: uppercase;
-  color: #49c5b6;
+  /* color: #49c5b6; */
   font-weight: 600;
   margin-bottom: 15px;
+  background: -webkit-linear-gradient(#329d9c, #56c596);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h4 {
   font-size: 19px;
@@ -39,7 +42,12 @@ h5 {
 }
 .navbar {
   margin-bottom: 0;
-  background-color: #202121;
+  background-image: linear-gradient(
+    90deg,
+    #205072 0%,
+    #329d9c 50%,
+    #56c596 100%
+  );
   z-index: 1;
   border: 0;
   font-size: 12px !important;
