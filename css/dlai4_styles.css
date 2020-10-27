@@ -31,8 +31,9 @@ h5 {
   text-indent: 50px;
 }
 .jumbotron {
+  letter-spacing: 0.05rem;
   color: #fff;
-  padding: 100px 25px;
+  padding: 120px 25px 100px 25px;
   font-family: "Crimson Text", serif;
 }
 .container-fluid {
@@ -116,10 +117,13 @@ h5 {
   .header-1 {
     min-height: 500px;
   }
+  .jumbotron {
+    padding: 70px 20px;
+  }
 }
 .header-1 {
   background-image: url("../assets/images/covers/dlai4_cover.JPG");
-  filter: grayscale(30%);
+  filter: grayscale(45%);
   text-shadow: 2px 2px 4px #013220;
   width: 100%;
 }
@@ -138,9 +142,9 @@ h5 {
   margin-top: -7px;
 }
 #date-location-info {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 500;
-  margin: 10px;
+  margin: 20px 10px;
 }
 #countdown-timer {
   font-size: 36px;
@@ -324,6 +328,9 @@ tr:nth-child(even),
 .registration-industry h4 {
   margin-bottom: 10px;
 }
-.jumbotron h1 {
-  margin-top: 0px;
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
 }
