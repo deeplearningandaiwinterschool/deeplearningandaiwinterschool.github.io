@@ -123,7 +123,7 @@ h5 {
   }
 }
 .header-1 {
-  background-image: url("../assets/images/covers/dlai4_cover.JPG");
+  background-image: url("../assets/images/covers/dlai4_cartoon_cover.jpg");
   filter: grayscale(45%);
   text-shadow: 2px 2px 4px #013220;
   width: 100%;
@@ -142,14 +142,23 @@ h5 {
   height: 30px;
   margin-top: -7px;
 }
+#series-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+#event-title {
+  font-size: 48px;
+  margin: 44px 10px;
+  font-weight: bold;
+}
 #date-location-info {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 500;
-  margin: 20px 10px;
+  margin: 44px 10px;
 }
 #countdown-timer {
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 26px;
+  /* font-weight: bold; */
   margin: 3rem 0.6125rem;
 }
 #speakers h2 {
