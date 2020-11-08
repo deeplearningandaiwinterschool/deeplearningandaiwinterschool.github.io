@@ -344,3 +344,9 @@ tr:nth-child(even),
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
+
+@media (max-width: 576px) {
+  .about-school-detail {
+    font-size: 14px;
+  }
+}
