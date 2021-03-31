@@ -21,7 +21,7 @@ $(document).ready(function () {
       }
     });
   });
-  const countDownDate = new Date("Nov 18,2020 06:00:00").getTime();
+  const countDownDate = new Date("May 6,2021 06:00:00").getTime();
   const timer = setInterval(function () {
     const now = new Date().getTime();
     const distance = countDownDate - now;
