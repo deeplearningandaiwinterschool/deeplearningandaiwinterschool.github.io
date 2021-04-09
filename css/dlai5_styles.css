@@ -356,3 +356,9 @@ tr:nth-child(even),
   border-bottom: 1px solid #c1c1c1;
   padding-bottom: 12px;
 }
+
+.flex {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
