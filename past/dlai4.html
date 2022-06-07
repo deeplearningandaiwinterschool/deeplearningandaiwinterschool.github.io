@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112274923-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-112274923-1');
+    </script>
+    <title>Deep Learning and Artificial Intelligence Winter School 2020 (DLAI4)</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Deep Learning and Artificial Intelligence Winter School 2020 (DLAI4)">
+    <meta name="keywords"
+        content="Artificial Intelligence, Machine Learning, Deep learning, Summer School, Winter School, IC2, SIT, KMUTT, Thailand">
+    <meta name="author" content="Thanyathorn Thanapattheerakul, Jonathan Chan, Jaturong Kongmanee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/dlai4_styles.css">
+    <link rel="icon" type="image/png" href="../assets/images/logos/dp_winter_school_2018_logo2.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button id="navBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage"> <img src="../assets/images/logos/dp_winter_school_2018_logo2.png"
+                        alt="Logo"> </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" onclick="checkToggle()">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="about-nav" href="#about">ABOUT</a></li>
+                    <li><a class="program-nav" href="#program">PROGRAM</a></li>
+                    <li><a class="speakers-nav" href="#speakers">SPEAKER</a></li>
+                    <!-- <li hidden><a class="gallery-nav" href="#gallery">GALLERY</a></li> -->
+                    <li><a class="committee-nav" href="#committee">COMMITTEE</a></li>
+                    <!-- <li><a class="organizer-nav" href="#sponsors-organizers">SPONSOR</a></li> -->
+                    <li><a class="location-nav" href="#location">LOCATION</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Change cover picture and min-height - reflect to DLAI1.html-->
+    <!-- Banner Section -->
+    <div class="header-1 header jumbotron text-center">
+        <div class="container">
+            <h1 class="col-sm-12 cover-text">
+                <p id="series-title">APNNS Education Forum Series:</p>
+                <span id="event-title">Deep Learning and Artificial Intelligence Winter School 2020 (DLAI4)</span> 
+                <br>
+                <span id="date-location-info">18 - 22 November 2020, Bangkok, Thailand + AoE</span>
+            </h1>
+        </div>
+    </div>
+    
+
+    <!-- Live Video Section -->
+    <div id="live" class="container-fluid max-width" hidden>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="about-school text-center">LIVE</h2><br>
+                <div class="row">
+                    <iframe width="100%" height="500px" src="" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- News Section -->
+    <div id="news" class="container-fluid max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>NEWS</h2>
+                <br>
+                <ul>
+                    <li hidden>[X Nov 2020] <a href="#program">Program schedule</a> is now confirmed! All times are given in Bangkok time (UTC/GMT+7)</li >
+                     <li>[20 Nov 2020] For ICONIP2020 tutorials and workshops on Nov 21 - 22, <a href="https://drive.google.com/file/d/1mD_ywQrUF2guzvFuEoz6NSZhPWrGaN_o/view?usp=sharing" target="_blank"> please find Zoom links to participate here</a></li> 
+                    <li>[20 Nov 2020] For CSBio2020 tutorial: “Beginner's Guide to Microbiome Analysis” on Nov 21, <a href="https://drive.google.com/file/d/1pee8lIloLgIWYelLkMRSRh0n_KJ95aWH/view?usp=sharing" target="_blank"> Please see the updated schedule here</a></li> 
+                    <li>[7 Nov 2020] <a href="#program">Tentative program</a> is now posted!</li>
+                    <li>[28 Oct 2020] <a href="#registration">Registration</a> is now open!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container-fluid max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="about-school">About</h2><br>
+                <h4 class="about-school-detail indent justify">
+                    The concept of deep learning (DL) has been known in the neural network community for many years already. With the onset of more powerful computing facilities, especially the prevalence of graphical processing units (GPUs) and tensor processing units (TPUs), DL has been applied successfully and effectively in many state-of-the-art applications including computer vision, speech recognition, object detection, drug discovery, and so on. More recently, the techniques in DL/AI are leveraged for the current COVID-19 pandemic. DL basically uses deep neural network architecture with multiple layers to represent data with increasing abstraction and may be applied to supervised, unsupervised, as well as reinforcement learning. It is one of the fastest growing fields of AI research and current researches include deployment for COVID-19.
+                    <br><br>
+                    The Asia Pacific Neural Network Society (APNNS) is a professional society that promotes active interactions among researchers, scientists, and industry professionals who are working in Neural Network and related fields in the Asia Pacific region. APNNS was formalized as a legal entity in 2014, having evolved from the previous Asia Pacific Neural Network Assemby (APNNA) that was established back in 1993 in Nagoya, Japan, under the leadership of Professor Shun-Ichi Amari. More information about APNNS may be obtained at the Society website - <a
+                    href="https://www.apnns.org/" target="_blank">www.apnns.org</a>
+                    <br><br>
+                    The APNNS Education Forum series on Deep Learning and Artificial Intelligence Winter School 2020 (DLAI4) is catered to all interested students, engineers, researchers, executives and administrators who may have some basic knowledge of machine learning and AI. With the successful inaugural <a href="https://deeplearningandaiwinterschool.github.io/past/dlai1.html" target="_blank">DLAI back on Feb 1-4, 2018</a>, <a href="https://deeplearningandaiwinterschool.github.io/past/dlai2.html" target="_blank">the second edition on Dec 10-13, 2018</a>, and <a href="https://deeplearningandaiwinterschool.github.io/past/dlai3.html" target="_blank">third edition on June 29 to July 3</a>, we are pleased to be able to offer the 4th DLAI at this time. The venue is online due to the current pandemic and it will be held from November 18-22, 2020. DLAI4 is collocated with ICONIP2020, CSBio2020 and will feature Keynote and Invited Speakers from these two conferences as well as IEEE Distinguished Lecturers and other notable speakers.
+                    <br><br>
+                    As DLAI4 is a virtual event and collocating with ICONIP2020 and CSBio2020, it is offered free-of-charge to all registrants of these two conferences. All participants need to register online first. As there are limited seating available as an online event, priorities will be given to APNNS Members, IEEE-CIS/SMC/RAS Members, INNS Members, ICONIP2020 and CSBio2020 delegates and students.
+                    <br><br>
+                    The DLAI Winter School will cover many aspects of deep learning with several talks by world renowned researchers in form of lectures/tutorials/workshops and panel sessions which will cover the most active current topics in DL and AI and their applications.
+                </h4>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Program Section -->
+    <div id="program" class="container-fluid max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="progam-school">Program</h2>
+                <br>
+                <p>Tentative Schedule - All times are given in Bangkok time (UTC+7)</p>
+            </div>
+        </div>
+        <!-- Navber for program table -->
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#Day1">Day 1: Wed, 18 November</a></li>
+            <li><a data-toggle="tab" href="#Day2">Day 2: Thu, 19 November</a></li>
+            <li><a data-toggle="tab" href="#Day3">Day 3: Fri, 20 November</a></li>
+            <li><a data-toggle="tab" href="#Day4">Day 4: Sat, 21 November</a></li>
+            <li><a data-toggle="tab" href="#Day5">Day 5: Sun, 22 November</a></li>
+        </ul>
+        <!-- Program table -->
+        <div class="tab-content program-table-vertical">
+            <div id="Day1" class="tab-pane fade in active">
+                <h3>Day 1: Wednesday, 18 November 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">IEEE-SMC Distinguished Lecturer Talk</td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <a href="#Sam_Kwong"><i> Sam Kwong,</i></a> City University of Hong Kong, Hong Kong
+                                <br><b>Topic:</b> <a href="https://drive.google.com/file/d/1yWvD4CRHEhpnYpOubnDaYR2XcprLqpuc/view?usp=sharing">Enhancing Video Coding by Data-driven Techniques and Advanced Models</a>
+                                [<a href="https://drive.google.com/file/d/1ovwXZ3vqJuZdagiZ4yXSVoR36Ny__EjS/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 - 10.00 am.</td>
+                            <td><b>Speaker:</b> <a href="#Carlos_A"><i> Carlos A. Coello Coello,</i></a> Gobierno de Mexico, Mexico
+                                <br><b>Topic:</b> <a
+                                    href="https://docs.google.com/document/d/1qmNGif63x724t_UT0-KJo5d_yL_GBW2UxUGQMleWGVg/edit?usp=sharing">An Overview of Evolutionary Multi-Objective Optimization</a>
+                                [<a href="https://drive.google.com/file/d/1w9PmF3e36OltFr3FdlmMtSob_lXIpua9/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Industry Talk</td>
+                        </tr>
+                        <tr>
+                            <td>10.00 - 11.00 am.</td>
+                            <td><b>Speaker:</b> <a href="#Aidan_Gomez"><i>Aidan Gomez,</i></a> Cohere, Canada
+                                <br><b>Topic:</b> <a
+                                    href="#">An Imminent Threat from AI (TEDxOxford) + DLAI4 Interview</a>
+                                [<a href="https://drive.google.com/file/d/1slecNd30qOokmPaH_e8dgLe7rgRM8uG9/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>11.00 am. - 12.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Kevin_Wong"><i> Kevin Wong,</i></a> Murdoch University, Australia
+                                <br><b>Topic:</b> <a
+                                    href="#">Machine Learning Techniques for Data Analysis</a>
+                                [<a href="https://drive.google.com/file/d/1fEsj7enkOhyrMf8pVGmvAdWJteQ68uGK/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>12.00 - 01.00 pm.</td>
+                            <td>Lunch Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 02.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Andry_Chowanda"><i>	Andry Chowanda,</i></a> Bina Nusantara University, Indonesia
+                                <br><b>Topic:</b> <a href="https://drive.google.com/file/d/1AaG31_YD3TaBv3PxICgGlW2tO8xbpFO1/view?usp=sharing">Deep Learning for Social Signal Processing: Multimodal Emotions Recognition</a>
+                            [<a href="https://drive.google.com/file/d/13xCnHQCWDzV1VWGgzBqW5Hk7kw3GibVi/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Industry Talk</td>
+                        </tr>
+                        <tr>
+                            <td>02.00 - 03.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Marwell_Dalangin"><i> Marwell Dalangin,</i></a> Union Bank Philippines, Philippines
+                                <br><b>Topic:</b> <a href="https://drive.google.com/file/d/1f5NmaG1EX3ttCpWm7btaH9wlF3pQv6JU/view?usp=sharing">Reimagining Energy and Manufacturing by Harnessing Deep Learning and AI</a>
+                            [<a href="https://drive.google.com/file/d/1-gF_ypFRlBk8K3ZSvd7EDukKtgLC3McZ/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Keynote Talk I</td>
+                        </tr>
+                        <tr>
+                            <td>03.00 - 04.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Max_Welling"><i> Max Welling,</i></a> University of Amsterdam, Netherland
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#Keynote">PDEs and Schrödinger Equation for Deep Learning</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day2" class="tab-pane fade">
+                <h3>Day 2: Thursday, 19 November 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">CSBio2020 Keynote Talk I</td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <a href="#Intawat_Nookaew"><i> Intawat Nookaew,</i></a> University of Arkansas for Medical Sciences (UAMS), USA
+                                <br><b>Topic:</b> <a href="http://www.csbio.org/2020/#speaker">Uncovering RNA and DNA Modifications from Native Sequences</a>
+                            [<a href="https://drive.google.com/file/d/1g5VpP1SPPi0LupjGnD-j_OkaBSvjrrNg/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Keynote Talk II</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 - 10.00 am.</td>
+                            <td><b>Speaker:</b> <a href="#Stephen_Grossberg"><i> Stephen Grossberg,</i></a> Boston University, USA
+                                <br><b>Topic:</b> <a
+                                    href="https://www.apnns.org/ICONIP2020/#Keynote">Explainable and Reliable AI: Comparing Deep Learning with Adaptive Resonance</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>10.00 - 10.30 am.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Invited Talk I</td>
+                        </tr>
+                        <tr>
+                            <td>10.30 - 11.30 am.</td>
+                            <td><b>Speaker:</b> <a href="#Tianbao_Yang"><i> Tianbao Yang,</i></a> University of Iowa, USA
+                                <br><b>Topic:</b> <a
+                                    href="https://www.apnns.org/ICONIP2020/#Invited%20talk">Large-scale Deep AUC Maximization and Applications in Medical Image Classification</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>11.30 am. - 12.00 pm.</td>
+                            <td>Lunch Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Women in Science and Engineering (WISE) Session: <br>IEEE-CIS Distinguished Lecturer Talk</td>
+                        </tr>
+                        <tr>
+                            <td>12.00 - 01.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Sushmita_Mitra"><i> Sushmita Mitra,</i></a> Indian Statistical Institute, India
+                                <br><b>Topic:</b> <a href="https://drive.google.com/file/d/1jFL6FzHuS1jygdwwvuYIYnCaI7YqU8Na/view?usp=sharing">Intelligent Biomedical Image Analysis</a>
+                            [<a href="https://drive.google.com/file/d/1KyajCn8UhpYAN3ONaYulgQRo-bQHDTFD/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">WISE Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 02.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Ling_Li"><i> Ling Li,</i></a> Curtin University, Australia
+                                <br><b>Topic:</b> <a href="https://docs.google.com/document/d/1wEVlpD_pmjeTpbFFWon86VIRi4esYFm3PYbQKVfPX84/edit?usp=sharing">Affinity learning with the diffusion process</a>
+                            [<a href="https://drive.google.com/file/d/1B4YO3rsuAss8pDC0HOpjTMekdCqmxbf_/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">WISE Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>02.00 - 03.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Jing_Li"><i> Jing Li,</i></a> The Hong Kong Polytechnic University, Hong Kong
+                                <br><b>Topic:</b> <a href="https://drive.google.com/file/d/1HeHR8t6cBYeN6zDizKi04CbRl7TqnOYK/view?usp=sharing">Language Understanding in Social Interactions</a>
+                            [<a href="https://drive.google.com/file/d/10G7VODEIlX3FbND9F5dUKQA-z74jWBKd/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">WISE Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>03.00 - 04.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Tiranee_Achalakul"><i> Tiranee Achalakul,</i></a> King Mongkut's University of Technology Thonburi, Thailand
+                                <br><b>Topic:</b> <a href="https://docs.google.com/document/d/1ingubzjMdGAbbYGlb94rEW-smHshttps://drive.google.com/file/d/1aBNaIPEWUxrnE79xiqM6NRbBNwnVufM8/view?usp=sharingj9uyNRSSBq1Vrf2I/edit?usp=sharing">How Big Data and AI change the way we live?</a>
+                            [<a href="https://drive.google.com/file/d/1aBNaIPEWUxrnE79xiqM6NRbBNwnVufM8/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">WISE Industry Talk</td>
+                        </tr>
+                        <tr>
+                            <td>04.00 - 05.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Gabriela_Csurka"><i> Gabriela Csurka,</i></a> Naver Labs Europe, France
+                                <br><b>Topic:</b> <a href="https://docs.google.com/document/d/1_3KWnyWmdDE5b1QejXWzU2BWsKOLuQvOzNhCCJuESBs/edit?usp=sharing">Deep Domain Adaptation for Visual Applications</a>
+                            [<a href="https://drive.google.com/file/d/1O1SHG5pOb0rC_3JBJL6bhm-iVJ7nRQhh/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day3" class="tab-pane fade">
+                <h3>Day 3: Friday, 20 November 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan=" 2" class="program-table-header">CSBio2020 Keynote Talk II</td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <a href="#Ryan_Yuen"><i> Ryan Yuen,</i></a> Hospital for Sick Children, Canada
+                                <br><b>Topic:</b> <a href="http://www.csbio.org/2020/#speaker">Genome-wide repeat expansions in complex disorders: beyond the coding sequence</a>
+                            [<a href="https://drive.google.com/file/d/1du_rkil6FekvhkVhXnZU1yTBgNO3NtwF/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Keynote Talk III</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 - 10.00 am.</td>
+                            <td><b>Speaker:</b> <a href="#Kun_Zhang"><i> Kun Zhang,</i></a> Carnegie Mellon University, USA
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#Keynote">Learning and Using Causality-related Representations</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>10.00 - 10.30 am.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Invited Talk II</b></td>
+                        </tr>
+                        <tr>
+                            <td>10.30 - 11.30 am.</td>
+                            <td><b>Speaker:</b> <a href="#Tien-Tsin_Wong"><i> Tien-Tsin Wong,</i></a> Chinese University of Hong Kong, Hong Kong
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#Invited%20talk">
+                                    Convolutional Neural Networks in Computational Manga</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>11.30 am. - 12.00 pm.</td>
+                            <td>Lunch Break</td>
+                        </tr>
+                            <td colspan="2" class="program-table-header">Academic Talk</td>
+                        <tr>
+                            <td>12.00 - 01.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Herwig_Unger"><i> Herwig Unger,</i></a> FernUniversität in Hagen, Germany
+                                <br><b>Topic:</b> <a href="https://docs.google.com/document/d/1sh5Ieyy9I3ccN40ndP5d8QqQaB0UTOi_fUoC2vqsMHA/edit?usp=sharing">Some thoughts on brain-inspired natural language processing</a>
+                            [<a href="https://drive.google.com/file/d/10G3k62j88VW0wnXpCMiJ66c20DkBzgPh/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 02.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Masashi_Sugiyama"><i> Masashi Sugiyama,</i></a> RIKEN and The University of Tokyo, Japan
+                                <br><b>Topic:</b> <a href="https://docs.google.com/document/d/1rP6YcW6_iQu2WNQPMs0WVXPgaI_4vfkhvOkGlnbBhfE/edit">Robust Machine Learning for Reliable Deployment</a><a href="https://drive.google.com/file/d/1PlA7kpZU4U8l0zoOIQHQ8P8byD66vhuf/view"> [Slide]</a>
+                            [<a href="https://drive.google.com/file/d/1kua80xPGkNKJs0f-PKe3QFvQ2Q6KFVS7/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk</td>
+                        </tr>
+                        <tr>
+                            <td>02.00 - 03.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Nipon_Theera-Umpon"><i> Nipon Theera-Umpon,</i></a> Chiang Mai University, Thailand
+                                <br><b>Topic:</b> <a href="https://drive.google.com/file/d/1HqzIH8ii2aC1jAFC-bT8cdJK9pqVg-xQ/view?usp=sharing">A.I. in Biomedical Engineering</a>
+                            [<a href="https://drive.google.com/file/d/1Xs5gIZqj83OAXnZhjoV0Vchwl87NbVrE/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Tutorial Preview</td>
+                        </tr>
+                        <tr>
+                            <td>03.00 - 03.30 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Kaizhu_Huang"><i> Kaizhu Huang,</i></a> Xi'an Jiaotong-Liverpool University, China
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">
+                                    Robust Adversarial Learning: Fundamentals, Theory, and Applications</a>
+                            [<a href="https://drive.google.com/file/d/1fYJ7LpWoeJJ4IcjrNTrqiefxYjaHz6O3/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Tutorial Preview</td>
+                        </tr>
+                        <tr>
+                            <td>03.30 - 04.00 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Dongrui_Wu"><i> Dongrui Wu,</i></a> Huazhong University of Science and Technology, China
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">Transfer Learning for Brain-Computer Interfaces</a>
+                            [<a href="https://drive.google.com/file/d/1jBQQRt4UOpIhL82W00-1_JAs5fKEzTxf/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="2" class="program-table-header">Tutorial Preview</td>
+                        </tr>
+                        <tr>
+                            <td>04.00 - 04.30 pm.</td>
+                            <td><b>Speaker:</b> <a href="#Wei_Zhang"><i> Wei Zhang,</i></a> The University of Adelaide, Australia
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">Adversarial Attacks on Deep Learning Models in Natural Language Processing</a>
+                            [<a href="https://drive.google.com/file/d/1tPUfeTKUQnOhTf-_6MqgY5NNSe2T4ddh/view?usp=sharing">video</a>]
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day4" class="tab-pane fade">
+                
+                <h3>Day 4: Saturday, 21 November 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">CSBio2020 Tutorial</td>
+                        </tr>
+                        <tr>
+                            <td>10.00 am. - 03.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Kanthida Kusonmano,</i>
+                                <br><b>Topic:</b> <a href="https://docs.google.com/document/d/1oQs_kUHu-axGWREAN3t1hcOpQJze55P25pkrtV4T-80/edit?usp=sharing">Beginner’s Guide to Microbiome Analysis</a><a href="https://drive.google.com/file/d/1pee8lIloLgIWYelLkMRSRh0n_KJ95aWH/view?usp=sharing" target="_blank"> [Updated schedule]</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Tutorial</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 am. - 11.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Dongrui Wu,</i> Huazhong University of Science and Technology, China
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">Transfer Learning for Brain-Computer Interfaces</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Tutorial</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 am. - 10.30 pm.</td>
+                            <td><b>Speaker:</b> <i>Kaizhu Huang,</i> Xi'an Jiaotong-Liverpool University, China
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">Deep Robust Adversarial Learning: Fundamentals, Theory, and Applications</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Tutorial</td>
+                        </tr>
+                        <tr>
+                            <td>02.30 - 05.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Wei Emma Zhang,</i>
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">Adversarial Attacks on Deep Learning Models in Natural Language Processing</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day5" class="tab-pane fade"> 
+                <h3>Day 5: Sunday, 22 November 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Tutorial</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 am. - 12.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Jonathan H. Chan,</i> King Mongkut’s University of Technology Thonburi, Thailand
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">Fundamentals of Deep Learning for Computer Vision</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">ICONIP2020 Tutorial</td>
+                        </tr>
+                        <tr>
+                            <td>02.30 - 05.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Irwin King et al.,</i> The Chinese University of Hong Kong, Hong Kong 
+                                <br><b>Topic:</b> <a href="https://www.apnns.org/ICONIP2020/#tutorials">Deep Learning on Graphs: Methods and Applications</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Closing Ceremony</td>
+                        </tr>
+                        <tr>
+                            <td>05.00 - 05.30 pm.</td>
+                            <td>
+                                DLAI4 closing ceremony
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Footnote for program -->
+
+        <div class="row" hidden>
+            <br><br>
+            <ul>
+                <li>
+                    <p>
+                        <b>NOTES:</b> Main Zoom session + 1 or more breakout rooms during breaks/lunch/networking
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If the delegate would like to join a different breakout room, please move back to the main
+                        room and send a <b>private</b> message to the <i>‘host’</i> to assign the delegate to join a
+                        different breakout room.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Breakout Networking Rooms: APNNS/IEEE-CIS Thailand/IEEE-SMC
+                        WA/IEEE-CIS-RASWA/NVIDIA/3BB/Hackathon/… offered at different times
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Speaker Section -->
+    <div id="speakers" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="speakers-text">Speakers</h2>
+                <br>
+            </div>
+        </div>
+        <div class="row" hidden>
+            <div class="col-sm-12">
+                <h2 class="speakers-text">Academic</h2><br>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day">Day 1</p></div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Sam_Kwong"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI4/sam_kwong.jpg"
+                        alt="Sam Kwong">
+                    <a href="https://www.cs.cityu.edu.hk/~cssamk/" target="_blank">
+                        <h4>Sam Kwong</h4>
+                    </a>
+                    City University of Hong Kong, Hong Kong
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Carlos_A"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI4/coello_tomiyasu.jpg"
+                        alt="Carlos A. Coello Coello">
+                    <a href="http://delta.cs.cinvestav.mx/~ccoello/" target="_blank">
+                        <h4>Carlos A. Coello Coello</h4>
+                    </a>
+                    Gobierno de Mexico, Mexico
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Aidan_Gomez"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/aidan_gomez.jpg" alt="Aidan Gomez">
+                    <a href="https://gom.ai/" target="_blank">
+                        <h4>Aidan Gomez</h4>
+                    </a>
+                    Cohere, Canada</div>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker" id="Kevin_Wong"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/kevin_wong.jpg" alt="Kevin Wong">
+                    <a href="http://profiles.murdoch.edu.au/myprofile/kevin-wong/" target="_blank">
+                        <h4>Kevin Wong</h4>
+                    </a>
+                    Murdoch University, Australia</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Andry_Chowanda"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/andry_chowanda.jpg" alt="Andry Chowanda">
+                    <a href="https://scholar.google.co.uk/citations?user=P9CfBGUAAAAJ&hl=en" target="_blank">
+                        <h4>Andry Chowanda</h4>
+                    </a>
+                    Bina Nusantara University, 	Indonesia
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Marwell_Dalangin"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/marwell_dalangin.png" alt="Marwell Dalangin">
+                    <a href="https://ph.linkedin.com/in/marwell-dalangin-2a38829" target="_blank">
+                        <h4>Marwell Dalangin</h4>
+                    </a>
+                    Union Bank Philippines, Philippines
+                </div>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+
+            <div class="col-sm-12">
+                <div class="speaker" id="Max_Welling"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/max_welling.jpg" alt="Max Welling">
+                    <a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank">
+                        <h4>Max Welling</h4>
+                    </a>
+                    University of Amsterdam, Netherland
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day">Day 2</p></div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Intawat_Nookaew"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/intawan_nookaew.jpg" alt="Intawat Nookaew">
+                    <a href="https://uams-triprofiles.uams.edu/profiles/display/2745733" target="_blank">
+                        <h4>Intawat Nookaew</h4>
+                    </a>
+                    University of Arkansas for Medical Sciences (UAMS), USA
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Stephen_Grossberg"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI4/stephen_grossberg.jpg"
+                        alt="Stephen Grossberg">
+                    <a href="https://sites.bu.edu/steveg/" target="_blank">
+                        <h4>Stephen Grossberg</h4>
+                    </a>
+                    Boston University, USA
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Tianbao_Yang"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI4/tianbao_yang.jpg" alt="Tianbao Yang">
+                <a href="https://homepage.cs.uiowa.edu/~tyng/" target="_blank">
+                    <h4>Tianbao Yang</h4>
+                </a>
+            University of Iowa, USA</div>
+            </div>
+        </div>
+
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker" id="Sushmita_Mitra"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/Sushmita_Mitra.jpg" alt="Sushmita Mitra">
+                    <a href="https://www.isical.ac.in/~sushmita/" target="_blank">
+                        <h4>Sushmita Mitra</h4>
+                    </a>
+                    Indian Statistical Institute, India</div>
+            </div>           
+            <div class="col-sm-4">
+                <div class="speaker" id="Ling_Li"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/Ling_Li.jpg" alt="Ling Li">
+                    <a href="https://research.curtin.edu.au/supervisor/aprof-ling-li/" target="_blank">
+                        <h4>Ling Li</h4>
+                    </a>
+                    Curtin University, Australia</div>
+            </div>           
+            <div class="col-sm-4">
+                <div class="speaker" id="Jing_Li"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/jing_li.jpg" alt="Jing Li">
+                    <a href="http://www4.comp.polyu.edu.hk/~jing1li/" target="_blank">
+                        <h4>Jing Li</h4>
+                    </a>
+                    The Hong Kong Polytechnic University, Hong Kong</div>
+            </div>    
+        </div>
+
+
+        <div class="row slideanim speaker-list">      
+            <div class="col-sm-6">
+                <div class="speaker" id="Tiranee_Achalakul"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/tiranee_achalakul.jpg" alt="Tiranee Achalakul">
+                    <a href="https://www.cpe.kmutt.ac.th/en/staff-detail/Tiranee" target="_blank">
+                        <h4>Tiranee Achalakul</h4>
+                    </a>
+                    King Mongkut's University of Technology Thonburi, Thailand</div>
+            </div>     
+            <div class="col-sm-6">
+                <div class="speaker" id="Gabriela_Csurka"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/gabriela_csurka.jpg" alt="Gabriela Csurka">
+                    <a href="https://europe.naverlabs.com/people_user/gabriela-csurka-khedari/" target="_blank">
+                        <h4>Gabriela Csurka</h4>
+                    </a>
+                    Naver Labs Europe, France</div>
+            </div>    
+        </div>
+
+
+
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day">Day 3</p></div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Ryan_Yuen"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI4/ryan_yuen.jpg"
+                        alt="Ryan Yuen">
+                    <a href="https://lab.research.sickkids.ca/yuen/team/" target="_blank">
+                        <h4>Ryan Yuen</h4>
+                    </a>
+                    Hospital for Sick Children, Canada
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Kun_Zhang"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/kun_zhang.jpg" alt="Kun Zhang">
+                    <a href="http://www.andrew.cmu.edu/user/kunz1/" target="_blank">
+                        <h4>Kun Zhang</h4>
+                    </a>
+                    Carnegie Mellon University, USA
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Tien-Tsin_Wong"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI4/tien-tsin_wong.jpg"
+                        alt="Tien-Tsin Wong">
+                    <a href="https://www.cse.cuhk.edu.hk/~ttwong/" target="_blank">
+                        <h4>Tien-Tsin Wong</h4>
+                    </a>
+                    Chinese University of Hong Kong, Hong Kong</div>
+            </div>
+        </div>
+
+
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker" id="Masashi_Sugiyama"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI4/masashi_sugiyama.jpg"
+                        alt="Masashi Sugiyama">
+                    <a href="http://www.ms.k.u-tokyo.ac.jp/sugi/" target="_blank">
+                        <h4>Masashi Sugiyama</h4>
+                    </a>
+                    RIKEN and The University of Tokyo, Japan
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Nipon_Theera-Umpon"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/nipon_theera_umpon.jpg" alt="Nipon Theera-Umpon">
+                    <a href="http://ee.eng.cmu.ac.th/?page_id=452&lang=en" target="_blank">
+                        <h4>Nipon Theera-Umpon</h4>
+                    </a>
+                    Chiang Mai University, Thailand</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Kaizhu_Huang"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/kaizhu_huang.jpg" alt="Kaizhu Huang">
+                    <a href="http://www.premilab.com/KaizhuHUANG.ashx" target="_blank">
+                        <h4>Kaizhu Huang</h4>
+                    </a>
+                    Xi'an Jiaotong-Liverpool University, China</div>
+            </div>
+        </div>
+
+
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker" id="Dongrui_Wu"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/dongrui_wu.jpg" alt="Dongrui Wu">
+                    <a href="https://sites.google.com/site/drwuhust/" target="_blank">
+                        <h4>Dongrui Wu</h4>
+                    </a>
+                    Huazhong University of Science and Technology, China</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Herwig_Unger"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/herwig_unger.jpg" alt="Herwig Unger">
+                    <a href="https://www.fernuni-hagen.de/kn/en/team/herwig.unger.shtml" target="_blank">
+                        <h4>Herwig Unger</h4>
+                    </a>
+                    FernUniversität in Hagen,Germany
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker" id="Wei_Zhang"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/wei_emma_zhang.jpg" alt="Wei Zhang">
+                    <a href="https://cs.adelaide.edu.au/~wzhang/" target="_blank">
+                        <h4>Wei Zhang</h4>
+                    </a>
+                    The University of Adelaide, Australia</div>
+            </div>
+        </div>
+
+
+
+        <div class="row slideanim speaker-list" hidden>
+            <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day">Day 4</p>TBA</div>
+            <div class="col-sm-12" hidden>
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/dongrui_wu.jpg" alt="Dongrui Wu">
+                    <a href="https://sites.google.com/site/drwuhust/" target="_blank">
+                        <h4>Dongrui Wu</h4>
+                    </a>
+                    Huazhong University of Science and Technology, China</div>
+            </div>           
+        </div>
+
+        <div class="row slideanim speaker-list" hidden>
+            <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day">Day 5</p>TBA</div>
+            <div class="col-sm-12" hidden>
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI4/dongrui_wu.jpg" alt="Dongrui Wu">
+                    <a href="https://sites.google.com/site/drwuhust/" target="_blank">
+                        <h4>Dongrui Wu</h4>
+                    </a>
+                    Huazhong University of Science and Technology, China</div>
+            </div> 
+        </div>
+
+
+
+        <div class="row slideanim speaker-list" hidden>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI3/somnuk_phon_amnuaisuk.jpg" alt="Somnuk Phon-Amnuaisuk">
+                    <a href="http://www.utb.edu.bn/sci2/" target="_blank">
+                        <h4>Somnuk Phon-Amnuaisuk</h4>
+                    </a>
+                    Universiti Teknologi Brunei, Brunei Darussalam</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/susmita_ghosh.jpg"
+                        alt="Susmita Ghosh">
+                    <a href="http://www.jaduniv.edu.in/profile.php?uid=656" target="_blank">
+                        <h4>Susmita Ghosh</h4>
+                    </a>
+                    Jadavpur University, India
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/haiqin_yang.png"
+                        alt="Haiqin Yang">
+                    <a href="https://hqyang.github.io/" target="_blank">
+                        <h4>Haiqin Yang</h4>
+                    </a>
+                    Ping An Life, China
+                </div>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list" hidden>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/mark_chignell.jpg"
+                        alt="Mark Chignell">
+                    <a href="https://www.mie.utoronto.ca/faculty_staff/chignell/" target="_blank">
+                        <h4>Mark Chignell</h4>
+                    </a>
+                    University of Toronto, Canada</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/sally_goldin.jpg"
+                        alt="Sally Goldin">
+                    <a href="http://windu.cpe.kmutt.ac.th/" target="_blank">
+                        <h4>Sally E. Goldin</h4>
+                    </a>
+                    King Mongkut's University of Technology Thonburi, Thailand
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/Ettikan.jpg"
+                        alt="Ettikan Kandasamy Karuppiah">
+                    <a href="http://www.ettikan.org/" target="_blank">
+                        <h4>Ettikan Kandasamy Karuppiah</h4>
+                    </a>
+                    NVIDIA, Singapore
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Gallery Section -->
+    <div id="gallery" class="container-fluid text-center max-width" hidden>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>GALLERY</h2>
+            </div>
+            <h4>Our memories are <a href="https://drive.google.com/drive/folders/1SzOZhqONp-yXkU-oQwvm59JmR2I6MuLe"
+                    target="_blank">HERE!</a></h4>
+        </div>
+    </div>
+
+
+    <!-- Registration Section -->
+    <div id="registration" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>REGISTRATION</h2>
+                <h4>
+                    The Deep Learning and Artificial Intelligence Winter School 2020 (DLAI4)
+                    <br>18 - 22 Nov, 2020, Bangkok, Thailand
+                </h4>
+                <p><i><b><a href="https://kmutt-ac-th.zoom.us/meeting/register/tJMqdeytqzwrHNQCHmALBcDAIJnapiDelPKE" targt="_blank">Registration</a> is now open.</b></i></p>
+                <!-- <p><i><b>Registration is now closed.</b></i></p> -->
+                <p><b>Zoom will confirm all successful DLAI4 registrants via an email.</b></p>
+            </div>
+            <div class="col-sm-12" hidden>
+                <h2>REGISTRATION</h2>
+                <h4>Thank you for your interesting.
+                    <br>
+                    <p><i>Registration will be opened soon at Zoom.</i></p>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Committee Section -->
+    <div id="committee" class="container-fluid max-width">
+        <h2 class="row text-center col-sm-12">Organizing Committee</h2>
+        <h4 class="committee-list">
+            <BR>
+            <br>
+            <b><i class="fa fa-caret-right"></i> Jonathan H. Chan,</b> King Mongkut’s University of Technology Thonburi
+            (Chair)
+            <br>
+            <b><i class="fa fa-caret-right"></i> Phayung Meesad,</b> King Mongkut’s University of Technology North
+            Bangkok
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kitsuchart Pasupa,</b> King Mongkut’s Institute of Technology
+            Ladkrabang
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kiyota Hashimoto,</b> Prince of Songkla University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kuntpong Woraratpanya,</b> King Mongkut’s Institute of Technology
+            Ladkrabang
+            <br>
+            <b><i class="fa fa-caret-right"></i> Sansanee Auephanwiriyakul,</b> Chiang Mai University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Nipon Theera-Umpon,</b> Chiang Mai University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Vajirasak Vanijja,</b> King Mongkut’s University of Technology Thonburi
+            <br>
+            <b><i class="fa fa-caret-right"></i> Vithida Chongsuphajaisiddhi,</b> King Mongkut’s University of
+            Technology Thonburi
+            <br>
+            <b><i class="fa fa-caret-right"></i> Thanyathorn Thanapattheerakul,</b> Cohere
+            <br>
+            <b><i class="fa fa-caret-right"></i> Jaturong Kongmanee,</b> Michigan State University
+            <br><br>
+            <b><i class="fa fa-caret-right"></i> Lance Fung,</b> Murdoch University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kevin Wong,</b> Murdoch University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Ahmed Abu-Siada,</b> Curtin University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Hannes Herrmann,</b> Curtin University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Guanjin Wang,</b> Murdoch University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Teddy Mantoro,</b> Sampoerna University
+            <br><br>
+        </h4>
+    </div>
+
+
+    <!-- Sponsor Section -->
+    <div id="sponsors-organizers" class="container-fluid text-center max-width">
+        <div class="text-center">
+            <h2 class="sponsors">Sponsors</h2>
+        </div>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.forth.co.th/" target="_blank"> <img
+                            src="../assets/images/sponsors/forth.png" alt="Forth"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.nvidia.com/en-us/" target="_blank"><img
+                            src="../assets/images/sponsors/nvidia_logo.png" alt="NVidia"></a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.3bb.co.th/3bb/" target="_blank">
+                        <img src="../assets/images/sponsors/3BB_logo_popup.png" alt="3BB"></a> </div>
+            </div>
+        </div>
+        <!-- TODO: wait for confirming the order -->
+        <!-- <div class="col-sm-4">
+            <div class="sponsor-logo"> <a href="http://www2.kmutt.ac.th/" target="_blank"> <img
+                        src="assets/images/organizers/ic2_logo.jpg"
+                        alt="Research Center on Innovative Cognitive Computing (IC2)"> </a></div>
+        </div> -->
+
+        <div class="text-center">
+            <h2>Organizers</h2>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www4.sit.kmutt.ac.th/" target="_blank"> <img
+                            src="../assets/images/organizers/sit_logo_banner.jpg" alt="School of Information Technology">
+                    </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://www2.kmutt.ac.th/" target="_blank"> <img
+                            src="../assets/images/organizers/kmutt_logo.jpg"
+                            alt="King Mongkut's University of Technology Thonburi"> </a></div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://www.apnns.org/" target="_blank"> <img
+                            src="../assets/images/sponsors/apnns_logo.jpg" alt="APNNS"> </a></div>
+            </div>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://sites.ieee.org/thailand-cis/" target="_blank"> <img
+                            src="../assets/images/organizers/ieee_cis_thailand.jpg"
+                            alt="IEEE Computational Intelligence Society Thailand Chapter"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://ewh.ieee.org/r10/w_australia/" target="_blank"> <img
+                            src="../assets/images/organizers/IEEE_CIS_WA_logo.png"
+                            alt="IEEE Computational Intelligence Society Thailand Chapter"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.ieeesmc.org/" target="_blank">
+                        <img src="../assets/images/organizers/IEEE_SMC_WA_logo.png" alt="IEEE-SMC"></a> </div>
+            </div>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.ieee-ras.org/" target="_blank"> <img
+                            src="../assets/images/organizers/IEEE-RAS-WA-logo.png" alt="IEEE-RAS">
+                    </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <img class="IEEE-CIS Indonesia"
+                            src="../assets/images/organizers/ieee_cis_indonesia.jpg"
+                            alt="IEEE-CIS Indonesia"> </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://www.kmitl.ac.th/en" target="_blank"> <img
+                            src="../assets/images/organizers/kmitl_logo.jpg"
+                            alt="King Mongkut's Institute of Technology Ladkrabang"> </a></div>
+            </div>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.kmutnb.ac.th/" target="_blank"> <img class="kmutnb-logo"
+                            src="../assets/images/organizers/kmutnb_logo.jpg"
+                            alt="King Mongkut's University of Technology North Bangkok"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://www.en.psu.ac.th/" target="_blank"> <img
+                            src="../assets/images/organizers/psu_logo.jpg" alt="Prince of Songkla University"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.cmu.ac.th/en/" target="_blank"> <img
+                            src="../assets/images/organizers/CMU.png" alt="Chiang Mai University"> </a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Location Section -->
+    <div id="location" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="location-school">Location</h2>
+                <h4 class="location-school-info">
+                    All programs will be hosted online and the schedule given in Bangkok time (UTC+7)
+                </h4>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer id="footer" class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>PAST EVENTS</h2>
+                <br>
+                <div class="retro">
+                    <div class="row ">
+                        <i class="fa fa-history fa-lg"></i> <a
+                            href="https://deeplearningandaiwinterschool.github.io/past/dlai1.html"
+                            target="_blank">DLAI#1</a>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-history fa-lg"></i> <a
+                            href="https://deeplearningandaiwinterschool.github.io/past/dlai2.html"
+                            target="_blank">DLAI#2</a>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-history fa-lg"></i> <a
+                            href="https://deeplearningandaiwinterschool.github.io/past/dlai3.html"
+                            target="_blank">DLAI#3</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 contact">
+                <h2>CONTACT US</h2><br>
+                <div class="contact-us-info">
+                    <div class="row contact-email">
+                        For sponsorship: <a href="mailto:jonathan@sit.kmutt.ac.th">Jonathan H. Chan</a>
+                        <h3><i class="fa fa-envelope"></i> : <a
+                                href="mailto:dial@sit.kmutt.ac.th">dial@sit.kmutt.ac.th</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="copyright">Copyright © 2018 - 2022 All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+    <script src="../js/app.js" defer></script>
+</body>
+<script>
+    function checkToggle() {
+        if ($('#myNavbar')[0].classList.value == "navbar-collapse collapse in") {
+            $('#myNavbar')[0].classList.value = "navbar-collapse collapse";
+        }
+    }
+</script>
+
+</html>

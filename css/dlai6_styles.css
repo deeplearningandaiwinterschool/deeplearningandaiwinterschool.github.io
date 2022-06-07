@@ -1,0 +1,365 @@
+body {
+    line-height: 1.8;
+    /* font: 400 15px "Muli", sans-serif; */
+    font: 400 15px "Poppins", sans-serif;
+    background-color: #f4f7f6;
+    color: #202121;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    /* color: #49c5b6; */
+    font-weight: 600;
+    margin-bottom: 15px;
+    background: -webkit-linear-gradient(#329d9c, #56c596);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  h5 {
+    margin-bottom: 30px;
+    color: #444444;
+  }
+  .justify {
+    text-align: justify;
+  }
+  .indent {
+    text-indent: 50px;
+  }
+  .jumbotron {
+    letter-spacing: 0.05rem;
+    color: #fff;
+    padding: 100px 25px;
+    /* font-family: "Crimson Text", serif; */
+  }
+  .container-fluid {
+    padding: 50px 40px;
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-image: linear-gradient(
+      90deg,
+      #205072 0%,
+      #329d9c 50%,
+      #56c596 100%
+    );
+    z-index: 1;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font: Abel, sans-serif;
+  }
+  .navbar li a {
+    color: #ffffff !important;
+  }
+  .navbar-nav li a:hover,
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #49c5b6 !important;
+  }
+  .slideanim {
+    visibility: hidden;
+  }
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4,
+    .col-sm-6 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+    .contact {
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width: 440px) {
+    .logo {
+      font-size: 150px;
+    }
+    .header,
+    .header-1 {
+      min-height: 500px;
+    }
+    .jumbotron {
+      padding: 70px 20px;
+    }
+  }
+  .header-1 {
+    background-image: url("../assets/images/covers/dlai6_cover.jpeg");
+    filter: grayscale(45%);
+    text-shadow: 2px 2px 4px #013220;
+    width: 100%;
+  }
+  .header {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+  }
+  .max-width {
+    max-width: 1200px;
+  }
+  .navbar-brand img {
+    height: 30px;
+    margin-top: -7px;
+  }
+  #series-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #event-title {
+    font-size: 48px;
+    margin: 44px 10px;
+    font-weight: bold;
+  }
+  #date-location-info {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 44px 10px;
+  }
+  #countdown-timer {
+    font-size: 26px;
+    /* font-weight: bold; */
+    margin: 3rem 0.6125rem;
+  }
+  #speakers h2 {
+    margin-bottom: 30px;
+  }
+  #speakers h4 {
+    color: #49c5b6;
+    margin-bottom: 10px;
+  }
+  #speakers a {
+    text-decoration: none;
+  }
+  #speakers a:hover {
+    text-decoration: none;
+  }
+  .speaker-list {
+    margin-top: 20px;
+  }
+  .thumbnail-circle {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .thumbnail-circle:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .speaker-logo {
+    max-width: 250px;
+  }
+  .program-table {
+    overflow-x: auto;
+    margin-left: 85px;
+  }
+  .program-table-vertical {
+    overflow-x: auto;
+  }
+  .program-table-header {
+    background-color: #5bc5b9;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  th {
+    text-align: center;
+    padding: 8px;
+    min-width: 250px;
+  }
+  td {
+    text-align: left;
+    padding: 8px;
+    min-width: 250px;
+  }
+  tr:nth-child(even),
+  .tab-pane .table-row-break {
+    background-color: #f2f2f2;
+  }
+  .tab-pane tr {
+    background-color: #ffffff;
+  }
+  .headcol {
+    position: absolute;
+    left: 15px;
+  }
+  #program {
+    position: relative;
+  }
+  .lecturer {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    color: #777777;
+  }
+  .location-container {
+    height: 100%;
+  }
+  .location-school-info {
+    font-size: 15px;
+  }
+  #footer {
+    background-color: #202121;
+    margin-bottom: 0px;
+  }
+  .retro,
+  .retro a {
+    color: #fff;
+    font-size: 16px;
+  }
+  .retro div.row {
+    padding: 0px 10px 10px 10px;
+  }
+  .contact-email,
+  .contact-email a {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 25px;
+  }
+  .chip a {
+    color: #fff;
+    font-size: 14px;
+  }
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .copyright {
+    color: #fff;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .research-profile-link,
+  .linkedIn-link,
+  .facebook-profile-link {
+    margin-left: 5px;
+  }
+  .contact-us-info,
+  .retro {
+    margin: auto;
+  }
+  .sponsor-logo img {
+    max-width: 230px;
+    padding: 15px 0px;
+  }
+  .img-long img {
+    max-width: 300px;
+  }
+  .sponsors-info {
+    margin-bottom: 20px;
+  }
+  .organizer h4 {
+    color: #49c5b6;
+  }
+  .organizers-text {
+    margin-top: 32px;
+  }
+  .sponsor-logo .kmutnb-logo {
+    width: 100px;
+  }
+  .organizers-list {
+    margin-top: 10px;
+  }
+  .payment-link-container {
+    width: 60%;
+    text-align: center;
+    background-color: #49c5b6;
+    height: 40px;
+    padding-top: 6px;
+    border-radius: 30px;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .registration-link {
+    color: #ffffff;
+  }
+  .registration-academic h4,
+  .registration-industry h4 {
+    margin-bottom: 10px;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: #fff;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 576px) {
+    .about-school-detail {
+      font-size: 14px;
+    }
+  }
+  
+  .speaker-by-day {
+    margin: 30px 0px 40px 0px;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 12px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  

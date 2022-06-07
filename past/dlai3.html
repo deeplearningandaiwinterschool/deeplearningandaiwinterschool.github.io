@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112274923-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-112274923-1');
+    </script>
+    <title>Deep Learning and Artificial Intelligence Summer School 2020 (DLAI3)</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Deep Learning and Artificial Intelligence Summer School 2020">
+    <meta name="keywords"
+        content="Artificial Intelligence, Machine Learning, Deep learning, Summer School, Winter School, IC2, SIT, KMUTT, Thailand">
+    <meta name="author" content="Thanyathorn Thanapattheerakul, Jonathan Chan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli">
+    <link rel="icon" type="image/png" href="../assets/images/logos/dp_winter_school_2018_logo2.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button id="navBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage"> <img src="../assets/images/logos/dp_winter_school_2018_logo2.png"
+                        alt="Logo"> </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" onclick="checkToggle()">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="about-nav" href="#about">ABOUT</a></li>
+                    <li><a class="program-nav" href="#program">PROGRAM</a></li>
+                    <li><a class="speakers-nav" href="#speakers">SPEAKER</a></li>
+                    <!-- <li hidden><a class="gallery-nav" href="#gallery">GALLERY</a></li> -->
+                    <li><a class="committee-nav" href="#committee">COMMITTEE</a></li>
+                    <li><a class="organizer-nav" href="#sponsors-organizers">SPONSOR</a></li>
+                    <li><a class="location-nav" href="#location">LOCATION</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Change cover picture and min-height - reflect to DLAI1.html-->
+    <div class=" header-3 header jumbotron text-center">
+        <h1 class="col-sm-12 cover-text">
+            APNNS Education Forum Series: Deep Learning and Artificial Intelligence Summer School 2020 (DLAI3)
+        </h1>
+        <p id="date-location-info">29 June - 3 July 2020, Bangkok, Thailand + AoE</p>
+    </div>
+    <div id="live" class="container-fluid max-width" hidden>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="about-school text-center">LIVE</h2><br>
+                <div class="row">
+                    <iframe width="100%" height="500px" src="" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="news" class="container-fluid max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>NEWS</h2>
+                <br>
+                <ul>
+                    <li>[1 Jul 2020] The talk by Prof. Akira Hirose has been rescheduled for Thu 2 Jul at 1.00 to 2.00
+                        pm BKK time (UTC+7) instead.
+                        Our apologies for those who were expecting it to be on Wed 1 Jul.</li>
+                    <li>[1 Jul 2020] Happy Canada Day! DLAI3 is now open to all who are interested.
+                        Please click <a
+                            href="https://us02web.zoom.us/meeting/register/tZcpcuCqrDMpE9dqv5DtkTCCVOagQwp8i6wC">
+                            <b>here to register in order to receive a personalized link to participate</b></a>.</li>
+                    <li>[29 Jun 2020] <a href="#program">Program schedule</a> is updated with an additional Industry
+                        Talk by NVIDIA on Thu 2 Jul from 4-5 pm. All times are given in Bangkok time (UTC/GMT+7)</li>
+                    <li>[27 Jun 2020] We are using the Zoom platform (primarily) for the event, with backup using
+                        Microsoft Teams.
+                        In order to ensure an orderly event and for security reasons, we have decided to require all
+                        delegates to have a Zoom account and need to
+                        register in the Zoom system beforehand. (Exceptions are for Teams users on a case-by-case
+                        basis.)</li>
+                    <li>[27 Jun 2020] If you have registered earlier via Google Forms but have not received a
+                        confirmation, or have not confirmed your participation yet,
+                        please click <a
+                            href="https://us02web.zoom.us/meeting/register/tZcpcuCqrDMpE9dqv5DtkTCCVOagQwp8i6wC"><b>here
+                                to confirm</b></a>.</li>
+                    <li>[27 Jun 2020] <a href="#program">Program schedule</a> is now confirmed! All times are given in
+                        Bangkok time (UTC/GMT+7)</li>
+                    <li>[24 Jun 2020] Tentative program is now posted!</li>
+                    <li>[21 Jun 2020] Tentative Schedule will be posted soon, and confirmation email with instructions
+                        on how to join DLAI3 will be sent shortly afterwards</li>
+                    <li>[21 Jun 2020] Registration is now closed!</li>
+                    <li>[1 Jun 2020] <a href="#registration">Registration</a> is now open!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container-fluid max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="about-school">About</h2><br>
+                <h4 class="about-school-detail indent justify">
+                    The concept of deep learning (DL) has been known in the neural network community for many years
+                    already.
+                    With the onset of more powerful computing facilities, especially the prevalence of graphical
+                    processing
+                    units (GPUs) and tensor processing units (TPUs), DL has been applied successfully and effectively in
+                    many state-of-the-art applications
+                    including computer vision, speech recognition, object detection, drug discovery, and so on. More
+                    recently, the techniques in DL/AI are leveraged for the current COVID-19 pandemic. DL
+                    basically uses deep neural network architecture with multiple layers to represent data with
+                    increasing abstraction and may be applied to supervised, unsupervised, as well as reinforcement
+                    learning.
+                    It is one of the fastest growing fields of AI research and current researches include deployment for
+                    COVID-19.
+                    <br><br>
+                    The Asia Pacific Neural Network Society (APNNS) is a professional society that promotes active
+                    interactions among researchers, scientists, and industry professionals who are working in Neural
+                    Network and related fields in the Asia Pacific region.
+                    APNNS was formalized as a legal entity in 2014, having evolved from the previous Asia Pacific Neural
+                    Network Assemby (APNNA) that was established back in 1993 in Nagoya, Japan, under the leadership of
+                    Professor Shun-Ichi Amari.
+                    More information about APNNS may be obtained at the Society website - <a
+                        href="https://www.apnns.org/" target="_blank">www.apnns.org</a>.
+                    <br><br>
+                    The APNNS Education Forum series on Deep Learning and Artificial Intelligence Summer School
+                    2020 (DLAI3) is catered to all interested students, engineers,
+                    researchers, executives and administrators who may have some basic knowledge of machine learning and
+                    AI.
+                    With the successful inaugural <a
+                        href="https://deeplearningandaiwinterschool.github.io/past/dlai1.html" target="_blank">DLAI</a>
+                    back on Feb 1-4, 2018, and <a href="https://deeplearningandaiwinterschool.github.io/past/dlai2.html"
+                        target="_blank">the second edition</a> on Dec 10-13, 2018, we are pleased to be able to offer
+                    the 3rd
+                    DLAI this year. The venue is online due to the current pandemic and it will be held from June 29 to
+                    July 3, 2020. We will
+                    feature
+                    NVIDIA Deep Learning Institute (DLI) Workshops as well on the first two days.
+                    <br><br>
+                    As DLAI3 is a virtual event, it is offered free-of-charge to all academics. Non-academics can attend
+                    the NVIDIA DLI Workshops for certification at a deeply-discounted nominal cost that is payable to
+                    NVIDIA DLI.
+                    All other sessions are also free-of-charge to non-academics.
+                    However, there are limited seating available as an online event, priorities will be given to APNNS
+                    Members,
+                    IEEE-CIS/SMC/RAS Members, INNS Members, and students.
+                    <br><br>
+                    The DLAI Summer School will cover many aspects of deep learning with several talks by world renowned
+                    researchers in form of lectures/tutorials/workshops and panel sessions which will cover the most
+                    active current topics in DL and AI and their applications.
+                    <br><br>
+                    The participants are invited to join in hackathon sessions with specific provided datasets.
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div id="program" class="container-fluid max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="progam-school">Program</h2>
+                <br>
+                <p>Confirmed Schedule - All times are given in Bangkok time (UTC+7)</p>
+                <br>
+            </div>
+        </div>
+        <!-- Navber for program table -->
+        <ul class="nav nav-tabs">
+            <li><a data-toggle="tab" href="#Day1">Day 1: Monday, 29 June</a></li>
+            <li><a data-toggle="tab" href="#Day2">Day 2: Tuesday, 30 June</a></li>
+            <li><a data-toggle="tab" href="#Day3">Day 3: Wednesday, 1 July</a></li>
+            <li><a data-toggle="tab" href="#Day4">Day 4: Thursday, 2 July</a></li>
+            <li class="active"><a data-toggle="tab" href="#Day5">Day 5: Friday, 3 July</a></li>
+        </ul>
+        <!-- Program table -->
+        <div class="tab-content program-table-vertical">
+            <div id="Day1" class="tab-pane fade">
+                <h3>Day 1: Monday, 29 June 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">IEEE Computational Intelligence Society
+                                Distinguished Lecturer</td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>07.00 - 08.00 am.</td>
+                            <td>Breakfast chats - main session room opens and breakout rooms are available for
+                                networking upon request </td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <i>Kalyanmoy Deb,</i> Michigan State University, USA
+                                <br><b>Topic:</b> <a href="../assets/abstract/DLAI3_Kalyanmoy_Deb.pdf">Recent Advances in
+                                    Evolutionary Multi-Criterion
+                                    Optimization and Future Studies</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>09.00 - 09.30 am.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">NVIDIA Deep Learning Institute (DLI) Workshop I
+                                (Part I)</td>
+                        </tr>
+                        <tr>
+                            <td>09.30 am. - 12.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Jonathan H. Chan,</i> King Mongkut’s University of Technology
+                                Thonburi, Thailand
+                                <br><b>Topic:</b> <a
+                                    href="../assets/abstract/Fundamentals_of_Deep_Learning_for_Computer_Vision_DLAI3.pdf">NVIDIA
+                                    DLI Workshop on Fundamentals of Deep Learning for
+                                    Computer Vision</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>12.00 - 01.00 pm.</td>
+                            <td>Lunch Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">DLAI3 Opening Ceremony</td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 01.15 pm.</td>
+                            <td>
+                                Opening Remarks of DLAI3 – APNNS/IEEE-CIS Thailand Chapter/IEEE-CIS/RAS WA
+                                Chapter/IEEE-SMC WA Chapter
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 1</td>
+                        </tr>
+                        <tr>
+                            <td>01.15 - 02.15 pm.</td>
+                            <td><b>Speaker:</b> <i>Seiichi Ozawa,</i> Kobe University, Japan
+                                <br><b>Topic:</b> <a href="../assets/abstract/DLAI3_Seiichi_Ozawa.pdf">An Introduction to
+                                    Privacy-Preserving Machine Learning for
+                                    Big Data Analysis</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>02.15 - 02.45 pm.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">NVIDIA Deep Learning Institute (DLI) Workshop I
+                                (Part II)</td>
+                        </tr>
+                        <tr>
+                            <td>02.45 - 05.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Jonathan H. Chan,</i> King Mongkut’s University of Technology
+                                Thonburi, Thailand
+                                <br><b>Topic:</b> <a
+                                    href="../assets/abstract/Fundamentals_of_Deep_Learning_for_Computer_Vision_DLAI3.pdf">NVIDIA
+                                    DLI Workshop on Fundamentals of Deep Learning for
+                                    Computer Vision</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>05.00 - 06.00 pm.</td>
+                            <td>Networking – breakout rooms with sponsors, organizers, experts, delegates, ...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day2" class="tab-pane fade">
+                <h3>Day 2: Tuesday, 30 June 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 2</td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>07.00 - 08.00 am.</td>
+                            <td>Breakfast chats - main session room opens and breakout rooms are available for
+                                networking upon request </td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <i>Mark Chignell,</i> University of Toronto, Canada
+                                <br><b>Topic:</b> <a href="../assets/abstract/DLAI3_Mark_Chignell.pdf">Segmentation, not
+                                    just for Marketing: Identifying and
+                                    Tracking Meaningful
+                                    Cohorts in Healthcare Prediction</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>09.00 - 09.30 am.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">NVIDIA Deep Learning Institute (DLI) Workshop
+                                II</td>
+                        </tr>
+                        <tr>
+                            <td>09.30 am - 12.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Jonathan H. Chan,</i> King Mongkut’s University of Technology
+                                Thonburi, Thailand
+                                <br><b>Topic:</b> <a
+                                    href="https://deeplearningandaiwinterschool.github.io/assets/abstract/Fundamentals_of_Deep_Learning_for_Multiple_Data_Types_DLAI3.pdf">NVIDIA
+                                    DLI Workshop on Fundamentals of Deep Learning for
+                                    Multiple Data Types</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>12.00 - 01.00 pm.</td>
+                            <td>Lunch Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 3</td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 02.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Sally E. Goldin,</i> King Mongkut’s University of Technology
+                                Thonburi, Thailand
+                                <br><b>Topic:</b> <a href="../assets/abstract/DLAI3_Sally_E_Goldin.pdf">Doing Deep Learning
+                                    - the hype and the reality</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>02.00 - 02.30 pm.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">NVIDIA Deep Learning Institute (DLI) Workshop
+                                II (Wrap up)</td>
+                        </tr>
+                        <tr>
+                            <td>02.30 - 05.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Jonathan H. Chan,</i> King Mongkut’s University of Technology
+                                Thonburi, Thailand
+                                <br><b>Topic:</b> <a
+                                    href="https://deeplearningandaiwinterschool.github.io/assets/abstract/Fundamentals_of_Deep_Learning_for_Multiple_Data_Types_DLAI3.pdf">NVIDIA
+                                    DLI Workshop on Fundamentals of Deep Learning for
+                                    Multiple Data Types</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>05.00 - 06.00 pm.</td>
+                            <td>Networking – breakout rooms with sponsors, organizers, experts, delegates, ...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day3" class="tab-pane fade">
+                <h3>Day 3: Wednesday, 1 July 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan=" 2" class="program-table-header">IEEE Talk</td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>07.00 - 08.00 am.</td>
+                            <td>Breakfast chats - main session room opens and breakout rooms are available for
+                                networking upon request </td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <i>Lance Fung,</i> Murdoch University, Australia
+                                <br><b>Topic:</b> <a href="">IEEE Resources for AI/CI/ML/DL/...</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Theory and Practice Workshop I</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 am - 12.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Somnuk Phon-Amnuaisuk,</i> Universiti Teknologi Brunei, Brunei
+                                Darussalam
+                                <br><b>Topic:</b> <a href="../assets/abstract/DLAI3_Somnuk_Phon_Amnuaisuk.pdf">Multiclass
+                                    and Multilabel Classification using CNN
+                                    Models</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>12.00 - 01.00 pm.</td>
+                            <td>Lunch Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 4 <b>(RESCHEDULED to THU 2 JUL at
+                                    1.00-2.00 PM INSTEAD)</b></td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 02.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Akira Hirose,</i> University of Tokyo, Japan
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Akira_Hirose.pdf">
+                                    Deep Learning in Geoscience and Remote Sensing</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 5</td>
+                        </tr>
+                        <tr>
+                            <td>02.00 - 03.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Jagdish Chand Bansal,</i> South Asian University, India
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Jagdish_Chand_Bansal.pdf">
+                                    Swarm Intelligence: An Intelligent Way of Problem Solving</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>03.00 - 03.30 pm.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 6</td>
+                        </tr>
+                        <tr>
+                            <td>03.30 - 04.30 pm.</td>
+                            <td><b>Speaker:</b> <i>Thanaruk Theeramungkong,</i> Sirindhorn International Institute of
+                                Technology, Thailand
+                                <br><b>Topic:</b><a href="../assets/abstract/Thanaruk-Title-Abstract-DLAI-2020.pdf">
+                                    Thai Language Processing and AI Activities in Thailand</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 7</td>
+                        </tr>
+                        <tr>
+                            <td>04.30 - 05.30 pm.</td>
+                            <td><b>Speaker:</b> <i>Thepchai Supnithi,</i> National Electronics and Computer Technology
+                                Center, Thailand
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Thepchai_Supnithi.pdf">
+                                    Research on Thai NLP from NECTEC perspectives</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>05.30 - 06.30 pm.</td>
+                            <td>Networking – breakout rooms with sponsors, organizers, experts, delegates, ...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day4" class="tab-pane fade">
+                <h3>Day 4: Thursday, 2 July 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 8</td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>07.00 - 08.00 am.</td>
+                            <td>Breakfast chats - main session room opens and breakout rooms are available for
+                                networking upon request </td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <i>Tom Gedeon,</i> The Australian National University, Australia
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Tom_Gedeon.pdf">
+                                    Affective Computing Beyond Computer Vision</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 9</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 - 10.00 am.</td>
+                            <td><b>Speaker:</b> <i>Susmita Ghosh,</i> Jadavpur University, India
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Susmita_Ghosh.pdf">
+                                    Semi Supervised Learning with Applications</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>10.00 - 10.30 am.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Panel Session I</td>
+                        </tr>
+                        <tr>
+                            <td>10.30 am. - 12.00 pm.</td>
+                            <td>
+                                <b>AI and Cognitive Computing </b>(human-centric, ethical AI, …)
+                                <br>
+                                <b>Panelists:</b> <i> Tom Gedeon, Kazushi Ikeda, Susmita Ghosh, Lance Fung, and Kiyota
+                                    Hashimoto</i>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>12.00 - 01.00 pm.</td>
+                            <td>Lunch Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 4 (<i>moved from Wed 1 Jul</i>)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 02.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Akira Hirose,</i> University of Tokyo, Japan
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Akira_Hirose.pdf">
+                                    Deep Learning in Geoscience and Remote Sensing</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Hackathon Session</td>
+                        </tr>
+                        <tr>
+                            <td>02.00 - 04.00 pm.</td>
+                            <td><b>Hackathon - </b> Teams of 3-5; submission of extended abstract to CSBio2020 under
+                                CHAT-2020
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Industry Session</td>
+                        </tr>
+                        <tr>
+                            <td>04.00 - 05.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Ettikan Kandasamy Karuppiah,</i> NVIDIA, Singapore
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Ettikan_KK.pdf">
+                                    Nvidia Platforms for Conversational AI</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>05.00 - 06.00 pm.</td>
+                            <td>Networking – breakout rooms with sponsors, organizers, experts, delegates, ...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Day5" class="tab-pane fade in active">
+                <h3>Day 5: Friday, 3 July 2020 (Bangkok time UTC+7)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 10</td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>07.00 - 08.00 am.</td>
+                            <td>Breakfast chats - main session room opens and breakout rooms are available for
+                                networking upon request </td>
+                        </tr>
+                        <tr>
+                            <td>08.00 - 09.00 am.</td>
+                            <td><b>Speaker:</b> <i>Irwin King,</i> Chinese University of Hong Kong, Hong Kong SAR
+                                <br><b>Topic:</b><a href="../assets/abstract/DLAI3_Irwin_King.pdf">
+                                    Metapath Aggregated Graph Neural Network for Graph Embedding and Efficient Community
+                                    Search over Large Directed Graph</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Panel Session II</td>
+                        </tr>
+                        <tr>
+                            <td>09.00 - 10.30 am.</td>
+                            <td>
+                                <b>Deep Learning and AI in Social Media</b>
+                                <br>
+                                <b>Panelists:</b> <i> Irwin King, James Kwok, Minho Lee, Lotus Ruan, Jeffrey Knockel</i>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>10.30 - 11.00 am.</td>
+                            <td>Coffee Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 11</td>
+                        </tr>
+                        <tr>
+                            <td>11.00 am. - 12.00 pm.</td>
+                            <td><b>Speaker:</b> <i>James Kwok,</i> Hong Kong University of Science and Technology, Hong Kong SAR
+                                <br><b>Topic:</b> <a href="../assets/abstract/DLAI3_James_KWOK.pdf">
+                                    Compressing deep networks</a>
+                            </td>
+                        </tr>
+                        <tr class="table-row-break">
+                            <td>12.00 - 01.00 pm.</td>
+                            <td>Lunch Break, Group Photo and Networking</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Academic Talk 12</td>
+                        </tr>
+                        <tr>
+                            <td>01.00 - 02.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Minho Lee,</i> Kyungpook National University, South Korea
+                                <br><b>Topic:</b> <a href="">Intelligent interaction based on deep learning for digital
+                                    companion</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Theory and Practice Workshop II</td>
+                        </tr>
+                        <tr>
+                            <td>02.00 - 05.00 pm.</td>
+                            <td><b>Speaker:</b> <i>Haiqin Yang,</i> Ping An Life, China
+                                <br><b>Topic:</b> <a href="../assets/abstract/DLAI3_Haiqin_YANG.pdf">Artificial
+                                    Intelligence Introduction: From Binary Classification to Multi-class
+                                    Classification</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="program-table-header">Hackathon Wrap Up and Closing Remarks</td>
+                        </tr>
+                        <tr>
+                            <td>05.00 - 05.45 pm.</td>
+                            <td><b>Hackathon Wrap Up + DLAI3 Closing Remarks + DLAI4</b>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Footnote for program -->
+
+        <div class="row" hidden>
+            <br><br>
+            <ul>
+                <li>
+                    <p>
+                        <b>NOTES:</b> Main Zoom session + 1 or more breakout rooms during breaks/lunch/networking
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If the delegate would like to join a different breakout room, please move back to the main
+                        room and send a <b>private</b> message to the <i>‘host’</i> to assign the delegate to join a
+                        different breakout room.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Breakout Networking Rooms: APNNS/IEEE-CIS Thailand/IEEE-SMC
+                        WA/IEEE-CIS-RASWA/NVIDIA/3BB/Hackathon/… offered at different times
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="speakers" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="speakers-text">Speakers</h2>
+                <br>
+            </div>
+        </div>
+        <div class="row" hidden>
+            <div class="col-sm-12">
+                <h2 class="speakers-text">Academic</h2><br>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/akira_hirose.jpg"
+                        alt="Akira Hirose">
+                    <a href="http://www.bioeng.t.u-tokyo.ac.jp/en/faculty/21_hirose.html" target="_blank">
+                        <h4>Akira Hirose</h4>
+                    </a>
+                    University of Tokyo, Japan
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI3/kalyanmoy_deb.jpeg" alt="Kalyanmoy Deb">
+                    <a href="https://www.egr.msu.edu/~kdeb/" target="_blank">
+                        <h4>Kalyanmoy Deb</h4>
+                    </a>
+                    Michigan State University, United States
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/seiichi_ozawa.jpg"
+                        alt="Seiichi Ozawa">
+                    <a href="http://www2.kobe-u.ac.jp/~ozawasei/" target="_blank">
+                        <h4>Seiichi Ozawa</h4>
+                    </a>
+                    Kobe University, Japan
+                </div>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI3/jagdish_chand_bansal.png" alt="Jagdish Chand Bansal">
+                    <a href="http://www.sau.int/faculty/faculty-profile.html?staff_id=57" target="_blank">
+                        <h4>Jagdish Chand Bansal</h4>
+                    </a>
+                    South Asian University, India
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/minho_lee.jpeg"
+                        alt="Minho Lee">
+                    <a href="https://see.knu.ac.kr/mobile/english/content/profile_eng.html?id=155" target="_blank">
+                        <h4>Minho Lee</h4>
+                    </a>
+                    Kyungpook National University, South Korea
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/james_kwok.jpg"
+                        alt="James Kwok">
+                    <a href="https://www.cse.ust.hk/~jamesk/" target="_blank">
+                        <h4>James Kwok</h4>
+                    </a>
+                    Hong Kong University of Science and Technology, Hong Kong
+                </div>
+            </div>
+
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI1/Irwin_King_crop.jpg" alt="Irwin King">
+                    <a href="https://www.cse.cuhk.edu.hk/irwin.king/home" target="_blank">
+                        <h4>Irwin King</h4>
+                    </a>
+                    The Chinese University of Hong Kong, Hong Kong
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI2/lance_fung.jpg"
+                        alt="Lance Chun Che Fung">
+                    <a href="http://profiles.murdoch.edu.au/myprofile/lance-fung/" target="_blank">
+                        <h4>Chun Che Fung, Lance</h4>
+                    </a>
+                    Murdoch University, Australia
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/tom_gedeon.jpg"
+                        alt="Tom Gedeon">
+                    <a href="https://cecs.anu.edu.au/people/tom-gedeon" target="_blank">
+                        <h4>Tom Gedeon</h4>
+                    </a>
+                    The Australian National University, Australia</div>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI3/jonathan_chan.jpeg" alt="Jonathan H. Chan">
+                    <a href="https://www.sit.kmutt.ac.th/personnels/lecturers/?uid=8" target="_blank">
+                        <h4>Jonathan H. Chan</h4>
+                    </a>
+                    King Mongkut’s University of Technology Thonburi, Thailand</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI3/thanaruk_theeramunkong.jpg" alt="Thanaruk Theeramunkong">
+                    <a href="https://www.siit.tu.ac.th/personnel.php?id=121" target="_blank">
+                        <h4>Thanaruk Theeramunkong</h4>
+                    </a>
+                    Sirindhorn International Institute of Technology, Thailand</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI3/thepchai_supnithi.jpg" alt="Thepchai Supnithi">
+                    <a href="https://www.nectec.or.th/en/research/ainru/ainrg-lst.html" target="_blank">
+                        <h4>Thepchai Supnithi</h4>
+                    </a>
+                    National Electronics and Computer Technology Center, Thailand</div>
+            </div>
+
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle"
+                        src="../assets/images/speakers/DLAI3/somnuk_phon_amnuaisuk.jpg" alt="Somnuk Phon-Amnuaisuk">
+                    <a href="http://www.utb.edu.bn/sci2/" target="_blank">
+                        <h4>Somnuk Phon-Amnuaisuk</h4>
+                    </a>
+                    Universiti Teknologi Brunei, Brunei Darussalam</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/susmita_ghosh.jpg"
+                        alt="Susmita Ghosh">
+                    <a href="http://www.jaduniv.edu.in/profile.php?uid=656" target="_blank">
+                        <h4>Susmita Ghosh</h4>
+                    </a>
+                    Jadavpur University, India
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/haiqin_yang.png"
+                        alt="Haiqin Yang">
+                    <a href="https://hqyang.github.io/" target="_blank">
+                        <h4>Haiqin Yang</h4>
+                    </a>
+                    Ping An Life, China
+                </div>
+            </div>
+        </div>
+        <div class="row slideanim speaker-list">
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/mark_chignell.jpg"
+                        alt="Mark Chignell">
+                    <a href="https://www.mie.utoronto.ca/faculty_staff/chignell/" target="_blank">
+                        <h4>Mark Chignell</h4>
+                    </a>
+                    University of Toronto, Canada</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/sally_goldin.jpg"
+                        alt="Sally Goldin">
+                    <a href="http://windu.cpe.kmutt.ac.th/" target="_blank">
+                        <h4>Sally E. Goldin</h4>
+                    </a>
+                    King Mongkut's University of Technology Thonburi, Thailand
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="speaker"> <img class="thumbnail-circle" src="../assets/images/speakers/DLAI3/Ettikan.jpg"
+                        alt="Ettikan Kandasamy Karuppiah">
+                    <a href="http://www.ettikan.org/" target="_blank">
+                        <h4>Ettikan Kandasamy Karuppiah</h4>
+                    </a>
+                    NVIDIA, Singapore
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gallery" class="container-fluid text-center max-width" hidden>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>GALLERY</h2>
+            </div>
+            <h4>Our memories are <a href="https://drive.google.com/drive/folders/1SzOZhqONp-yXkU-oQwvm59JmR2I6MuLe"
+                    target="_blank">HERE!</a></h4>
+        </div>
+    </div>
+    <div id="registration" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>REGISTRATION</h2>
+                <h4>
+                    The Deep Learning and Artificial Intelligence Summer School 2020 (DLAI3)
+                    <br>29 June - 3 July, 2020, Bangkok, Thailand
+                </h4>
+                <p><i><b>Registration is now closed.</b></i></p>
+                <p><b>We will confirm all successful DLAI3 registrants via an email.
+                        <BR>(Details for the NVIDIA DLI Workshop registration will be provided in the notification
+                        email.)</b></p>
+            </div>
+            <div class="col-sm-12" hidden>
+                <h2>REGISTRATION</h2>
+                <h4>Thank you for your interesting.
+                    <br>The registration will be opened soon.
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div id="committee" class="container-fluid max-width">
+        <h2 class="row text-center col-sm-12">Organizing Committee</h2>
+        <h4 class="committee-list">
+            <BR>
+            <br>
+            <b><i class="fa fa-caret-right"></i> Jonathan H. Chan,</b> King Mongkut’s University of Technology Thonburi
+            (Chair)
+            <br>
+            <b><i class="fa fa-caret-right"></i> Phayung Meesad,</b> King Mongkut’s University of Technology North
+            Bangkok
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kitsuchart Pasupa,</b> King Mongkut’s Institute of Technology
+            Ladkrabang
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kiyota Hashimoto,</b> Prince of Songkla University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kuntpong Woraratpanya,</b> King Mongkut’s Institute of Technology
+            Ladkrabang
+            <br>
+            <b><i class="fa fa-caret-right"></i> Vajirasak Vanijja,</b> King Mongkut’s University of Technology Thonburi
+            <br>
+            <b><i class="fa fa-caret-right"></i> Vithida Chongsuphajaisiddhi,</b> King Mongkut’s University of
+            Technology Thonburi
+            <br>
+            <b><i class="fa fa-caret-right"></i> Thanyathorn Thanapattheerakul,</b> King Mongkut’s University of
+            Technology Thonburi
+            <br><br>
+            <b><i class="fa fa-caret-right"></i> Lance Fung,</b> Murdoch University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Kevin Wong,</b> Murdoch University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Ahmed Abu-Siada,</b> Curtin University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Hannes Herrmann,</b> Curtin University
+            <br>
+            <b><i class="fa fa-caret-right"></i> Guanjin Wang,</b> Murdoch University
+            <br><br>
+        </h4>
+    </div>
+    <div id="sponsors-organizers" class="container-fluid text-center max-width">
+        <div class="text-center">
+            <h2 class="sponsors">Sponsors</h2>
+        </div>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.forth.co.th/" target="_blank"> <img
+                            src="../assets/images/sponsors/forth.png" alt="Forth"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.nvidia.com/en-us/" target="_blank"><img
+                            src="../assets/images/sponsors/nvidia_logo.png" alt="NVidia"></a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.3bb.co.th/3bb/" target="_blank">
+                        <img src="../assets/images/sponsors/3BB_logo_popup.png" alt="3BB"></a> </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="row text-center col-sm-12">Organizers</h2>
+            </div>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www4.sit.kmutt.ac.th/" target="_blank"> <img
+                            src="../assets/images/organizers/sit_logo_banner.jpg" alt="School of Information Technology">
+                    </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://www2.kmutt.ac.th/" target="_blank"> <img
+                            src="../assets/images/organizers/kmutt_logo.jpg"
+                            alt="King Mongkut's University of Technology Thonburi"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://www.apnns.org/" target="_blank"> <img
+                            src="../assets/images/sponsors/apnns_logo.jpg" alt="APNNS"> </a></div>
+            </div>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://sites.ieee.org/thailand-cis/" target="_blank"> <img
+                            src="../assets/images/sponsors/ieee-cis_logo.jpg"
+                            alt="IEEE Computational Intelligence Society Thailand Chapter"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://ewh.ieee.org/r10/w_australia/" target="_blank"> <img
+                            src="../assets/images/organizers/IEEE_CIS_WA_logo.png"
+                            alt="IEEE Computational Intelligence Society Thailand Chapter"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.ieeesmc.org/" target="_blank">
+                        <img src="../assets/images/organizers/IEEE_SMC_WA_logo.png" alt="IEEE-SMC"></a> </div>
+            </div>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.ieee-ras.org/" target="_blank"> <img
+                            src="../assets/images/organizers/IEEE-RAS-WA-logo.png" alt="IEEE-RAS">
+                    </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="http://www.kmitl.ac.th/en" target="_blank"> <img
+                            src="../assets/images/organizers/kmitl_logo.jpg"
+                            alt="King Mongkut's Institute of Technology Ladkrabang"> </a></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="sponsor-logo"> <a href="https://www.kmutnb.ac.th/" target="_blank"> <img class="kmutnb-logo"
+                            src="../assets/images/organizers/kmutnb_logo.jpg"
+                            alt="King Mongkut's University of Technology North Bangkok"> </a></div>
+            </div>
+        </div>
+        <div class="row text-center slideanim organizers-list">
+            <div class="col-sm-12">
+                <div class="sponsor-logo"> <a href="http://www.en.psu.ac.th/" target="_blank"> <img
+                            src="../assets/images/organizers/psu_logo.jpg" alt="Prince of Songkla University"> </a></div>
+            </div>
+        </div>
+    </div>
+    <div id="location" class="container-fluid text-center max-width">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="location-school">Location</h2>
+                <h4 class="location-school-info">
+                    All programs will be hosted online and the schedule given in Bangkok time (UTC+7)
+                </h4>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>PAST EVENTS</h2>
+                <br>
+                <div class="retro">
+                    <div class="row ">
+                        <i class="fa fa-history fa-lg"></i> <a
+                            href="https://deeplearningandaiwinterschool.github.io/past/dlai1.html"
+                            target="_blank">DLAI#1</a>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-history fa-lg"></i> <a
+                            href="https://deeplearningandaiwinterschool.github.io/past/dlai2.html"
+                            target="_blank">DLAI#2</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 contact">
+                <h2>CONTACT US</h2><br>
+                <div class="contact-us-info">
+                    <div class="row contact-email">
+                        For sponsorship: <a href="mailto:jonathan@sit.kmutt.ac.th">Jonathan H. Chan</a>
+                        <h3><i class="fa fa-envelope"></i> : <a
+                                href="mailto:dial@sit.kmutt.ac.th">dial@sit.kmutt.ac.th</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="copyright">© Copyright 2018 - 2022 All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+    <script src="../js/app.js" defer></script>
+</body>
+<script>
+    function checkToggle() {
+        if ($('#myNavbar')[0].classList.value == "navbar-collapse collapse in") {
+            $('#myNavbar')[0].classList.value = "navbar-collapse collapse";
+        }
+    }
+</script>
+
+</html>
