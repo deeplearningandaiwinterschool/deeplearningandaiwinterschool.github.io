@@ -1,0 +1,33 @@
+  - tab-ref: 'Day1'
+    tab-name: 'Day1: Tue 14 Jun'
+    title: 'Day1: Tue 14 2022 (ICT TIME UTC+7)'
+    events:
+      - event-name: DLAI6 Opening Remards
+        time: 07.50 - 08.00 am.
+        comments: Welcome speeches
+        speaker: 
+        topic: 
+      
+      - event-name: ACM Distinguished Speaker I
+        time: 08.00 - 09.00 am.
+        comments: 
+        speaker: <a href="#Ronald_Baecker"><i> Ronald Baecker</i></a>, University of Toronto, Canada
+        topic: <a href="https://drive.google.com/file/d/1k4WlWbqkLAigpVYBgvlRQywtcdCgOGys/view?usp=sharing" target="_blank">What Society Must Require from AI</a>
+      
+  - tab-ref: 'Day2'
+    tab-name: 'Day2: Tue 15 Jun'
+    title: 'Day2: Tue 15 2022 (ICT TIME UTC+7)'
+    events:
+      - event-name: IEEE-CIS Distinguished Lecturer Talk II
+        time: 08.00 - 09.00 am.
+        comments: 
+        speaker: <a href="#Jie_Lu"><i> Jie LU</i></a>, University of Technology Sydney, Australia
+        topic: <a href="https://drive.google.com/file/d/1WmTUFLneXrejiVd9q1BykxJoSikOQGgo/view?usp=sharing" target="_blank">Fuzzy Transfer Learning</a>
+      
+      - event-name: Academic Talk
+        time: 09.00 - 10.00 am.
+        comments: 
+        speaker: <i>Guanjin (Brenda) Wang</i></a>, Murdoch University, Australia
+        topic: <a href="https://drive.google.com/file/d/1lhkuZ1ymj5TbtwiHflt1uADUCiEQ0DWM/view?usp=sharing" target="_blank">Learning from imbalanced data and case studies in healthcare</a>
+
+      
