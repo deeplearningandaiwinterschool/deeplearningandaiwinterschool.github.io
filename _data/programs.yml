@@ -2,21 +2,35 @@
     tab-name: 'Day1: Tue 14 Jun'
     title: 'Day1: Tue 14 2022 (ICT TIME UTC+7)'
     events:
-      - event-name: DLAI6 Opening Remards
+      - event-name: DLAI6 Opening Remarks
         time: 07.50 - 08.00 am.
         comments: Welcome speeches
         speaker: 
         topic: 
+        is-break:
       
       - event-name: ACM Distinguished Speaker I
         time: 08.00 - 09.00 am.
         comments: 
         speaker: <a href="#Ronald_Baecker"><i> Ronald Baecker</i></a>, University of Toronto, Canada
         topic: <a href="https://drive.google.com/file/d/1k4WlWbqkLAigpVYBgvlRQywtcdCgOGys/view?usp=sharing" target="_blank">What Society Must Require from AI</a>
+
+      - event-name: Academic Talk
+        time: 09.00 - 10.00 am.
+        comments: 
+        speaker: Zeng-Guang Hou, Chinese Academy of Sciences, China 
+        topic: Enhancement of Engagement Based on BCI for Active Control of Rehabilitation Robots
+
+      - event-name: 
+        time: 10.00 - 10.15 am.	
+        comments: Group Photo and Networking
+        speaker: 
+        topic: 
+        is-break: True
       
   - tab-ref: 'Day2'
-    tab-name: 'Day2: Tue 15 Jun'
-    title: 'Day2: Tue 15 2022 (ICT TIME UTC+7)'
+    tab-name: 'Day2: Wed 15 Jun'
+    title: 'Day2: Wed 15 2022 (ICT TIME UTC+7)'
     events:
       - event-name: IEEE-CIS Distinguished Lecturer Talk II
         time: 08.00 - 09.00 am.
@@ -29,5 +43,14 @@
         comments: 
         speaker: <i>Guanjin (Brenda) Wang</i></a>, Murdoch University, Australia
         topic: <a href="https://drive.google.com/file/d/1lhkuZ1ymj5TbtwiHflt1uADUCiEQ0DWM/view?usp=sharing" target="_blank">Learning from imbalanced data and case studies in healthcare</a>
-
+ 
+  - tab-ref: 'Day3'
+    tab-name: 'Day3: Thurs 16 Jun'
+    title: 'Day3: Thurs 16 2022 (ICT TIME UTC+7)'
+    events:
+      - event-name: Women in Science and Engineering (WiSE) Session
+        time: 08.50 - 09.00 am.
+        comments: WiSE opening remarks
+        speaker: 
+        topic: 
       

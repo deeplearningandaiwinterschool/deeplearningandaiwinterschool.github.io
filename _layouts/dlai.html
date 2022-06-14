@@ -131,20 +131,25 @@
                     <tbody>
           	        {% for event in tab.events %}
                         <tr>
+                            {% if event.event-name %}
                             <td colspan="2" class="program-table-header">{{event.event-name}}</td>
+                            {% endif %}
                         </tr>
+                        {% assign s = event.event-name | size %}
+                        {% if s == 0 %} 
+                        <tr class="table-row-break">
+                        {% else %}   
                         <tr>
+                        {% endif %}
                             <td>{{event.time}}</td>
                             <td>
-                                {% if event.comments | size = 0 %}
-                            	{{event.comments }}<br>
-                                {% endif %}
-                                {% if event.speaker | size != 0 %}
+                                {% if event.speaker %}
                                 <b>Speaker:</b>{{event.speaker }}<br>
                                 {% endif %}
-                                {% if event.topic | size != 0 %}
+                                {% if event.topic %}
                                 <b>Topic:</b> {{event.topic }}
                                 {% endif %}
+                                {{ event.comments }}<br>
                             </td>
                         </tr>
                         {% endfor %}
@@ -152,12 +157,38 @@
                 </table>
             </div>
         {% endfor %}
+        </div>       
+    </div>
+
+        <!-- Speaker Section -->
+        <div id="speakers" class="container-fluid text-center max-width">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="speakers-text">Speakers</h2>
+                </div>
+            </div>
+            <div class="row" hidden>
+                <div class="col-sm-12">
+                    <h2 class="speakers-text">Academic</h2><br>
+                </div>
+            </div>
+            <div class="row slideanim speaker-list">
+                <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day" hidden>Day 1</p></div>
+                {% for speaker in site.speakers %} 
+                <div class="col-sm-4">
+                    <div class="speaker" id={person.name}> <img class="thumbnail-circle" src={{speaker.img-url}}
+                            alt="Hisao Ishibuchi">
+                        <a href={{speaker.name-url}} target="_blank">
+                            <h4>{{speaker.name}}</h4>
+                        </a>
+                        {{speaker.content}}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
-        
-        
 
-
-    <!-- Speaker Section -->
+    <!-- Speaker Section old-->
     <div id="speakers" class="container-fluid text-center max-width">
         <div class="row">
             <div class="col-sm-12">
@@ -463,10 +494,10 @@
             <div class="col-sm-12">
                 <h2>REGISTRATION</h2>
                 <h4>
-                    The Deep Learning and Artificial Intelligence Summer School 2022 (DLAI6)
-                    <br>14 - 18 June 2022, Virtually online (ICT time)
+                    {{ site.registration[0].message }}<br>
+                    {{ site.registration[0].time}}
                 </h4>
-                <p><i><b><a href="https://docs.google.com/forms/d/e/1FAIpQLSc09e9caFdo5bDR5nP0byBFSf3b_cc1bofOpJ2zCgG2g5I96g/viewform" targt="_blank">Registration</a> is now open.</b></i></p>
+                <p><i><b> {{ site.registration[0].content }}</b></i></p>
                 <!-- <p><i><b>Registration is now closed.</b></i></p> -->
                 <!-- <p><b>Zoom will confirm all successful DLAI5 registrants via an email.</b></p> -->
             </div>
@@ -487,6 +518,10 @@
         <h4 class="committee-list">
             <BR>
             <br>
+            {% for member in site.data.committee %}
+            <b><i class="fa fa-caret-right"></i> {{ member.name }} </b> {{member.description}}
+            <br>
+            {% endfor %}
             <b><i class="fa fa-caret-right"></i> Jonathan H. Chan,</b> King Mongkut’s University of Technology Thonburi
             (General Chair)
             <br>
@@ -542,24 +577,18 @@
             <h2 class="sponsors">Sponsors</h2>
         </div>
         <div class="row text-center slideanim">
+            {% for sponsor in site.data.sponsors %}
             <div class="col-sm-4">
-                <div class="sponsor-logo"> <a href="https://cis.ieee.org/" target="_blank"> <img
-                            src="./assets/images/sponsors/cis-logo.png" alt="IEEE-CIS"> </a></div>
+                <div class="sponsor-logo"> <a href={{ sponsor.site }} target="_blank"> <img
+                            src={{ sponsor.image }} alt=""></a></div>
             </div>
-            <div class="col-sm-4">
-                <div class="sponsor-logo"> <a href="https://www.acm.org/" target="_blank"> <img
-                            src="./assets/images/sponsors/acm_logo_full.gif" alt="ACM"> </a></div>
-            </div>
-            <div class="col-sm-4">
-                <div class="sponsor-logo"> <a href="https://www.nvidia.com/en-us/" target="_blank"><img
-                            src="./assets/images/sponsors/nvidia_logo.png" alt="NVidia"></a></div>
-            </div>
+            {% assign w = forloop.index | modulo:3 %}
+            {% if w == 0 %}
+        <p>new line</p>
         </div>
         <div class="row text-center slideanim">
-            <div class="col-sm-12">
-                <div class="sponsor-logo"> <a href="https://www.forth.co.th/" target="_blank"> <img
-                            src="../assets/images/sponsors/forth.png" alt="Forth"> </a></div>
-            </div>
+            {% endif %}
+            {% endfor %}
         </div>
         <br><br>
         <div class="text-center">
@@ -650,7 +679,7 @@
             <div class="col-sm-12">
                 <h2 class="location-school">Location</h2>
                 <h4 class="location-school-info">
-                    All programs will be hosted online and the schedule given in ICT time (UTC+7)
+                    {{ site.location[0].content }}
                 </h4>
             </div>
         </div>
@@ -712,7 +741,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
     <script src="js/app.js" defer></script>
 
-		{{content}}
 </body>
 <script>
     function checkToggle() {
