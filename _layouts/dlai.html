@@ -143,13 +143,15 @@
                         {% endif %}
                             <td>{{event.time}}</td>
                             <td>
+                                {% if event.comments %}
+                            	{{event.comments }}<br>
+                                {% endif %}
                                 {% if event.speaker %}
                                 <b>Speaker:</b>{{event.speaker }}<br>
                                 {% endif %}
                                 {% if event.topic %}
                                 <b>Topic:</b> {{event.topic }}
                                 {% endif %}
-                                {{ event.comments }}<br>
                             </td>
                         </tr>
                         {% endfor %}
