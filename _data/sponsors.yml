@@ -1,12 +1,21 @@
   - site: https://cis.ieee.org/
     image: ./assets/images/sponsors/cis-logo.png
+    alt: IEEE-CIS
 
   - site: https://www.acm.org/
     image: ./assets/images/sponsors/acm_logo_full.gif
+    alt: ACM
 
   - site: https://www.nvidia.com/en-us/
     image: ./assets/images/sponsors/nvidia_logo.png
+    alt: NVidia
   
   - site: https://www.forth.co.th/
-    image: ../assets/images/sponsors/forth.png
+    image: ./assets/images/sponsors/forth.png
+    alt: Forth
+
+  - site: https://www.3bb.co.th/3bb/
+    image: ./assets/images/sponsors/3BB_logo_popup.png
+    alt: 3BB
+  
 

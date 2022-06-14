@@ -57,7 +57,7 @@ plugins:
 collections:
   news:
   abouts:
-  speakers:
   registration:
   location:
+  header:
   

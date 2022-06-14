@@ -1,0 +1,167 @@
+- name: Hisao Ishibuchi
+  id: Hisao_Ishibuchi
+  img-url: ./assets/images/speakers/DLAI6/Hisao_Ishibuchi.png
+  name-url: https://faculty.sustech.edu.cn/hisao/en/
+  location: Southern University of Science and Technology, China
+
+- name: Jie Lu
+  id: Jie_Lu
+  img-url: ./assets/images/speakers/DLAI6/Jie_LU.jpg
+  name-url: https://profiles.uts.edu.au/jie.lu
+  location: University of Technology Sydney, Australia
+
+- name: Sanaz Mostaghim
+  id: Sanaz_Mostaghim
+  img-url: ./assets/images/speakers/DLAI6/Sanaz_Mostaghim.jpg
+  name-url: https://www.ci.ovgu.de/Team/Sanaz+Mostaghim.html
+  location: Otto-von-Guericke Universität Magdeburg, Germany
+
+- name: Ronald Baecker
+  id: Ronald_Baecker
+  img-url: ./assets/images/speakers/DLAI6/Ronald_Baecker.jpg
+  name-url: https://speakers.acm.org/speakers/baecker_16171
+  location: University of Toronto, Canada
+
+- name: Zehong (Jimmy) Cao
+  id: Jimmy_Cao
+  img-url: ./assets/images/speakers/DLAI6/Jimmy_Cao.png
+  name-url: https://speakers.acm.org/speakers/cao_16349
+  location: University of South Australia, Australia
+
+- name: Nikola Kasabov
+  id: Nikola_Kasabov
+  img-url: ./assets/images/speakers/DLAI6/Nikola_Kasabov.jpg
+  name-url: https://kedri.aut.ac.nz/staff/staff-profiles/professor-nikola-kasabov
+  location: Auckland University of Technology, New Zealand
+  
+- name: Soo-Young Lee
+  id: Soo-Young_Lee
+  img-url: ./assets/images/speakers/DLAI6/soo-young.jpg
+  name-url: https://www.researchgate.net/profile/Soo-Young-Lee-7
+  location: Korea Advanced Institute of Science and Technology (KAIST), South Korea
+  
+- name: Zeng-Guang Hou
+  id: Zeng-Guang_Hou
+  img-url: ./assets/images/speakers/DLAI6/Zengguang_Hou.jpeg
+  name-url: https://scholar.google.com/citations?user=tU0CwGwAAAA
+  location: Chinese Academy of Sciences, China
+  
+- name: Seiichi Ozawa
+  id: Seiichi_Ozawa
+  img-url: ./assets/images/speakers/DLAI6/seiichi_ozawa.jpg
+  name-url: http://www2.kobe-u.ac.jp/~ozawasei/
+  location: Kobe University, Japan
+  
+- name: Mark Chignell
+  id: Mark_Chignell
+  img-url: ./assets/images/speakers/DLAI6/mark_chignell.jpg
+  name-url: https://www.mie.utoronto.ca/faculty_staff/chignell
+  location: University of Toronto, Canada
+  
+- name: Hava T. Siegelmann
+  id: Hava_Siegelmann
+  img-url: ./assets/images/speakers/DLAI6/siegelmann_hava.jpg
+  name-url: https://www.cics.umass.edu/faculty/directory/siegelmann_hava
+  location: University of Massachusetts Amherst, United States
+
+- name: Bei Yu
+  id: Bei_Yu
+  img-url: ./assets/images/speakers/DLAI6/Bei_Yu.jpg
+  name-url: https://www.cse.cuhk.edu.hk/~byu/
+  location: Chinese University of Hong Kong, Hong Kong, China
+  
+- name: Lipo Wang
+  id: Lipo_Wang
+  img-url: ./assets/images/speakers/DLAI6/Lipo_Wang.jpeg
+  name-url: https://personal.ntu.edu.sg/elpwang/
+  location: Nanyang Technological University, Singapore
+  
+- name: Jagdish Chand Bansal
+  id: Jagdish_Chand_Bansal
+  img-url: ./assets/images/speakers/DLAI6/jagdish_chand_bansal.png
+  name-url: http://people.sau.int/~jcbansal/
+  location: South Asian University New Delhi, India
+  
+- name: Taro Toyoizumi
+  id: Taro_Toyoizumi
+  img-url: ./assets/images/speakers/DLAI6/Taro_Toyoizumi.jpg
+  name-url: https://cbs.riken.jp/en/faculty/t.toyoizumi/
+  location: RIKEN Center for Brain Science, Japan
+  
+- name: Huynh Thi Thanh Binh
+  id: Huynh_Thi_Thanh_Binh
+  img-url: ./assets/images/speakers/DLAI6/HuynhThiThanhBinh.jpg
+  name-url: https://users.soict.hust.edu.vn/binhht/
+  location: Hanoi University of Science and Technology, Vietnam
+
+- name: M. Tanveer
+  id: M_Tanveer
+  img-url: ./assets/images/speakers/DLAI6/m_tanveer.jpg
+  name-url: https://www.iiti.ac.in/people/~mtanveer/
+  location: Indian Institute of Technology Indore, India
+  
+- name: Tuan D. Pham
+  id: Tuan_Pham
+  img-url: ./assets/images/speakers/DLAI6/Tuan_Pham.jpg
+  name-url: https://sites.google.com/view/tuan-d-pham/home
+  location: Prince Mohammad Bin Fahd University, Saudi Arabia
+
+- name: Ruck Thawonmas
+  id: Ruck_Thawonmas
+  img-url: ./assets/images/speakers/DLAI6/Ruck_Thawonmas.jpg
+  name-url: https://www.ice.ci.ritsumei.ac.jp/~ruck/
+  location: Ritsumeikan University, Japan
+  
+- name: Chakarida Nukoolkit
+  id: Chakarida_Nukoolkit
+  img-url: ./assets/images/speakers/DLAI6/Chakarida_Nukoolkit.jpg
+  name-url: https://www.sit.kmutt.ac.th/personnels/lecturers/?uid=4
+  location: King Mongkut's University of Technology Thonburi, Thailand
+  
+- name: Sonali Agarwal
+  id: Sonali_Agarwal
+  img-url: ./assets/images/speakers/DLAI6/Sonali_Agarwal.jpg
+  name-url: https://profile.iiita.ac.in/sonali/
+  location: Indian Institute of Information Technology Allahabad, India
+  
+- name: Maryam Doborjeh
+  id: Maryam_Doborjeh
+  img-url: ./assets/images/speakers/DLAI6/Maryam_Doborjeh.jpg
+  name-url: https://kedri.aut.ac.nz/staff/staff-profiles/maryam-gholami-doborjeh
+  location: Auckland University of Technology, New Zealand
+  
+- name: Guanjin (Brenda) Wang
+  id: Guanjin_Brenda_Wang
+  img-url: ./assets/images/speakers/DLAI6/Guanjin_Brenda_Wang.jpg
+  name-url: http://profiles.murdoch.edu.au/myprofile/guanjin-wang/
+  location: Murdoch University, Australia
+
+- name: Chantana Chantrapornchai
+  id: Chantana_Chantrapornchai
+  img-url: ./assets/images/speakers/DLAI6/Chantana_Chantrapornchai.jpeg
+  name-url: https://www.cpe.ku.ac.th/~cnc/
+  location: Kasetsart University, Thailand
+  
+- name: Jonathan Chan
+  id: Jonathan_Chan
+  img-url: ./assets/images/speakers/DLAI5/jonathan_chan.jpg
+  name-url: https://www.sit.kmutt.ac.th/personnels/lecturers/?uid=8
+  location: King Mongkut's University of Technology Thonburi, Thailand
+  
+- name: Mamatha Balachandra
+  id: Mamatha_Balachandra
+  img-url: ./assets/images/speakers/DLAI6/Mamatha_Balachandra.jpeg
+  name-url: https://manipal.edu/mit/department-faculty/faculty-list/mamatha-balachandra.html
+  location: Manipal Institute of Technology, India
+  
+- name: Udom Silparcha
+  id: Udom_Silparcha
+  img-url: ./assets/images/speakers/DLAI6/Udom_Silparcha.jpeg
+  name-url: https://uk.linkedin.com/in/udom-silparcha-b848a320
+  location: Riccio Investment Limited, Thailand
+  
+- name: Phayung Meesad
+  id: Phayung_Meesad
+  img-url: ./assets/images/speakers/DLAI6/Phayung_Meesad.jpeg
+  name-url: https://scholar.google.com/citations?hl=en&user=KgPPtakAAAAJ
+  location: King Mongkut's University of Technology North Bangkok, Thailand
