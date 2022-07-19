@@ -2,4 +2,4 @@
 layout: simple
 ---
 
-All programs will be hosted offline and the schedule given in ICT time (UTC+7)
+All programs will be hosted online and the schedule given in ICT time (UTC+7)
