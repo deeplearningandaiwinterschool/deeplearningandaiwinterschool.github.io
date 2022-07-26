@@ -1,55 +1,42 @@
-  - site: https://www4.sit.kmutt.ac.th/
-    image: ./assets/images/organizers/IC2.jpg
-    alt: Innovative Cognitive Computing (IC2)
-
-  - site: https://www4.sit.kmutt.ac.th/
-    image: ./assets/images/organizers/sit_logo_banner.jpg
-    alt: School of Information Technology
-
-  - site: http://www2.kmutt.ac.th/
-    image: ./assets/images/organizers/kmutt_logo.jpg
-    alt: King Mongkut's University of Technology Thonburi
-  
-  - site: http://www.apnns.org/
-    image: ./assets/images/organizers/apnns_logo.jpg
-    alt: APNNS
-
-  - site: http://sites.ieee.org/thailand-cis/
-    image: ./assets/images/organizers/ieee_cis_thailand.jpg
-    alt: IEEE Computational Intelligence Society Thailand Chapter
-
-  - site: http://ewh.ieee.org/r10/w_australia/
-    image: ./assets/images/organizers/IEEE_CIS_WA_logo.png
-    alt: IEEE Computational Intelligence Society Thailand Chapter
-
-  - site: https://www.ieeesmc.org/
-    image: ./assets/images/organizers/IEEE_SMC_WA_logo.png
-    alt: IEEE-SMC
-  
-  - site: https://www.ieee-ras.org/
-    image: ./assets/images/organizers/IEEE-RAS-WA-logo.png
-    alt: IEEE-RAS
-
-  - site: "#"
-    image: ./assets/images/organizers/CIS-Vietnam.png
-    alt: IEEE-CIS Vietnam
-
-  - site: https://www.cmu.ac.th/en/
-    image: ./assets/images/organizers/CMU.png
-    alt: Chiang Mai University
-
-  - site: http://www.kmitl.ac.th/en
-    image: ./assets/images/organizers/kmitl_logo.jpg
-    alt: King Mongkut's Institute of Technology Ladkrabang
-  
-  - site: https://www.kmutnb.ac.th/
-    image: ./assets/images/organizers/kmutnb_logo.jpg
-    alt: King Mongkut's University of Technology North Bangkok
-
-  - site: http://www.jaduniv.edu.in
-    image: ./assets/images/organizers/Jadavpur_logo.jpg
-    alt: Jadavpur University
-  
-  - site: https://www.isical.ac.in/
-    image: ./assets/images/organizers/ISI_logo.jpg
-    alt: Indian Statistical Institute
+- site: https://www4.sit.kmutt.ac.th/
+  image: /assets/images/organizers/IC2.jpg
+  alt: Innovative Cognitive Computing (IC2)
+- site: https://www4.sit.kmutt.ac.th/
+  image: ./assets/images/organizers/sit_logo_banner.jpg
+  alt: School of Information Technology
+- site: http://www2.kmutt.ac.th/
+  image: ./assets/images/organizers/kmutt_logo.jpg
+  alt: King Mongkut's University of Technology Thonburi
+- site: http://www.apnns.org/
+  image: ./assets/images/organizers/apnns_logo.jpg
+  alt: APNNS
+- site: http://sites.ieee.org/thailand-cis/
+  image: ./assets/images/organizers/ieee_cis_thailand.jpg
+  alt: IEEE Computational Intelligence Society Thailand Chapter
+- site: http://ewh.ieee.org/r10/w_australia/
+  image: ./assets/images/organizers/IEEE_CIS_WA_logo.png
+  alt: IEEE Computational Intelligence Society Thailand Chapter
+- site: https://www.ieeesmc.org/
+  image: ./assets/images/organizers/IEEE_SMC_WA_logo.png
+  alt: IEEE-SMC
+- site: https://www.ieee-ras.org/
+  image: ./assets/images/organizers/IEEE-RAS-WA-logo.png
+  alt: IEEE-RAS
+- site: '#'
+  image: ./assets/images/organizers/CIS-Vietnam.png
+  alt: IEEE-CIS Vietnam
+- site: https://www.cmu.ac.th/en/
+  image: ./assets/images/organizers/CMU.png
+  alt: Chiang Mai University
+- site: http://www.kmitl.ac.th/en
+  image: ./assets/images/organizers/kmitl_logo.jpg
+  alt: King Mongkut's Institute of Technology Ladkrabang
+- site: https://www.kmutnb.ac.th/
+  image: ./assets/images/organizers/kmutnb_logo.jpg
+  alt: King Mongkut's University of Technology North Bangkok
+- site: http://www.jaduniv.edu.in
+  image: ./assets/images/organizers/Jadavpur_logo.jpg
+  alt: Jadavpur University
+- site: https://www.isical.ac.in/
+  image: ./assets/images/organizers/ISI_logo.jpg
+  alt: Indian Statistical Institute
