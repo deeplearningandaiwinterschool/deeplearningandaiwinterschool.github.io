@@ -185,7 +185,7 @@
                         <a href={{speaker.name-url}} target="_blank">
                             <h4>{{speaker.name}}</h4>
                         </a>
-                        {{speaker.location}}
+                        {{speaker.local}}
                     </div>
                 </div>
                 {% assign w = forloop.index | modulo:3 %}
@@ -218,7 +218,7 @@
                 <h2>REGISTRATION</h2>
                 <h4>
                     {{ site.registration[0].message }}<br>
-                    {{ site.registration[0].time}}
+                    {{ site.registration[0].eventtime}}
                 </h4>
                 <p><i><b> {{ site.registration[0].content }}</b></i></p>
                 <!-- <p><i><b>Registration is now closed.</b></i></p> -->
