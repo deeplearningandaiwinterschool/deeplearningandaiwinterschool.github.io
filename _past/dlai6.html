@@ -14,8 +14,8 @@
     <meta name="author" content="Lizhi" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/dlai6_styles.css">
-    <link rel="icon" type="image/png" href="assets/images/logos/dp_winter_school_2018_logo2.png" />
+    <link rel="stylesheet" type="text/css" href="/css/dlai6_styles.css">
+    <link rel="icon" type="image/png" href="/assets/images/logos/dp_winter_school_2018_logo2.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 </head>
@@ -50,7 +50,7 @@
         <div class="container">
             <h1 class="col-sm-12 cover-text">
                 <p id="series-title">{{ site.header[0].series-title }}</p>
-                <span id="event-title">{{ site.header[0].main }}</span> 
+                <span id="event-title">{{ site.header[0].main }}</span>
                 <br>
                 <span id="date-location-info">{{ site.header[0].sub }}</span>
                 <br>
@@ -58,7 +58,7 @@
             </h1>
         </div>
     </div>
-    
+
 
     <!-- Live Video Section -->
     <div id="live" class="container-fluid max-width" hidden>
@@ -83,8 +83,8 @@
                 <!-- {% for new1 in site.news reversed %}
                    <li>{{new1.content}}</li>
                 {% endfor %} -->
-                    {% for news in site.data.dlai6.news %}
-                        <li>[{{news.date}} - {{news.content}}</li>
+                    {% for new in site.data.dlai6.news %}
+                        <li>[{{new.date}}] - {{new.content}}</li>
                     {% endfor %}
                 </ul>
                 <br>
@@ -140,9 +140,9 @@
                             {% endif %}
                         </tr>
                         {% assign s = event.event-name | size %}
-                        {% if s == 0 %} 
+                        {% if s == 0 %}
                         <tr class="table-row-break">
-                        {% else %}   
+                        {% else %}
                         <tr>
                         {% endif %}
                             {% if event.eventtime %}
@@ -165,7 +165,7 @@
                 </table>
             </div>
         {% endfor %}
-        </div>       
+        </div>
     </div>
 
         <!-- Speaker Section -->
@@ -182,7 +182,7 @@
             </div>
             <div class="row slideanim speaker-list">
                 <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day" hidden>Day 1</p></div>
-                {% for speaker in site.data.dlai6.speakers %} 
+                {% for speaker in site.data.dlai6.speakers %}
                 <div class="col-sm-4">
                     <div class="speaker" id={person.name}> <img class="thumbnail-circle" src={{speaker.img-url}}
                             alt={{speaker.name}}>
@@ -246,7 +246,7 @@
             <BR>
             <br>
             {% for member in site.data.dlai6.committees %}
-            <b><i class="fa fa-caret-right"></i> {{ member.name }} </b> {{member.description}}
+            <b><i class="fa fa-caret-right"></i> {{ member.name }} </b> {{member.affiliation}}
             <br>
             {% endfor %}
             <br><br>
