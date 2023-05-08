@@ -80,9 +80,12 @@
             <div class="col-sm-12">
                 <h2>NEWS</h2>
                 <ul>
-                {% for new1 in site.news reversed %}
+                <!-- {% for new1 in site.news reversed %}
                    <li>{{new1.content}}</li>
-                {% endfor %}
+                {% endfor %} -->
+                    {% for news in site.data.dlai6.news %}
+                        <li>[{{news.date}} - {{news.content}}</li>
+                    {% endfor %}
                 </ul>
                 <br>
             </div>
@@ -95,7 +98,8 @@
             <div class="col-sm-12">
                 <h2 class="about-school">About</h2><br>
                 <h4 class="about-school-detail indent justify">
-                    {{ site.abouts[0].content }}
+                    <!-- {{ site.abouts[0].content }} -->
+                    {{ site.data.dlai6.about.content }}
                 </h4>
             </div>
         </div>
@@ -112,13 +116,13 @@
             </div>
         </div>
         <ul class="nav nav-tabs" >
-        {% for tab in site.data.programs %}
+        {% for tab in site.data.dlai6.programs %}
             <li {% if tab.tab-ref == 'Day1' %} class="active" {% endif %} ><a data-toggle="tab" href="#{{tab.tab-ref}}">{{tab.tab-name}}</a></li>
         {% endfor %}
         </ul>
 
         <div class="tab-content program-table-vertical">
-        {% for tab in site.data.programs %}
+        {% for tab in site.data.dlai6.programs %}
             <div id="{{tab.tab-ref}}" {% if tab.tab-ref == 'Day1' %} class="tab-pane fade in active" {% else %} class="tab-pane fade" {% endif %}>
                 <h3>{{tab.title}}</h3>
                 <table>
@@ -178,7 +182,7 @@
             </div>
             <div class="row slideanim speaker-list">
                 <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day" hidden>Day 1</p></div>
-                {% for speaker in site.data.speakers %} 
+                {% for speaker in site.data.dlai6.speakers %} 
                 <div class="col-sm-4">
                     <div class="speaker" id={person.name}> <img class="thumbnail-circle" src={{speaker.img-url}}
                             alt={{speaker.name}}>
