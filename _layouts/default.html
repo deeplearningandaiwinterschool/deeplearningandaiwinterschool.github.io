@@ -1,366 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112274923-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-112274923-1');
-    </script>
-    <title>Deep Learning and Artificial Intelligence Summer School 2022 (DLAI6)</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Deep Learning and Artificial Intelligence Summer School 2022 (DLAI6)">
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <!-- prettier-ignore -->
+    {% seo %}
+    <!-- prettier-ignore -->
+    {% feed_meta %}
+
+    {% include google-tag.html %}
+
     <meta name="keywords"
         content="Artificial Intelligence, Machine Learning, Deep learning, Summer School, Winter School, IC2, SIT, KMUTT, Thailand">
-    <meta name="author" content="Lizhi" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/dlai6_styles.css">
-    <link rel="icon" type="image/png" href="assets/images/logos/dp_winter_school_2018_logo2.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- main css -->
+    {% if page.css %}
+        <link rel=""stylesheet type="text/css" href="{{ page.css }}">
+    {% else %}
+        <link rel="stylesheet" type="text/css" href="css/dlai6_styles.css">
+    {% endif %}
+    <link rel="icon" type="image/png" href="{{ site.logo }}" />
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button id="navBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#myPage"> <img src="assets/images/logos/dp_winter_school_2018_logo2.png"
-                        alt="Logo"> </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar" onclick="checkToggle()">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="about-nav" href="#about">ABOUT</a></li>
-                    <li><a class="program-nav" href="#program">PROGRAM</a></li>
-                    <li><a class="speakers-nav" href="#speakers">SPEAKER</a></li>
-                    <li><a class="registration-nav" href="#registration">REGISTRATION</a></li>
-                    <li><a class="committee-nav" href="#committee">COMMITTEE</a></li>
-                    <li><a class="organizer-nav" href="#sponsors-organizers">SPONSOR</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--Change cover picture and min-height - reflect to DLAI1.html-->
-    <!-- Banner Section -->
-    <div id="header" class="header-1 header jumbotron text-center">
-        <div class="container">
-            <h1 class="col-sm-12 cover-text">
-                <p id="series-title">{{ site.header[0].series-title }}</p>
-                <span id="event-title">{{ site.header[0].main }}</span> 
-                <br>
-                <span id="date-location-info">{{ site.header[0].sub }}</span>
-                <br>
-                <span id="countdown-timer">22 days</span>
-            </h1>
-        </div>
-    </div>
-    
-
-    <!-- Live Video Section -->
-    <div id="live" class="container-fluid max-width" hidden>
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="about-school text-center">LIVE</h2><br>
-                <div class="row">
-                    <iframe width="100%" height="500px" src="" frameborder="0" allow="autoplay; encrypted-media"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% include navigation.html %}
 
 
-    <!-- News Section -->
-    <div id="news" class="container-fluid max-width">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>NEWS</h2>
-                <ul>
-                <!-- {% for new1 in site.news reversed %}
-                   <li>{{new1.content}}</li>
-                {% endfor %} -->
-                    {% for news in site.data.dlai6.news %}
-                        <li>[{{news.date}} - {{news.content}}</li>
-                    {% endfor %}
-                </ul>
-                <br>
-            </div>
-        </div>
-    </div>
+    {{ content }}
 
-    <!-- About Section -->
-    <div id="about" class="container-fluid max-width">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="about-school">About</h2><br>
-                <h4 class="about-school-detail indent justify">
-                    <!-- {{ site.abouts[0].content }} -->
-                    {{ site.data.dlai6.about.content }}
-                </h4>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Program Section -->
-    <div id="program" class="container-fluid max-width">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="progam-school">Program</h2>
-                <br>
-                <p>Tentative program - All times are given in ICT time (UTC+7)</p>
-            </div>
-        </div>
-        <ul class="nav nav-tabs" >
-        {% for tab in site.data.dlai6.programs %}
-            <li {% if tab.tab-ref == 'Day1' %} class="active" {% endif %} ><a data-toggle="tab" href="#{{tab.tab-ref}}">{{tab.tab-name}}</a></li>
-        {% endfor %}
-        </ul>
-
-        <div class="tab-content program-table-vertical">
-        {% for tab in site.data.dlai6.programs %}
-            <div id="{{tab.tab-ref}}" {% if tab.tab-ref == 'Day1' %} class="tab-pane fade in active" {% else %} class="tab-pane fade" {% endif %}>
-                <h3>{{tab.title}}</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Time</th>
-                            <th>Activity</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-          	        {% for event in tab.events %}
-                        <tr>
-                            {% if event.event-name %}
-                            <td colspan="2" class="program-table-header">{{event.event-name}}</td>
-                            {% endif %}
-                        </tr>
-                        {% assign s = event.event-name | size %}
-                        {% if s == 0 %} 
-                        <tr class="table-row-break">
-                        {% else %}   
-                        <tr>
-                        {% endif %}
-                            {% if event.eventtime %}
-                            <td>{{event.eventtime}}</td>
-                            {% endif %}
-                            <td>
-                                {% if event.comments %}
-                            	{{event.comments }}<br>
-                                {% endif %}
-                                {% if event.speaker %}
-                                <b>Speaker: </b>{{event.speaker }}<br>
-                                {% endif %}
-                                {% if event.topic %}
-                                <b>Topic: </b> {{event.topic }}
-                                {% endif %}
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        {% endfor %}
-        </div>       
-    </div>
-
-        <!-- Speaker Section -->
-        <div id="speakers" class="container-fluid text-center max-width">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="speakers-text">Speakers</h2>
-                </div>
-            </div>
-            <div class="row" hidden>
-                <div class="col-sm-12">
-                    <h2 class="speakers-text">Academic</h2><br>
-                </div>
-            </div>
-            <div class="row slideanim speaker-list">
-                <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day" hidden>Day 1</p></div>
-                {% for speaker in site.data.dlai6.speakers %} 
-                <div class="col-sm-4">
-                    <div class="speaker" id={person.name}> <img class="thumbnail-circle" src={{speaker.img-url}}
-                            alt={{speaker.name}}>
-                        <a href={{speaker.name-url}} target="_blank">
-                            <h4>{{speaker.name}}</h4>
-                        </a>
-                        {{speaker.local}}
-                    </div>
-                </div>
-                {% assign w = forloop.index | modulo:3 %}
-                {% if w == 0 %}
-            </div>
-            <div class="row text-center slideanim">
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-
-
-
-    <!-- Gallery Section -->
-    <div id="gallery" class="container-fluid text-center max-width" hidden>
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>GALLERY</h2>
-            </div>
-            <h4>Our memories are <a href="https://drive.google.com/drive/folders/1SzOZhqONp-yXkU-oQwvm59JmR2I6MuLe"
-                    target="_blank">HERE!</a></h4>
-        </div>
-    </div>
-
-
-    <!-- Registration Section -->
-    <div id="registration" class="container-fluid text-center max-width">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>REGISTRATION</h2>
-                <h4>
-                    {{ site.registration[0].message }}<br>
-                    {{ site.registration[0].eventtime}}
-                </h4>
-                <p><i><b> {{ site.registration[0].content }}</b></i></p>
-                <!-- <p><i><b>Registration is now closed.</b></i></p> -->
-                <!-- <p><b>Zoom will confirm all successful DLAI5 registrants via an email.</b></p> -->
-            </div>
-            <div class="col-sm-12" hidden>
-                <h2>REGISTRATION</h2>
-                <h4>Thank you for your interest.
-                    <br>
-                    <p><i>Registration will be opened soon.</i></p>
-                </h4>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Committee Section -->
-    <div id="committee" class="container-fluid max-width">
-        <h2 class="row text-center col-sm-12">Organizing Committee</h2>
-        <h4 class="committee-list">
-            <BR>
-            <br>
-            {% for member in site.data.dlai6.committees %}
-            <b><i class="fa fa-caret-right"></i> {{ member.name }} </b> {{member.description}}
-            <br>
-            {% endfor %}
-            <br><br>
-        </h4>
-    </div>
-
-
-    <!-- Sponsor Section -->
-    <div id="sponsors-organizers" class="container-fluid text-center max-width">
-        <div class="text-center">
-            <h2 class="sponsors">Sponsors</h2>
-        </div>
-        <div class="row text-center slideanim">
-            {% for sponsor in site.data.dlai6.sponsors %}
-            <div class="col-sm-4">
-                <div class="sponsor-logo"> <a href={{ sponsor.site }} target="_blank"> <img
-                            src={{ sponsor.image }} alt={{ sponsor.alt }}></a></div>
-            </div>
-            {% assign w = forloop.index | modulo:3 %}
-            {% if w == 0 %}
-        </div>
-        <div class="row text-center slideanim">
-            {% endif %}
-            {% endfor %}
-        </div>
-        <br><br>
-        <div class="text-center">
-            <h2>Organizers</h2>
-        </div>
-        <div class="row text-center slideanim organizers-list">
-            {% for organizer in site.data.dlai6.organizers %}
-            <div class="col-sm-4">
-                <div class="sponsor-logo"> <a href={{ organizer.site }} target="_blank"> <img
-                            src={{ organizer.image }} alt= {{ organizer.alt }}></a></div>
-            </div>
-            {% assign w = forloop.index | modulo:3 %}
-            {% if w == 0 %}
-        </div>
-        <div class="row text-center slideanim">
-            {% endif %}
-            {% endfor %}
-        </div>
-        <br><br>
-    </div>
-
-
-    <!-- Location Section -->
-    <div id="location" class="container-fluid text-center max-width">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="location-school">Location</h2>
-                <h4 class="location-school-info">
-                    {{ site.location[0].content }}
-                </h4>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Footer Section -->
-    <footer id="footer" class="container-fluid text-center">
-        <div class="row">
-            <div class="col-sm-6">
-                <h2>PAST EVENTS</h2>
-                <br>
-                <div class="retro">
-                    <div class="row">
-                        <i class="fa fa-history fa-lg"></i> <a
-                            href="https://deeplearningandaiwinterschool.github.io/past/dlai5.html"
-                            target="_blank">DLAI#5</a>
-                    </div>
-                    <div class="row">
-                        <i class="fa fa-history fa-lg"></i> <a
-                            href="https://deeplearningandaiwinterschool.github.io/past/dlai4.html"
-                            target="_blank">DLAI#4</a>
-                    </div>
-                    <div class="row">
-                        <i class="fa fa-history fa-lg"></i> <a
-                            href="https://deeplearningandaiwinterschool.github.io/past/dlai3.html"
-                            target="_blank">DLAI#3</a>
-                    </div>
-                    <div class="row">
-                        <i class="fa fa-history fa-lg"></i> <a
-                            href="https://deeplearningandaiwinterschool.github.io/past/dlai2.html"
-                            target="_blank">DLAI#2</a>
-                    </div>
-                    <div class="row ">
-                        <i class="fa fa-history fa-lg"></i> <a
-                            href="https://deeplearningandaiwinterschool.github.io/past/dlai1.html"
-                            target="_blank">DLAI#1</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 contact">
-                <h2>CONTACT US</h2><br>
-                <div class="contact-us-info">
-                    <div class="row contact-email">
-                        <h3><i class="fa fa-envelope"></i> : <a
-                                href="mailto:dial@sit.kmutt.ac.th">dial@sit.kmutt.ac.th</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="copyright">Copyright © 2018 - 2023. All Rights Reserved.</div>
-        </div>
-    </footer>
-
+    {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
     <script src="js/app.js" defer></script>
-
 </body>
 <script>
     function checkToggle() {
