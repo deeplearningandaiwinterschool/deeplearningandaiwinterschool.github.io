@@ -68,33 +68,14 @@ title: Home
     </div>
 </div>
 
+{% include registration.html %}
+
 {% include speaker.html about=site.data.dlai6.speaker %}
 
-<!-- Registration Section -->
-<div id="registration" class="container-fluid text-center max-width">
-    <div class="row">
-        <div class="col-sm-12">
-            <h2>REGISTRATION</h2>
-            <h4>
-                {{ site.registration[0].message }}<br>
-                {{ site.registration[0].eventtime}}
-            </h4>
-            <p><i><b> {{ site.registration[0].content }}</b></i></p>
-            <!-- <p><i><b>Registration is now closed.</b></i></p> -->
-            <!-- <p><b>Zoom will confirm all successful DLAI5 registrants via an email.</b></p> -->
-        </div>
-        <div class="col-sm-12" hidden>
-            <h2>REGISTRATION</h2>
-            <h4>Thank you for your interest.
-                <br>
-                <p><i>Registration will be opened soon.</i></p>
-            </h4>
-        </div>
-    </div>
-</div>
 
 
-{% include committee.html about=site.data.dlai6.committee %}
+
+{% include committee.html about=site.data.committee %}
 
 
 <!-- Sponsor Section -->
