@@ -1,0 +1,13 @@
+<!-- Committee Section -->
+<div id="committee" class="container-fluid max-width">
+    <h2 class="row text-center col-sm-12">Organizing Committee</h2>
+    <h4 class="committee-list">
+        <BR>
+        <br>
+        {% for member in site.data.dlai6.committees %}
+        <b><i class="fa fa-caret-right"></i> {{ member.name }} </b> {{member.description}}
+        <br>
+        {% endfor %}
+        <br><br>
+    </h4>
+</div>

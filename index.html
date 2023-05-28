@@ -68,40 +68,7 @@ title: Home
     </div>
 </div>
 
-<!-- Speaker Section -->
-<div id="speakers" class="container-fluid text-center max-width">
-    <div class="row">
-        <div class="col-sm-12">
-            <h2 class="speakers-text">Speakers</h2>
-        </div>
-    </div>
-    <div class="row" hidden>
-        <div class="col-sm-12">
-            <h2 class="speakers-text">Academic</h2><br>
-        </div>
-    </div>
-    <div class="row slideanim speaker-list">
-        <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day" hidden>Day 1</p></div>
-        {% for speaker in site.data.dlai6.speakers %}
-        <div class="col-sm-4">
-            <div class="speaker" id={person.name}> <img class="thumbnail-circle" src={{speaker.img-url}}
-                    alt={{speaker.name}}>
-                <a href={{speaker.name-url}} target="_blank">
-                    <h4>{{speaker.name}}</h4>
-                </a>
-                {{speaker.affiliation}}
-            </div>
-        </div>
-        {% assign w = forloop.index | modulo:3 %}
-        {% if w == 0 %}
-    </div>
-    <div class="row text-center slideanim">
-        {% endif %}
-        {% endfor %}
-    </div>
-</div>
-
-
+{% include speaker.html about=site.data.dlai6.speaker %}
 
 <!-- Registration Section -->
 <div id="registration" class="container-fluid text-center max-width">
@@ -127,19 +94,7 @@ title: Home
 </div>
 
 
-<!-- Committee Section -->
-<div id="committee" class="container-fluid max-width">
-    <h2 class="row text-center col-sm-12">Organizing Committee</h2>
-    <h4 class="committee-list">
-        <BR>
-        <br>
-        {% for member in site.data.dlai6.committees %}
-        <b><i class="fa fa-caret-right"></i> {{ member.name }} </b> {{member.description}}
-        <br>
-        {% endfor %}
-        <br><br>
-    </h4>
-</div>
+{% include committee.html about=site.data.dlai6.committee %}
 
 
 <!-- Sponsor Section -->
