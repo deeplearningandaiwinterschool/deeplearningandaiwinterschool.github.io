@@ -371,6 +371,10 @@ body {
 .about-color {
     background-color: #429F9B;
 }
+.registration-color {
+    background-color: #54C396;
+    opacity: 0.8;
+}
 
 .about-color .text-color {
     color: #fff;
