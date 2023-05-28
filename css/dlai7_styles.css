@@ -201,10 +201,11 @@ body {
     overflow-x: auto;
   }
   .program-table-header {
-    background-color: #5bc5b9;
-    color: #ffffff;
+    background-color: #f4f4f4;
+    /* color: #ffffff; */
     font-size: 16px;
     font-weight: 100;
+    color: black;
   }
   table {
     border-collapse: collapse;
@@ -368,8 +369,19 @@ body {
 /* about section */
 .about-color {
     background-color: #429F9B;
+}
 
-    .text-color {
-        color: #fff;
-    }
+.about-color .text-color {
+    color: #fff;
+}
+
+
+/* program */
+.nav-tabs {
+    background-color: #dddd;
+    
+}
+
+.nav-tabs a {
+    color: black;
 }
