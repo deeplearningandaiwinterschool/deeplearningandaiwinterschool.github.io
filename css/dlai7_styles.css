@@ -15,6 +15,15 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .h2-white {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 600;
+    margin-bottom: 15px;
+    /* background: -webkit-linear-gradient(#329d9c, #56c596); */
+    -webkit-background-clip: text;
+  }
   h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -410,3 +419,4 @@ body {
 .update-info .update-bullet {
     padding-left: 20px;
 }
+
