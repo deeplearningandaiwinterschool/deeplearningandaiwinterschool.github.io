@@ -1,5 +1,5 @@
-- name: Jonathan H. Chan
-  description: King Mongkut's University of Technology Thonburi (General Chair) 
+- name: Jonathan H. Chan (General Chair)
+  description: King Mongkut's University of Technology Thonburi 
 
 - name: Phayung Meesad
   description: King Mongkut's University of Technology North Bangkok
@@ -46,8 +46,11 @@
 - name: Huynh Thi Thanh Binh
   description: Hanoi University of Science and Technology 
 
-- name: Thanyathorn Thanapattheerakul
+- name: Thanyathorn Thanapattheerakul (Tech Lead)
   description: Innovative Cognitive Computing (IC2) KMUTT
 
-- name: Jaturong Kongmanee
-  description: Michigan State University
+- name: Jaturong Kongmanee (Web Designer and Developer)
+  description: University of Toronto
+
+- name: Noah (Zijie) Qu (Web Designer and Developer)
+  description: University of Toronto
