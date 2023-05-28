@@ -144,18 +144,23 @@ body {
     margin-top: -7px;
   }
   #series-title {
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 26px;
+    /* font-weight: bold; */
+    margin-top: 50px;
   }
   #event-title {
-    font-size: 48px;
-    margin: 44px 10px;
+    font-size: 36px;
+    margin: 15px 0px;
     font-weight: bold;
   }
+  #event-info {
+    text-align: left;
+  }
+
   #date-location-info {
-    font-size: 28px;
-    font-weight: 500;
-    margin: 44px 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 15px 0px;
   }
   #countdown-timer {
     font-size: 26px;
@@ -397,4 +402,11 @@ body {
     color: #8e8e8edd;
     font-weight: 100;
     padding-left: 2em;
+}
+
+.update-info {
+    margin-top: 6em;
+}
+.update-info .update-bullet {
+    padding-left: 20px;
 }
