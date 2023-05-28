@@ -250,7 +250,8 @@ body {
     font-size: 15px;
   }
   #footer {
-    background-color: #202121;
+    /* background-color: #202121; */
+    background-color: #0E3046;
     margin-bottom: 0px;
   }
   .retro,
