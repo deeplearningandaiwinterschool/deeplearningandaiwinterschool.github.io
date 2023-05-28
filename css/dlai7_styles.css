@@ -371,6 +371,7 @@ body {
 .about-color {
     background-color: #429F9B;
 }
+/* registration */
 .registration-color {
     background-color: #54C396;
     opacity: 0.8;
@@ -380,7 +381,6 @@ body {
     color: #fff;
 }
 
-
 /* program */
 .nav-tabs {
     background-color: #dddd;
@@ -389,4 +389,11 @@ body {
 
 .nav-tabs a {
     color: black;
+}
+
+/* committee */
+.commit-des {
+    color: #8e8e8edd;
+    font-weight: 100;
+    padding-left: 2em;
 }
