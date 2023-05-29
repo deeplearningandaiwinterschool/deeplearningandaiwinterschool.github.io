@@ -292,6 +292,33 @@ speakers:
     img-url: ./assets/images/speakers/DLAI6/Jie_LU.jpg
     name-url: https://profiles.uts.edu.au/jie.lu
     affiliation: University of Technology Sydney, Australia
+
+  - name: Hisao Ishibuchi
+    id: Hisao_Ishibuchi
+    img-url: ./assets/images/speakers/DLAI6/Hisao_Ishibuchi.png
+    name-url: https://faculty.sustech.edu.cn/hisao/en/
+    affiliation: Southern University of Science and Technology, China
+
+  - name: Jie Lu
+    id: Jie_Lu
+    img-url: ./assets/images/speakers/DLAI6/Jie_LU.jpg
+    name-url: https://profiles.uts.edu.au/jie.lu
+    affiliation: University of Technology Sydney, Australia
+
+  - name: Hisao Ishibuchi
+    id: Hisao_Ishibuchi
+    img-url: ./assets/images/speakers/DLAI6/Hisao_Ishibuchi.png
+    name-url: https://faculty.sustech.edu.cn/hisao/en/
+    affiliation: Southern University of Science and Technology, China
+
+  - name: Jie Lu
+    id: Jie_Lu
+    img-url: ./assets/images/speakers/DLAI6/Jie_LU.jpg
+    name-url: https://profiles.uts.edu.au/jie.lu
+    affiliation: University of Technology Sydney, Australia
+
+
+
 committees:
   - name: Jonathan H. Chan
     affiliation: King Mongkut's University of Technology Thonburi (General Chair)
