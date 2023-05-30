@@ -281,59 +281,78 @@ programs:
         speaker:
         topic:
 speakers:
-  - name: Hisao Ishibuchi
-    id: Hisao_Ishibuchi
-    img-url: ./assets/images/speakers/DLAI6/Hisao_Ishibuchi.png
-    name-url: https://faculty.sustech.edu.cn/hisao/en/
-    affiliation: Southern University of Science and Technology, China
+  - name: Hamid Laga
+    id: Hamid_Laga
+    img-url: ./assets/images/speakers/DLAI7/Hamid_Laga.jpeg
+    name-url: https://researchportal.murdoch.edu.au/esploro/profile/hamid_laga
+    affiliation: Murdoch University, Australia
 
-  - name: Jie Lu
-    id: Jie_Lu
-    img-url: ./assets/images/speakers/DLAI6/Jie_LU.jpg
-    name-url: https://profiles.uts.edu.au/jie.lu
+  - name: Naoyuki Kubota
+    id: Naoyuki_Kubota
+    img-url: ./assets/images/speakers/female-holder.jpeg
+    name-url: https://www.comp.sd.tmu.ac.jp/kubota-lab/
+    affiliation: Tokyo Metropolitan University, Japan
+
+  - name: Hwee Kuan Lee
+    id: Hwee_Kuan_Lee
+    img-url: ./assets/images/speakers/DLAI7/Hwee_Kuan_Lee.png
+    name-url: https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-hwee-kuan-lee
+    affiliation: Agency for Science, Technology and Research, Singapore
+
+  - name: Susanto Rahardja
+    id: Susanto_Rahardja
+    img-url: ./assets/images/speakers/DLAI7/Susanto_Rahardja.jpg
+    name-url: https://www.singaporetech.edu.sg/directory/faculty/susanto-rahardja
+    affiliation: Singapore Institute of Technology, Singapore
+
+  - name: Sriparna Saha
+    id: Sriparna_Saha
+    img-url: ./assets/images/speakers/DLAI7/Sriparna_Saha.jpeg
+    name-url: https://www.iitp.ac.in/~sriparna/
+    affiliation: Indian Institute of Technolgy, Patna, India
+
+  - name: Asif Ekbal
+    id: Asif_Ekbal
+    img-url: ./assets/images/speakers/DLAI7/Asif_Ekbal.jpeg
+    name-url: https://www.asifekbal.com/
+    affiliation: Indian Institute of Technolgy, Patna, India
+
+  - name: Siridech Boonsang
+    id: Siridech_Boonsang
+    img-url: ./assets/images/speakers/DLAI7/Siridech_Boonsang.jpeg
+    name-url: https://www.it.kmitl.ac.th/th/staff/siridech/
+    affiliation: King Mongkut's Institute of Technology Ladkrabang, Thailand
+
+  - name: Yi Zhang
+    id: Yi_Zhang
+    img-url: ./assets/images/speakers/DLAI7/Yi_Zhang.jpeg
+    name-url: https://profiles.uts.edu.au/yi.zhang
     affiliation: University of Technology Sydney, Australia
 
-  - name: Hisao Ishibuchi
-    id: Hisao_Ishibuchi
-    img-url: ./assets/images/speakers/DLAI6/Hisao_Ishibuchi.png
-    name-url: https://faculty.sustech.edu.cn/hisao/en/
-    affiliation: Southern University of Science and Technology, China
-
-  - name: Jie Lu
-    id: Jie_Lu
-    img-url: ./assets/images/speakers/DLAI6/Jie_LU.jpg
-    name-url: https://profiles.uts.edu.au/jie.lu
-    affiliation: University of Technology Sydney, Australia
-
-  - name: Hisao Ishibuchi
-    id: Hisao_Ishibuchi
-    img-url: ./assets/images/speakers/DLAI6/Hisao_Ishibuchi.png
-    name-url: https://faculty.sustech.edu.cn/hisao/en/
-    affiliation: Southern University of Science and Technology, China
-
-  - name: Jie Lu
-    id: Jie_Lu
-    img-url: ./assets/images/speakers/DLAI6/Jie_LU.jpg
-    name-url: https://profiles.uts.edu.au/jie.lu
-    affiliation: University of Technology Sydney, Australia
-
-
+  - name: Wei Liu
+    id: Wei_Liu
+    img-url: ./assets/images/speakers/DLAI7/Wei_Liu.png
+    name-url: https://research-repository.uwa.edu.au/en/persons/wei-liu
+    affiliation: University of Western Australia, Australia
 
 committees:
-  - name: Jonathan H. Chan
-    affiliation: King Mongkut's University of Technology Thonburi (General Chair)
-
-  - name: Phayung Meesad
-    affiliation: King Mongkut's University of Technology North Bangkok
-
   - name: Kitsuchart Pasupa
     affiliation: King Mongkut's Institute of Technology Ladkrabang
+  - name: Chu Kiong Loo
+    affiliation: University of Malaya
+  - name: Guanjin Wang
+    affiliation: Murdoch University
+  - name: Kevin Wong
+    affiliation: Murdoch University
+  - name: Jonathan H. Chan
+    affiliation: King Mongkut's University of Technology Thonburi (General Chair)
+  - name: Thanyathorn Thanapattheerakul
+    affiliation: Innovative Cognitive Computing (IC2), KMUTT
+  - name: Jaturong Kongmanee
+    affiliation: University of Toronto
+  - name: Noah (Zijie) Qu
+    affiliation: University of Toronto
 
-  - name: Kuntpong Woraratpanya
-    affiliation: King Mongkut's Institute of Technology Ladkrabang
-
-  - name: Sansanee Auephanwiriyakul
-    affiliation: Chiang Mai University
 organizers:
   - site: https://www4.sit.kmutt.ac.th/
     image: /assets/images/organizers/IC2.jpg
@@ -348,3 +367,4 @@ sponsors:
   - site: https://www.acm.org/
     image: ./assets/images/sponsors/acm_logo_full.gif
     alt: ACM
+
