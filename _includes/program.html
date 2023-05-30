@@ -5,11 +5,12 @@
         <div class="col-sm-12">
             <h2 class="progam-school">Program</h2>
             <br>
-            <p>Tentative program - All times are given in ICT time (UTC+7)</p>
+            <!-- <p>Tentative program - All times are given in ICT time (UTC+7)</p> -->
+            <p>Program will be annouced soon.</p>
         </div>
     </div>
-    <ul class="nav nav-tabs" >
-    {% for tab in site.data.dlai6.programs %}
+    <ul class="nav nav-tabs" hidden>
+    {% for tab in site.data.dlai7.programs %}
         <li {% if tab.tab-ref == 'Day1' %} class="active" {% endif %} ><a data-toggle="tab" href="#{{tab.tab-ref}}">{{tab.tab-name}}</a></li>
     {% endfor %}
     </ul>

@@ -4,17 +4,17 @@
     <h4 class="committee-list">
         <br>
         <br>
-        {% for member in site.data.committee %}
-        <b><i class="fa fa-caret-right"></i> {{ member.name }}</b> 
+        {% for member in site.data.dlai7.committees %}
+        <b><i class="fa fa-caret-right"></i> {{ member.name }}</b>
         <br>
-        <span class="commit-des">{{ member.description }}</span>
+        <span class="commit-des">{{ member.affiliation }}</span>
         <br>
         {% endfor %}
         <br><br>
     </h4>
 </div>
 
-<!-- 
+<!--
 <div class="row slideanim speaker-list">
 {% for member in site.data.committee %}
 <div class="col-sm-4">
