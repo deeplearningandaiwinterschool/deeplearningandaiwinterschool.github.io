@@ -353,18 +353,40 @@ committees:
   - name: Noah (Zijie) Qu
     affiliation: University of Toronto
 
-organizers:
-  - site: https://www4.sit.kmutt.ac.th/
-    image: /assets/images/organizers/IC2.jpg
-    alt: Innovative Cognitive Computing (IC2)
-  - site: https://www4.sit.kmutt.ac.th/
-    image: ./assets/images/organizers/sit_logo_banner.jpg
-    alt: School of Information Technology
-sponsors:
-  - site: https://cis.ieee.org/
-    image: ./assets/images/sponsors/cis-logo.png
-    alt: IEEE-CIS
-  - site: https://www.acm.org/
-    image: ./assets/images/sponsors/acm_logo_full.gif
-    alt: ACM
+#### Add organizers by uncomment below
+# organizers:
+#   - site: https://www4.sit.kmutt.ac.th/
+#     image: /assets/images/organizers/IC2.jpg
+#     alt: Innovative Cognitive Computing (IC2)
+#   - site: https://www4.sit.kmutt.ac.th/
+#     image: ./assets/images/organizers/sit_logo_banner.jpg
+#     alt: School of Information Technology
 
+sponsors:
+  - site: https://www.apnns.org
+    image: ./assets/images/organizers/apnns_logo.jpg
+    alt: APNNS
+  - site: http://sites.ieee.org/thailand-cis/
+    image: ./assets/images/sponsors/ieee-cis_logo.jpg
+    alt: IEEE Computational Intelligence Society Thailand Chapter
+  - site: https://ewh.ieee.org/r10/w_australia/
+    image: ./assets/images/organizers/IEEE_CIS_WA_logo.png
+    alt: IEEE CIS WA Chapter
+  - site: https://ewh.ieee.org/r10/w_australia/
+    image: ./assets/images/organizers/ieee_wa_section.jpeg
+    alt: IEEE WA Section
+  - site: https://www.kmitl.ac.th/en
+    image: ./assets/images/organizers/kmitl_logo.jpg
+    alt: King Mongkut's Institute of Technology Ladkrabang
+  - site: https://www.um.edu.my/
+    image: ./assets/images/organizers/university_of_malaya.png
+    alt: University of Malaya
+  - site: https://www.murdoch.edu.au/
+    image: ./assets/images/organizers/murdoch_university.png
+    alt: Murdoch University
+  - site: https://www.it.kmitl.ac.th/en/
+    image: ./assets/images/organizers/SIT_KMITL.svg
+    alt: School of Information Technology, King Mongkut's Institute of Technology Ladkrabang
+  - site: https://www4.sit.kmutt.ac.th/
+    image: ./assets/images/organizers/IC2.jpg
+    alt: Innovative Cognitive Computing (IC2), KMUTT

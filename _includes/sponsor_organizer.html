@@ -1,10 +1,10 @@
 <!-- Sponsor Section -->
 <div id="sponsors-organizers" class="container-fluid text-center max-width">
     <div class="text-center">
-        <h2 class="sponsors">Sponsors</h2>
+        <h2 class="sponsors">Sponsors and Organizers</h2>
     </div>
     <div class="row text-center slideanim">
-        {% for sponsor in site.data.dlai6.sponsors %}
+        {% for sponsor in site.data.dlai7.sponsors %}
         <div class="col-sm-4">
             <div class="sponsor-logo"> <a href={{ sponsor.site }} target="_blank"> <img
                         src={{ sponsor.image }} alt={{ sponsor.alt }}></a></div>
@@ -16,10 +16,10 @@
         {% endif %}
         {% endfor %}
     </div>
-    <br><br>
+    <!-- <br><br>
     <div class="text-center">
         <h2>Organizers</h2>
-    </div>
+    </div> -->
     <div class="row text-center slideanim organizers-list">
         {% for organizer in site.data.dlai7.organizers %}
         <div class="col-sm-4">
