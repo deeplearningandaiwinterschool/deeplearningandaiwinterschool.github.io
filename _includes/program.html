@@ -6,7 +6,7 @@
             <h2 class="progam-school">Program</h2>
             <br>
             <!-- <p>Tentative program - All times are given in ICT time (UTC+7)</p> -->
-            <p>Program will be annouced soon.</p>
+            <p>Program will be announced soon.</p>
         </div>
     </div>
     <ul class="nav nav-tabs" hidden>
@@ -16,7 +16,7 @@
     </ul>
 
     <div class="tab-content program-table-vertical">
-    {% for tab in site.data.dlai6.programs %}
+    {% for tab in site.data.dlai7.programs %}
         <div id="{{tab.tab-ref}}" {% if tab.tab-ref == 'Day1' %} class="tab-pane fade in active" {% else %} class="tab-pane fade" {% endif %}>
             <h3>{{tab.title}}</h3>
             <table>
