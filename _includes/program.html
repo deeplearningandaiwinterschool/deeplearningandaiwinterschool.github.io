@@ -15,7 +15,7 @@
     {% endfor %}
     </ul>
 
-    <div class="tab-content program-table-vertical">
+    <div class="tab-content program-table-vertical" hidden>
     {% for tab in site.data.dlai7.programs %}
         <div id="{{tab.tab-ref}}" {% if tab.tab-ref == 'Day1' %} class="tab-pane fade in active" {% else %} class="tab-pane fade" {% endif %}>
             <h3>{{tab.title}}</h3>

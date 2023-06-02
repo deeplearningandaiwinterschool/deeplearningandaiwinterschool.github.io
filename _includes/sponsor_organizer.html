@@ -6,8 +6,11 @@
     <div class="row text-center slideanim">
         {% for sponsor in site.data.dlai7.sponsors %}
         <div class="col-sm-4">
-            <div class="sponsor-logo"> <a href={{ sponsor.site }} target="_blank"> <img
-                        src={{ sponsor.image }} alt={{ sponsor.alt }}></a></div>
+            <div class="sponsor-logo">
+                <a href="{{ sponsor.site }}" target="_blank">
+                    <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}">
+                </a>
+            </div>
         </div>
         {% assign w = forloop.index | modulo:3 %}
         {% if w == 0 %}
