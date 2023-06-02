@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <!-- prettier-ignore -->
+    {% seo %}
+    <!-- prettier-ignore -->
+    {% feed_meta %}
+
+    {% include google-tag.html %}
+
+    <meta name="keywords"
+        content="Artificial Intelligence, Machine Learning, Deep learning, Summer School, Winter School, IC2, SIT, KMUTT, Thailand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- main css -->
+    {% if page.css %}
+        <link rel=""stylesheet type="text/css" href="{{ page.css }}">
+    {% else %}
+        <link rel="stylesheet" type="text/css" href="css/dlai7_styles.css">
+    {% endif %}
+    <link rel="icon" type="image/png" href="{{ site.logo }}" />
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    {% include navigation.html %}
+
+
+    {{ content }}
+
+    {% include footer.html %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+</body>
+<script>
+    function checkToggle() {
+        if ($('#myNavbar')[0].classList.value == "navbar-collapse collapse in") {
+            $('#myNavbar')[0].classList.value = "navbar-collapse collapse";
+        }
+    }
+</script>
+
+</html>

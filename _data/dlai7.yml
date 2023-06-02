@@ -1,0 +1,392 @@
+news:
+  - date: 12 May 2022
+    content: Registration is now open!
+  - date: 28 May 2022
+    content: Tentative program is posted!
+
+about: The concept of deep learning (DL) has been known in the neural network community for well over a decade already. With the onset of more affordable powerful computing facilities, especially the prevalence of graphical processing units (GPUs) and tensor processing units (TPUs), DL has been applied successfully and effectively in many state-of-the-art applications including computer vision, speech recognition, object detection, drug discovery, and so on. More recently, the techniques in DL/AI are leveraged for the current COVID-19 pandemic, including in the rapid vaccine development processes. DL basically uses deep neural network architecture with multiple layers to represent data with increasing abstraction and may be applied to supervised, unsupervised, as well as reinforcement learning. Perhaps DL can be viewed in a literature sense for providing deeper insights into learning systems in general, as it continues to be one of the fastest growing and evolving fields of AI research. Current researches include deployment for COVID-19; however, there are more and more emphasis on the explainable and ethical AI aspects as well now. Our panel session will take a closer look at future deep learning machines inspired by the human brain. The Asia Pacific Neural Network Society (APNNS) is a professional society that promotes active interactions among researchers, scientists, and industry professionals who are working in Neural Networks and related fields in the Asia Pacific region. APNNS was formalized as a legal entity in 2014, having evolved from the previous Asia Pacific Neural Network Assemby (APNNA) that was established back in 1993 in Nagoya, Japan, under the leadership of Professor Shun-Ichi Amari. More information about APNNS may be obtained at the Society website - www.apnns.org.
+             <br><br>The APNNS/IEEE-CIS Education Forum series on Deep Learning and Artificial Intelligence Summer School 2022 (DLAI6) is catered to all interested students, engineers, researchers, executives, and administrators who may have some basic knowledge of machine learning and AI. The aim is to provide a forum for interested delegates to learn about certain basics as well as advances in the field of deep learning and artificial intelligence. DLAI6 would also provide an opportunity for interactions and networking. With the successful inaugural DLAI back on Feb 1-4, 2018, the second edition on Dec 10-13, 2018, the third edition on June 29 to July 3, 2020, the fourth edition on November 18-22, 2020, and the fifth edition on May 6-10, 2021, we are pleased to be able to offer the 6th DLAI at this time. The venue is online due to the continual global pandemic and it will be held from June 14-18, 2022. DLAI6 will feature Keynote and Invited Speakers from IEEE Distinguished Lecturers, ACM Distinguished Speakers, and other notable speakers. In addition to Women in Science and Engineering (WiSE) speakers, DLAI6 will continue to hold a Forum for Young Investigators (FYI) to showcase prominent young researchers sharing their experiences with us.
+             <br><br>As DLAI6 is a virtual event, it is offered free-of-charge to all registrants. All participants need to register online first. As there may be limited seating available as an online event, priorities will be given to APNNS Members, IEEE-CIS/RA/SMC Members, IEEE Members, ACM Members, and INNS Members.
+             <br><br>The DLAI6 Summer School will cover different aspects of deep learning with several talks by world renowned researchers in form of lectures/tutorials/workshops and panel sessions which will cover some of the most active current topics in DL and AI and their applications. Events include NVIDIA Deep Learning Institute (DLI) certification workshops, Kaggle micro-courses and competitions, and a customized hackathon will also be offered to provide various hands-on challenges for the participants.
+             <br><br>DLAI6 is organized by the Innovative Cognitive Computing (IC2) Research Center at School of Information Technology (SIT), King Mongkut's University of Technology Thonburi (KMUTT) and co-organized by APNNS, IEEE-CIS Thailand Chapter, Joint Chapter of IEEE CIS/RAS Western Australia Chapter, IEEE-SMC Western Australia Chapter, IEEE-CIS Vietnam Chapter, and other partner institutions, including the Technology Innovation Hub at Indian Statistical Institue (TIH@ISI) and Jadavpur University, India.
+
+programs:
+  - tab-ref: 'Day1'
+    tab-name: 'Day 1: Tue 14 Jun'
+    title: 'Day 1: Tue 14 2022 (ICT eventtime UTC+7)'
+    events:
+      - event-name: DLAI6 Opening Remarks
+        eventtime: 07.50 - 08.00 am.
+        comments: Welcome speeches
+        speaker:
+        topic:
+        is-break:
+
+      - event-name: ACM Distinguished Speaker I
+        eventtime: 08.00 - 09.00 am.
+        comments:
+        speaker: <a href='#Ronald_Baecker'><i>Ronald Baecker</i></a>, University of Toronto, Canada
+        topic: <a href='https://drive.google.com/file/d/1k4WlWbqkLAigpVYBgvlRQywtcdCgOGys/view?usp=sharing' target='_blank'>What Society Must Require from AI</a>
+
+      - event-name: Academic Talk
+        eventtime: 09.00 - 10.00 am.
+        comments:
+        speaker: <a href='#Zeng-Guang_Hou'><i>Zeng-Guang Hou</i></a>, Chinese Academy of Sciences, China
+        topic: Enhancement of Engagement Based on BCI for Active Control of Rehabilitation Robots
+
+      - event-name:
+        eventtime: 10.00 - 10.15 am.
+        comments: Group Photo and Networking
+        speaker:
+        topic:
+
+      - event-name: NVIDIA DLI Workshop I (Part I)
+        eventtime: 10.15 - 12.30 noon.
+        comments:
+        speaker: <a href='#Jonathan_Chan'><i>Jonathan H. Chan</i></a>, King Mongkut's University of Technology Thonburi, Thailand
+        topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning/' target='_blank'>Fundamentals of Deep Learning</a>
+
+      - event-name:
+        eventtime: 12.30 - 01.00 pm.
+        comments: Lunch Break, Group Photo and Networking
+        speaker:
+        topic:
+
+      - event-name: Panel Session I
+        eventtime: 01.00 - 02.30 pm.
+        comments:
+        speaker: <a href='#Nikola_Kasabov'><i>Nikola Kasabov (convener)</a>,
+                                <a href='#Soo-Young_Lee'>Soo-Young Lee</a>, <a href='#Zeng-Guang_Hou'>Zeng-Guang Hou</a>,
+                                <a href='#Taro_Toyoizumi'>Taro Toyoizumi</a>, <a href='#Seiichi_Ozawa'>Seiichi Ozawa</a>,
+                                <a href='#Jonathan_Chan'>Jonathan H. Chan</a>
+        topic: Future deep learning machines inspired by the human brain
+
+      - event-name: IEEE-CIS Distinguished Lecturer Talk I
+        eventtime: 02.30 - 03.30 pm.
+        comments:
+        speaker: <a href='#Sanaz_Mostaghim'><i>Sanaz Mostaghim</i></a>, Otto-von-Guericke Universität Magdeburg, Germany
+        topic: <a href='https://drive.google.com/file/d/1Mha7aOe9Xk1hO9UUYxaf1QyQeqMz9gZC/view?usp=sharing' target='_blank'>Recent Advances in Swarm Intelligence and Swarm Robotics</a>
+
+      - event-name: NVIDIA DLI Workshop I (Part II)
+        eventtime: 03.30 - 05.00 pm.
+        comments:
+        speaker: <a href='#Jonathan_Chan'><i>Jonathan H. Chan</i></a>, King Mongkut's University of Technology Thonburi, Thailand
+        topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning/' target='_blank'>Fundamentals of Deep Learning</a>
+
+  - tab-ref: 'Day2'
+    tab-name: 'Day 2: Wed 15 Jun'
+    title: 'Day 2: Wed 15 2022 (ICT eventtime UTC+7)'
+    events:
+      - event-name: IEEE-CIS Distinguished Lecturer Talk II
+        eventtime: 08.00 - 09.00 am.
+        comments:
+        speaker: <a href='#Jie_Lu'><i> Jie LU</i></a>, University of Technology Sydney, Australia
+        topic: <a href='https://drive.google.com/file/d/1WmTUFLneXrejiVd9q1BykxJoSikOQGgo/view?usp=sharing' target='_blank'>Fuzzy Transfer Learning</a>
+
+      - event-name: Academic Talk
+        eventtime: 09.00 - 10.00 am.
+        comments:
+        speaker:  <a href='#Guanjin_Brenda_Wang'><i>Guanjin (Brenda) Wang</i></a>, Murdoch University, Australia
+        topic: <a href='https://drive.google.com/file/d/1lhkuZ1ymj5TbtwiHflt1uADUCiEQ0DWM/view?usp=sharing' target='_blank'>Learning from imbalanced data and case studies in healthcare</a>
+
+      - event-name: Academic Talk
+        eventtime: 10.00 - 11.00 am.
+        comments:
+        speaker: <a href='#Jagdish_Chand_Bansal'><i>Jagdish Chand Bansal</i></a>, South Asian University New Delhi, India
+        topic: <a href='https://drive.google.com/file/d/18CrbnZFp78lWy3JBJJS_wayQUUmNJsnc/view?usp=sharing' target='_blank'>'Drone Swarm&#58; Concept, Challenges and Applications'</a>
+
+      - event-name:
+        eventtime: 11.00 am. - 12.00 noon.
+        comments: Lunch Break, Group Photo and Networking
+        speaker:
+        topic:
+
+      - event-name: IEEE-CIS Distinguished Lecturer Talk III
+        eventtime: 12:00 noon - 01.00 pm.
+        comments:
+        speaker: <a href='#Hisao_Ishibuchi'><i> Hisao Ishibuchi</i></a>, Southern University of Science and Technology, China
+        topic: <a href='https://drive.google.com/file/d/1M-5tjvKjAEWr3nv8vpPPBLw_d5c57Lgl/view?usp=sharing' target='_blank'>Fair Performance Comparison of Evolutionary Multi-Objective Optimization Algorithms</a>
+
+      - event-name: Academic Talk
+        eventtime: 01.00 - 02.00 pm.
+        comments:
+        speaker: <a href='#M_Tanveer'><i>M. Tanveer</i></a>, Indian Institute of Technology Indore, India
+        topic: Large Scale Machine Learning Algorithms and Applications to Alzheimer's Disease <a href='https://drive.google.com/file/d/1EIUbMJ7zUzhM3-dSQw0wf8pUpPpvOPqu/view?usp=sharing' target='_blank'>(bio)</a>
+
+      - event-name: Academic Talk
+        eventtime: 02.00 - 03.00 pm.
+        comments:
+        speaker: <a href='#Bei_Yu'><i>Bei Yu</i></a>, Chinese University of Hong Kong, Hong Kong, China
+        topic: Efficient Computing of Deep Neural Network <a href='https://drive.google.com/file/d/1rLMeVgUVSNtKAH01xtenTy9xLUGjNDzY/view?usp=sharing' target='_blank'>(bio)</a>
+
+      - event-name: Academic Talk
+        eventtime: 03.00 - 04.00 pm.
+        comments:
+        speaker: <a href='#Lipo_Wang'><i>Lipo Wang</i></a>, Nanyang Technological University, Singapore
+        topic: <a href='https://drive.google.com/file/d/1VO25uKJWSKzyFq90IuHMq3HmiiN1nhAN/view?usp=sharing' target='_blank'>Deep Learning for Image Classification</a>
+
+      - event-name: Academic Talk
+        eventtime: 04.00 - 05.00 pm.
+        comments:
+        speaker: <a href='#Chakarida_Nukoolkit'><i>Chakarida Nukoolkit</i></a>, King Mongkut's University of Technology Thonburi, Thailand
+        topic: <a href='#' target='_blank'>Data science concepts with case studies in health monitoring systems</a>
+
+  - tab-ref: 'Day3'
+    tab-name: 'Day 3: Thurs 16 Jun'
+    title: 'Day 3: Thurs 16 2022 (ICT eventtime UTC+7)'
+    events:
+      - event-name: Women in Science and Engineering (WiSE) Session
+        eventtime: 08.50 - 09.00 am.
+        comments: WiSE opening remarks
+        speaker:
+        topic:
+
+      - event-name: WiSE Academic Talk
+        eventtime: 09.00 - 10.00 am.
+        comments:
+        speaker: <a href='#Maryam_Doborjeh'><i> Maryam Doborjeh</i></a>, Auckland University of Technology, New Zealand
+        topic: <a href='https://drive.google.com/file/d/1vf-8sPTjKKQU8ADfdlixG0Pp4SK7gfZP/view?usp=sharing' target='_blank'>Brain inspired artificial intelligence technology for modelling of spatiotemporal brain data in mental and neurological applications</a>
+
+      - event-name: WiSE Academic Talk
+        eventtime: 10.00 - 11.00 am.
+        comments:
+        speaker: <a href='#Huynh_Thi_Thanh_Binh'><i>Huynh Thi Thanh Binh</i></a>, Hanoi University of Science and Technology, Vietnam
+        topic: <a href='https://drive.google.com/file/d/1VrnRXZjgcrF1xXUU0-CpAaKNeF8ABYIm/view?usp=sharing' target='_blank'>Transfer Learning for Collaborative Optimization Problems</a>
+
+      - event-name: WiSE Academic Talk
+        eventtime: 11.00 am. - 12.00 noon
+        comments:
+        speaker: <a href='#Sonali_Agarwal'><i>Sonali Agarwal</i></a>, Indian Institute of Information Technology Allahabad, India
+        topic: <a href='https://drive.google.com/file/d/1so3W3nKI2CXSz96d1bhQVfwEUhFWdGC0/view?usp=sharing' target='_blank'>Explainable AI&#58; current status and future directions</a>
+
+      - event-name: WiSE Keynote
+        eventtime: 12.00 noon - 01.00 pm.
+        comments:
+        speaker: <a href='#Hava_Siegelmann'><i> Hava T. Siegelmann</i></a>, University of Massachusetts Amherst, United States
+        topic: <a href='https://drive.google.com/file/d/1cceGBBhi4Sv3IsIEUbeDECGexEHcPLBx/view?usp=sharing' target='_blank'>Super Turing Computing Enables Lifelong Learning AI </a>
+
+      - event-name: Forum for Young Investigators (FYI) Session
+        eventtime:
+        comments:
+        speaker:
+        topic:
+
+      - event-name: ACM Distinguished Speaker II
+        eventtime: 01.00 - 02.00 pm.
+        comments:
+        speaker: <a href='#Jimmy_Cao'><i> Jimmy Cao</i></a>, University of South Australia, Australia
+        topic: <a href='https://drive.google.com/file/d/1vqdL4z4iG8hzOovblnZ0zWe36AqUw9WY/view?usp=sharing' target='_blank'>Deep Reinforcement Learning with Human Intervention Applications</a>
+
+      - event-name: WiSE Academic Talk
+        eventtime: 02.00 - 03.00 pm.
+        comments:
+        speaker: <a href='#Mamatha_Balachandra'><i> Mamatha Balachandra</i></a>, Manipal Institute of Technology, India
+        topic: CDMC & AICS&#58; Cyber Security Competition and Artificial Intelligence Workshop 2022, and Group Research Projects at MIT, Manipal <a href='https://drive.google.com/file/d/11KxQT1HVXmhyjZuawIF_7Kbpv3yLiZPx/view?usp=sharing' target='_blank'>(bio)</a>
+
+      - event-name: Forum for Young Investigators (FYI) Session I
+        eventtime: 03.00 - 04.00 pm.
+        comments:
+        speaker: # <a href='#Huynh_Thi_Thanh_Binh'><i>Huynh Thi Thanh Binh</i></a>, Hanoi University of Science and Technology, Vietnam
+        topic: <a href='#' target='_blank'>Introduction to Hyperspectral Image Classification</a>
+
+      - event-name: Hackathon/Competition + Networking
+        eventtime: 04.00 - 05.00 pm.
+        comments:
+        speaker:
+        topic: Hackathon/Competition + Networking
+
+  - tab-ref: 'Day4'
+    tab-name: 'Day 4: Fri 17 Jun'
+    title: 'Day 4: Fri 17 2022 (ICT eventtime UTC+7)'
+    events:
+      - event-name: Academic Talk
+        eventtime: 08.00 - 09.00 am
+        comments:
+        speaker: <a href='#Mark_Chignell'><i>Mark Chignell</i></a>, University of Toronto, Canada
+        topic: <a href='https://drive.google.com/file/d/1zQySsraoWpCXOlBp1EmcWRHHE7bo1s0K/view?usp=sharing' target='_blank'>A Computational Approach to Measuring and Managing Cognitive Decline in Older People</a>
+
+      - event-name: Academic Talk
+        eventtime: 09.00 - 10.00 am.
+        comments:
+        speaker: <a href='#Taro_Toyoizumi'><i>Taro Toyoizumi</i></a>, RIKEN Center for Brain Science, Japan
+        topic: <a href='https://drive.google.com/file/d/1TrAzIvAklXCkRkteCfyrG2ev6Xz3HZO6/view?usp=sharing' target='_blank'>Exploring the learning principle in the brain</a>
+
+      - event-name: Academic Talk
+        eventtime: 10.00 - 11.00 am.
+        comments:
+        speaker: <a href='#Phayung_Meesad'><i>Phayung Meesad</i></a>
+        topic: <a href='https://drive.google.com/file/d/1mVyTWomEPASou2vJ1K5pcN8EfZ97W4cd/view?usp=sharing' target='_blank'>Deep Learning for Image and Natural Language Understanding</a>
+
+      - event-name: Academic Talk
+        eventtime: 11.00 am. - 12.00 noon
+        comments:
+        speaker: <a href='#Tuan_Pham'><i>Tuan D. Pham</i></a>
+        topic: <a href='https://drive.google.com/file/d/1yyZYGKZ7xHBaD0538CCEJexC7KVl66MC/view?usp=sharing' target='_blank'>Fuzzy Recurrence Plots and Deep Learning for Biomedical Data Analyses</a>
+
+      - event-name:
+        eventtime: 12.00 noon - 01.00 pm.
+        comments: Lunch Break
+        speaker:
+        topic:
+
+      - event-name: Industry Talk
+        eventtime: 01.00 - 02.00 pm.
+        comments:
+        speaker: <a href='#Udom_Silparcha'><i>Udom Silparcha</i></a>
+        topic: <a href='https://drive.google.com/file/d/1c8gUP11gcuxI2RWMgJCSUuIeXfnwI0Yi/view?usp=sharing' target='_blank'>Introduction to Financial Trading</a>
+
+      - event-name: Hackathon Session II + Networking
+        eventtime: 02.00 - 05.00 pm.
+        comments:
+        speaker:
+        topic: <a href='#' target='_blank'> </a>Hackathon/Competition + networking
+
+  - tab-ref: 'Day5'
+    tab-name: 'Day 5: Sat 18 Jun'
+    title: 'Day 5: Sat 18 2022 (ICT eventtime UTC+7)'
+    events:
+      - event-name: Academic Talk
+        eventtime: 08.00 - 09.00 am
+        comments:
+        speaker: <a href='#Ruck_Thawonmas'><i>Ruck Thawonmas</i></a>, Ritsumeikan University, Japan
+        topic: <a href='https://drive.google.com/file/d/17xi_LlAp-QRlT2jfVRlU7tQzXv_Nr5EH/view?usp=sharing' target='_blank'>Fighting Game Research Through a Competition Platform</a>
+
+      - event-name: NVIDIA DLI Workshop II (Part I)
+        eventtime: 09.00 am. - 12.00 noon
+        comments:
+        speaker: <a href='#Chantana_Chantrapornchai'><i>Chantana Chantrapornchai</i></a>, Kasetsart University, Thailand
+        topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning-for-multi-gpus/' target='_blank'>Fundamentals of Deep Learning for Multi-GPUs</a>
+
+      - event-name:
+        eventtime: 12.00 noon - 01.00 pm.
+        comments: Lunch Break
+        speaker:
+        topic:
+
+      - event-name:
+        eventtime: 01.00 - 04.00 pm.
+        comments:
+        speaker: <a href='#Chantana_Chantrapornchai'><i>Chantana Chantrapornchai</i></a>, Kasetsart University, Thailand
+        topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning-for-multi-gpus/' target='_blank'>Fundamentals of Deep Learning for Multi-GPUs</a>
+
+      - event-name:
+        eventtime: 04.00 - 04.15 pm.
+        comments: Group Photo and Networking
+        speaker:
+        topic:
+
+      - event-name: Hackathon Session III + wrap up
+        eventtime: 04.15 - 05.00 pm.
+        comments: Wrap up of DLAI6 hackathon session + closing remarks
+        speaker:
+        topic:
+speakers:
+  - name: Hamid Laga
+    id: Hamid_Laga
+    img-url: ./assets/images/speakers/DLAI7/Hamid_Laga.jpeg
+    name-url: https://researchportal.murdoch.edu.au/esploro/profile/hamid_laga
+    affiliation: Murdoch University, Australia
+
+  - name: Naoyuki Kubota
+    id: Naoyuki_Kubota
+    img-url: ./assets/images/speakers/female-holder.jpeg
+    name-url: https://www.comp.sd.tmu.ac.jp/kubota-lab/
+    affiliation: Tokyo Metropolitan University, Japan
+
+  - name: Hwee Kuan Lee
+    id: Hwee_Kuan_Lee
+    img-url: ./assets/images/speakers/DLAI7/Hwee_Kuan_Lee.png
+    name-url: https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-hwee-kuan-lee
+    affiliation: Agency for Science, Technology and Research, Singapore
+
+  - name: Susanto Rahardja
+    id: Susanto_Rahardja
+    img-url: ./assets/images/speakers/DLAI7/Susanto_Rahardja.jpg
+    name-url: https://www.singaporetech.edu.sg/directory/faculty/susanto-rahardja
+    affiliation: Singapore Institute of Technology, Singapore
+
+  - name: Sriparna Saha
+    id: Sriparna_Saha
+    img-url: ./assets/images/speakers/DLAI7/Sriparna_Saha.jpeg
+    name-url: https://www.iitp.ac.in/~sriparna/
+    affiliation: Indian Institute of Technolgy, Patna, India
+
+  - name: Asif Ekbal
+    id: Asif_Ekbal
+    img-url: ./assets/images/speakers/DLAI7/Asif_Ekbal.jpeg
+    name-url: https://www.asifekbal.com/
+    affiliation: Indian Institute of Technolgy, Patna, India
+
+  - name: Siridech Boonsang
+    id: Siridech_Boonsang
+    img-url: ./assets/images/speakers/DLAI7/Siridech_Boonsang.jpeg
+    name-url: https://www.it.kmitl.ac.th/th/staff/siridech/
+    affiliation: King Mongkut's Institute of Technology Ladkrabang, Thailand
+
+  - name: Yi Zhang
+    id: Yi_Zhang
+    img-url: ./assets/images/speakers/DLAI7/Yi_Zhang.jpeg
+    name-url: https://profiles.uts.edu.au/yi.zhang
+    affiliation: University of Technology Sydney, Australia
+
+  - name: Wei Liu
+    id: Wei_Liu
+    img-url: ./assets/images/speakers/DLAI7/Wei_Liu.png
+    name-url: https://research-repository.uwa.edu.au/en/persons/wei-liu
+    affiliation: University of Western Australia, Australia
+
+committees:
+  - name: Kitsuchart Pasupa
+    affiliation: King Mongkut's Institute of Technology Ladkrabang
+  - name: Chu Kiong Loo
+    affiliation: University of Malaya
+  - name: Guanjin Wang
+    affiliation: Murdoch University
+  - name: Kevin Wong
+    affiliation: Murdoch University
+  - name: Jonathan H. Chan
+    affiliation: King Mongkut's University of Technology Thonburi (General Chair)
+  - name: Thanyathorn Thanapattheerakul
+    affiliation: Innovative Cognitive Computing (IC2), KMUTT
+  - name: Jaturong Kongmanee
+    affiliation: University of Toronto
+  - name: Noah (Zijie) Qu
+    affiliation: University of Toronto
+
+#### Add organizers by uncomment below
+# organizers:
+#   - site: https://www4.sit.kmutt.ac.th/
+#     image: /assets/images/organizers/IC2.jpg
+#     alt: Innovative Cognitive Computing (IC2)
+#   - site: https://www4.sit.kmutt.ac.th/
+#     image: ./assets/images/organizers/sit_logo_banner.jpg
+#     alt: School of Information Technology
+
+sponsors:
+  - site: https://www.apnns.org
+    image: ./assets/images/organizers/apnns_logo.jpg
+    alt: APNNS
+  - site: http://sites.ieee.org/thailand-cis/
+    image: ./assets/images/sponsors/ieee-cis_logo.jpg
+    alt: IEEE Computational Intelligence Society Thailand Chapter
+  - site: https://ewh.ieee.org/r10/w_australia/
+    image: ./assets/images/organizers/IEEE_CIS_WA_logo.png
+    alt: IEEE CIS WA Chapter
+  - site: https://ewh.ieee.org/r10/w_australia/
+    image: ./assets/images/organizers/ieee_wa_section.jpeg
+    alt: IEEE WA Section
+  - site: https://www.kmitl.ac.th/en
+    image: ./assets/images/organizers/kmitl_logo.jpg
+    alt: King Mongkut's Institute of Technology Ladkrabang
+  - site: https://www.um.edu.my/
+    image: ./assets/images/organizers/university_of_malaya.png
+    alt: University of Malaya
+  - site: https://www.murdoch.edu.au/
+    image: ./assets/images/organizers/murdoch_university.png
+    alt: Murdoch University
+  - site: https://www.it.kmitl.ac.th/en/
+    image: ./assets/images/organizers/SIT_KMITL.svg
+    alt: School of Information Technology, King Mongkut's Institute of Technology Ladkrabang
+  - site: https://www4.sit.kmutt.ac.th/
+    image: ./assets/images/organizers/IC2.jpg
+    alt: Innovative Cognitive Computing (IC2), KMUTT

@@ -1,0 +1,29 @@
+<!-- Committee Section -->
+<div id="committee" class="container-fluid max-width">
+    <h2 class="row text-center col-sm-12">Organizing Committee</h2>
+    <h4 class="committee-list">
+        <br>
+        <br>
+        {% for member in site.data.dlai7.committees %}
+        <b><i class="fa fa-caret-right"></i> {{ member.name }}</b>
+        <br>
+        <span class="commit-des">{{ member.affiliation }}</span>
+        <br>
+        {% endfor %}
+        <br><br>
+    </h4>
+</div>
+
+<!--
+<div class="row slideanim speaker-list">
+{% for member in site.data.committee %}
+<div class="col-sm-4">
+    <div class="speaker" id={person.name}> <img class="thumbnail-circle" src={{speaker.img-url}} alt={{speaker.name}}>
+        <a href={{speaker.name-url}} target="_blank">
+            <h4>{{member.name}}</h4>
+        </a>
+        {{member.description}}
+    </div>
+</div>
+</div>
+{% endfor %} -->

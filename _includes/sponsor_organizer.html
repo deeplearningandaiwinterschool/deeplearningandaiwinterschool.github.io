@@ -1,0 +1,37 @@
+<!-- Sponsor Section -->
+<div id="sponsors-organizers" class="container-fluid text-center max-width">
+    <div class="text-center">
+        <h2 class="sponsors">Sponsors and Organizers</h2>
+    </div>
+    <div class="row text-center slideanim">
+        {% for sponsor in site.data.dlai7.sponsors %}
+        <div class="col-sm-4">
+            <div class="sponsor-logo"> <a href={{ sponsor.site }} target="_blank"> <img
+                        src={{ sponsor.image }} alt={{ sponsor.alt }}></a></div>
+        </div>
+        {% assign w = forloop.index | modulo:3 %}
+        {% if w == 0 %}
+    </div>
+    <div class="row text-center slideanim">
+        {% endif %}
+        {% endfor %}
+    </div>
+    <!-- <br><br>
+    <div class="text-center">
+        <h2>Organizers</h2>
+    </div> -->
+    <div class="row text-center slideanim organizers-list">
+        {% for organizer in site.data.dlai7.organizers %}
+        <div class="col-sm-4">
+            <div class="sponsor-logo"> <a href={{ organizer.site }} target="_blank"> <img
+                        src={{ organizer.image }} alt= {{ organizer.alt }}></a></div>
+        </div>
+        {% assign w = forloop.index | modulo:3 %}
+        {% if w == 0 %}
+    </div>
+    <div class="row text-center slideanim">
+        {% endif %}
+        {% endfor %}
+    </div>
+    <br><br>
+</div>
