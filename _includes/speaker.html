@@ -6,28 +6,22 @@
             <h2 class="speakers-text">Speakers</h2>
         </div>
     </div>
-    <div class="row" hidden>
-        <div class="col-sm-12">
-            <h2 class="speakers-text">Academic</h2><br>
-        </div>
-    </div>
     <div class="row slideanim speaker-list">
-        <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day" hidden>Day 1</p></div>
+        <!-- <div class="col-sm-12"><p class="font-weight-bold text-left speaker-by-day" hidden>Day 1</p></div> -->
         {% for speaker in site.data.dlai7.speakers %}
-        <div class="col-sm-4">
-            <div class="speaker" id={{speaker.name}}> <img class="thumbnail-circle" src={{speaker.img-url}}
-                    alt={{speaker.name}}>
-                <a href={{speaker.name-url}} target="_blank">
-                    <h4>{{speaker.name}}</h4>
-                </a>
-                {{speaker.affiliation}}
+            <div class="col-sm-4">
+                <div class="speaker" id="{{speaker.id}}"> <img class="thumbnail-circle" src="{{speaker.img-url}}" alt="{{speaker.id}}">
+                    <a href="{{speaker.name-url}}" target="_blank">
+                        <h4>{{speaker.name}}</h4>
+                    </a>
+                    {{speaker.affiliation}}
+                </div>
             </div>
-        </div>
-        {% assign w = forloop.index | modulo:3 %}
-        {% if w == 0 %}
-    </div>
-    <div class="row text-center slideanim">
-        {% endif %}
+            {% assign w = forloop.index | modulo:3 %}
+            {% if w == 0 %}
+                </div>
+                <div class="row text-center slideanim">
+            {% endif %}
         {% endfor %}
     </div>
 </div>
