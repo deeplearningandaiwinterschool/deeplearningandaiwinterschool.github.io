@@ -2,25 +2,24 @@
 <div id="update" class="container-fluid text-center max-width">
     <div class="row text-left">
         <div class="col-sm-8">
-                <div id="series-title">
-                    <p>APNNS/IEEE-CIS Education Forum Series:</p>
-                </div>
-                <div id="event-title">
-                    <span>Deep Learning and Artificial Intelligence Summer/Winter School 2023 (DLAI7)</span>
-                </div>
-                <div id="date-location-info">
-                    <span >17 - 18 July, 2023, Online virtually (ICT time)</span>
-                </div>
+            <div id="series-title">
+                <p>APNNS/IEEE-CIS Education Forum Series:</p>
+            </div>
+            <div id="event-title">
+                <span>Deep Learning and Artificial Intelligence Summer/Winter School 2023 (DLAI7)</span>
+            </div>
+            <div id="date-location-info">
+                <span >17 - 18 July, 2023, Online virtually (ICT time)</span>
+            </div>
         </div>
+
         <div class="col-sm-4">
-            <!-- <h2>NEWS</h2>
-            <br> -->
-            <div class="update-info" hidden>
+            <div class="update-info">
                 <h3>News</h3>
                 <ul class="update-bullet">
-                    <li>[30 Apr 2021] <a href="#program">Program schedule</a> is now confirmed! All times are given in ICT time (UTC/GMT+7)</li>
-                    <li>[8 Apr 2021] <a href="#program">Tentative program</a> is now posted!</li>
-                    <li>[8 Apr 2021] <a href="#registration">Registration</a> is now open <a href="https://bit.ly/3dEvOWV" target="_blank">here</a>!</li>
+                    {% for n in site.data.dlai7.news %}
+                        <li>[{{n.date}}] - {{n.text}} </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
