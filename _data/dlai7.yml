@@ -286,17 +286,17 @@ programs:
     #     topic:
 
 speakers:
+  - name: Asif Ekbal
+    id: Asif_Ekbal
+    img-url: ./assets/images/speakers/DLAI7/Asif_Ekbal.jpeg
+    name-url: https://www.asifekbal.com/
+    affiliation: Indian Institute of Technolgy, Patna, India
+
   - name: Hamid Laga
     id: Hamid_Laga
     img-url: ./assets/images/speakers/DLAI7/Hamid_Laga.jpeg
     name-url: https://researchportal.murdoch.edu.au/esploro/profile/hamid_laga
     affiliation: Murdoch University, Australia
-
-  - name: Naoyuki Kubota
-    id: Naoyuki_Kubota
-    img-url: ./assets/images/speakers/DLAI7/Naoyuki_Kubota.jpeg
-    name-url: https://www.comp.sd.tmu.ac.jp/kubota-lab/
-    affiliation: Tokyo Metropolitan University, Japan
 
   - name: Hwee Kuan Lee
     id: Hwee_Kuan_Lee
@@ -304,47 +304,29 @@ speakers:
     name-url: https://www.a-star.edu.sg/cfar/about-cfar/our-team/dr-hwee-kuan-lee
     affiliation: Agency for Science, Technology and Research, Singapore
 
-  - name: Xiaofeng Liu
-    id: Xiaofeng_Liu
-    img-url: ./assets/images/speakers/DLAI7/Xiaofeng_Liu.jpeg
-    name-url: https://jszy.hhu.edu.cn/lxf100_en/
-    affiliation: Hohai University, China
-
-  - name: Sriparna Saha
-    id: Sriparna_Saha
-    img-url: ./assets/images/speakers/DLAI7/Sriparna_Saha.jpeg
-    name-url: https://www.iitp.ac.in/~sriparna/
-    affiliation: Indian Institute of Technolgy, Patna, India
-
-  - name: Asif Ekbal
-    id: Asif_Ekbal
-    img-url: ./assets/images/speakers/DLAI7/Asif_Ekbal.jpeg
-    name-url: https://www.asifekbal.com/
-    affiliation: Indian Institute of Technolgy, Patna, India
-
-  - name: Siridech Boonsang
-    id: Siridech_Boonsang
-    img-url: ./assets/images/speakers/DLAI7/Siridech_Boonsang.jpeg
-    name-url: https://www.it.kmitl.ac.th/th/staff/siridech/
-    affiliation: King Mongkut's Institute of Technology Ladkrabang, Thailand
-
-  - name: Yi Zhang
-    id: Yi_Zhang
-    img-url: ./assets/images/speakers/DLAI7/Yi_Zhang.jpeg
-    name-url: https://profiles.uts.edu.au/yi.zhang
-    affiliation: University of Technology Sydney, Australia
-
-  - name: Wei Liu
-    id: Wei_Liu
-    img-url: ./assets/images/speakers/DLAI7/Wei_Liu.png
-    name-url: https://research-repository.uwa.edu.au/en/persons/wei-liu
-    affiliation: University of Western Australia, Australia
-
   - name: Joni Zhong
     id: Joni_Zhong
     img-url: ./assets/images/speakers/DLAI7/Joni_Zhong.png
     name-url: https://www.polyu.edu.hk/en/rs/people/research-assistant-professors/dr-joni-zhong/
     affiliation: Hong Kong Polytechnic University, Hong Kong
+
+  - name: Kwan Hoong Ng
+    id: Kwan_Hoong_Ng
+    img-url: ./assets/images/speakers/DLAI7/Kwan_Hoong_Ng.jpeg
+    name-url: https://umexpert.um.edu.my/ngkh.html
+    affiliation: Universiti Malaya, Malaysia
+
+  - name: Md Zakir Hossain
+    id: Md_Zakir_Hossain
+    img-url: ./assets/images/speakers/DLAI7/Md_Zakir_Hossain.jpeg
+    name-url: https://staffportal.curtin.edu.au/staff/profile/view/md-zakir-hossain-4fd95ece/
+    affiliation: Curtin University, Australia
+
+  - name: Naoyuki Kubota
+    id: Naoyuki_Kubota
+    img-url: ./assets/images/speakers/DLAI7/Naoyuki_Kubota.jpeg
+    name-url: https://www.comp.sd.tmu.ac.jp/kubota-lab/
+    affiliation: Tokyo Metropolitan University, Japan
 
   - name: Siamak Mehrkanoon
     id: Siamak_Mehrkanoon
@@ -352,11 +334,35 @@ speakers:
     name-url: https://sites.google.com/view/siamak-mehrkanoon/homepage
     affiliation: Utrecht University, Netherland
 
-  - name: Kwan Hoong Ng
-    id: Kwan_Hoong_Ng
-    img-url: ./assets/images/speakers/DLAI7/Kwan_Hoong_Ng.jpeg
-    name-url: https://umexpert.um.edu.my/ngkh.html
-    affiliation: Universiti Malaya, Malaysia
+  - name: Siridech Boonsang
+    id: Siridech_Boonsang
+    img-url: ./assets/images/speakers/DLAI7/Siridech_Boonsang.jpeg
+    name-url: https://www.it.kmitl.ac.th/th/staff/siridech/
+    affiliation: King Mongkut's Institute of Technology Ladkrabang, Thailand
+
+  - name: Sriparna Saha
+    id: Sriparna_Saha
+    img-url: ./assets/images/speakers/DLAI7/Sriparna_Saha.jpeg
+    name-url: https://www.iitp.ac.in/~sriparna/
+    affiliation: Indian Institute of Technolgy, Patna, India
+
+  - name: Wei Liu
+    id: Wei_Liu
+    img-url: ./assets/images/speakers/DLAI7/Wei_Liu.png
+    name-url: https://research-repository.uwa.edu.au/en/persons/wei-liu
+    affiliation: University of Western Australia, Australia
+
+  - name: Xiaofeng Liu
+    id: Xiaofeng_Liu
+    img-url: ./assets/images/speakers/DLAI7/Xiaofeng_Liu.jpeg
+    name-url: https://jszy.hhu.edu.cn/lxf100_en/
+    affiliation: Hohai University, China
+
+  - name: Yi Zhang
+    id: Yi_Zhang
+    img-url: ./assets/images/speakers/DLAI7/Yi_Zhang.jpeg
+    name-url: https://profiles.uts.edu.au/yi.zhang
+    affiliation: University of Technology Sydney, Australia
 
 #### Registration
 #### status: [open|closed]
@@ -408,7 +414,7 @@ sponsors:
     image: ./assets/images/organizers/kmitl_logo.jpg
     alt: King Mongkut's Institute of Technology Ladkrabang
   - site: https://www.um.edu.my/
-    image: ./assets/images/organizers/university_of_malaya.png
+    image: ./assets/images/organizers/university_of_malaya.jpeg
     alt: University of Malaya
   - site: https://www.murdoch.edu.au/
     image: ./assets/images/organizers/murdoch_university.png
