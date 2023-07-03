@@ -18,7 +18,7 @@ programs:
     events:
       - event-name: DLAI7 Opening Remarks
         eventtime: 08:50 - 09:00 am.
-        comments: Welcome speeches by President of APNNS
+        comments: Welcome speeches by President of APNNS and Director of IEEE R10 (Asia Pacific)
         speaker:
         topic:
         is-break:
@@ -48,7 +48,7 @@ programs:
       #   topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning/' target='_blank'>Fundamentals of Deep Learning</a>
 
       - event-name:
-        eventtime: 12:00 - 01:00 pm.
+        eventtime: 12:00 - 01:30 pm.
         comments: Lunch Break
         speaker:
         topic:
@@ -106,7 +106,7 @@ programs:
         topic: AI + Informetrics for Tracking Technological Change
 
       - event-name:
-        eventtime: 12:00 - 01:00 pm.
+        eventtime: 12:00 - 01:30 pm.
         comments: Lunch Break
         speaker:
         topic:
@@ -135,9 +135,9 @@ programs:
       #   speaker: <a href='#Chakarida_Nukoolkit'><i>Chakarida Nukoolkit</i></a>, King Mongkut's University of Technology Thonburi, Thailand
       #   topic: <a href='#' target='_blank'>Data science concepts with case studies in health monitoring systems</a>
 
-  # - tab-ref: 'Day3'
-  #   tab-name: 'Day 3: Thurs 16 Jun'
-  #   title: 'Day 3: Thurs 16 2022 (ICT eventtime UTC+7)'
+  - tab-ref: 'Day3'
+    tab-name: 'Day 3: Wed 19 Jul, 2023'
+    title: 'Day 3: Wed 19 Jul, 2023 (ICT eventtime UTC+7)'
   #   events:
   #     - event-name: Women in Science and Engineering (WiSE) Session
   #       eventtime: 08.50 - 09.00 am.
@@ -199,9 +199,9 @@ programs:
   #       speaker:
   #       topic: Hackathon/Competition + Networking
 
-  # - tab-ref: 'Day4'
-  #   tab-name: 'Day 4: Fri 17 Jun'
-  #   title: 'Day 4: Fri 17 2022 (ICT eventtime UTC+7)'
+  - tab-ref: 'Day4'
+    tab-name: 'Day 4: Thu 20 Jul, 2023'
+    title: 'Day 4: Thu 20 Jul, 2023 (ICT eventtime UTC+7)'
   #   events:
   #     - event-name: Academic Talk
   #       eventtime: 08.00 - 09.00 am
@@ -245,9 +245,9 @@ programs:
   #       speaker:
   #       topic: <a href='#' target='_blank'> </a>Hackathon/Competition + networking
 
-  # - tab-ref: 'Day5'
-    # tab-name: 'Day 5: Sat 18 Jun'
-    # title: 'Day 5: Sat 18 2022 (ICT eventtime UTC+7)'
+  - tab-ref: 'Day5'
+    tab-name: 'Day 5: Fri 21 Jul, 2023'
+    title: 'Day 5: Fri 21 Jul, 2023 (ICT eventtime UTC+7)'
     # events:
     #   - event-name: Academic Talk
     #     eventtime: 08.00 - 09.00 am
@@ -387,6 +387,12 @@ committees:
     affiliation: University of Toronto
   - name: Noah (Zijie) Qu
     affiliation: University of Toronto
+  - name: Ashish Ghosh
+    affiliation: Indian Statistical Institute
+  - name: Susmita Ghosh
+    affiliation: Jadavpur University
+  - name: Huynh Thi Thanh Binh
+    affiliation: Hanoi University of Science and Technology
 
 #### Add organizers by uncomment below
 # organizers:
@@ -425,3 +431,13 @@ sponsors:
   - site: https://www4.sit.kmutt.ac.th/
     image: ./assets/images/organizers/IC2.jpg
     alt: Innovative Cognitive Computing (IC2), KMUTT
+  - site:
+    image: ./assets/images/organizers/CIS-Vietnam.png
+    alt: IEEE CIS - Vietnam
+  - site: https://www.isical.ac.in/
+    image: ./assets/images/organizers/ISI_logo.jpg
+    alt: Indian Statistical Institute
+  - site: http://www.jaduniv.edu.in/
+    image: ./assets/images/organizers/Jadavpur_logo.jpg
+    alt: Jadavpur University
+
