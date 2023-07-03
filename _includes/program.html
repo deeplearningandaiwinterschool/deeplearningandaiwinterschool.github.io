@@ -19,6 +19,7 @@
     {% for tab in site.data.dlai7.programs %}
         <div id="{{tab.tab-ref}}" {% if tab.tab-ref == 'Day1' %} class="tab-pane fade in active" {% else %} class="tab-pane fade" {% endif %}>
             <h3>{{tab.title}}</h3>
+            {% if tab.events %}
             <table>
                 <thead>
                     <tr>
@@ -27,36 +28,39 @@
                     </tr>
                 </thead>
                 <tbody>
-                  {% for event in tab.events %}
-                    <tr>
-                        {% if event.event-name %}
-                        <td colspan="2" class="program-table-header">{{event.event-name}}</td>
+                    {% for event in tab.events %}
+                        <tr>
+                            {% if event.event-name %}
+                            <td colspan="2" class="program-table-header">{{event.event-name}}</td>
+                            {% endif %}
+                        </tr>
+                        {% assign s = event.event-name | size %}
+                        {% if s == 0 %}
+                        <tr class="table-row-break">
+                        {% else %}
+                        <tr>
                         {% endif %}
-                    </tr>
-                    {% assign s = event.event-name | size %}
-                    {% if s == 0 %}
-                    <tr class="table-row-break">
-                    {% else %}
-                    <tr>
-                    {% endif %}
-                        {% if event.eventtime %}
-                        <td>{{event.eventtime}}</td>
-                        {% endif %}
-                        <td>
-                            {% if event.comments %}
-                            {{event.comments }}<br>
+                            {% if event.eventtime %}
+                            <td>{{event.eventtime}}</td>
                             {% endif %}
-                            {% if event.speaker %}
-                            <b>Speaker: </b>{{event.speaker }}<br>
-                            {% endif %}
-                            {% if event.topic %}
-                            <b>Topic: </b> {{event.topic }}
-                            {% endif %}
-                        </td>
-                    </tr>
+                            <td>
+                                {% if event.comments %}
+                                {{event.comments }}<br>
+                                {% endif %}
+                                {% if event.speaker %}
+                                <b>Speaker: </b>{{event.speaker }}<br>
+                                {% endif %}
+                                {% if event.topic %}
+                                <b>Topic: </b> {{event.topic }}
+                                {% endif %}
+                            </td>
+                        </tr>
                     {% endfor %}
                 </tbody>
             </table>
+            {% else %}
+                Program will be announced soon.
+            {% endif %}
         </div>
     {% endfor %}
     </div>
