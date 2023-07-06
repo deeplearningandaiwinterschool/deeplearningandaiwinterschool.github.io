@@ -137,7 +137,7 @@ programs:
 
   - tab-ref: 'Day3'
     tab-name: 'Day 3: Wed 19 Jul, 2023'
-    title: 'Day 3: Wed 19 Jul, 2023 (ICT eventtime UTC+7)'
+    title: 'Day 3: Wed 19 Jul, 2023 (ICT eventtime UTC+8)'
   #   events:
   #     - event-name: Women in Science and Engineering (WiSE) Session
   #       eventtime: 08.50 - 09.00 am.
@@ -201,7 +201,7 @@ programs:
 
   - tab-ref: 'Day4'
     tab-name: 'Day 4: Thu 20 Jul, 2023'
-    title: 'Day 4: Thu 20 Jul, 2023 (ICT eventtime UTC+7)'
+    title: 'Day 4: Thu 20 Jul, 2023 (ICT eventtime UTC+8)'
   #   events:
   #     - event-name: Academic Talk
   #       eventtime: 08.00 - 09.00 am
@@ -247,7 +247,7 @@ programs:
 
   - tab-ref: 'Day5'
     tab-name: 'Day 5: Fri 21 Jul, 2023'
-    title: 'Day 5: Fri 21 Jul, 2023 (ICT eventtime UTC+7)'
+    title: 'Day 5: Fri 21 Jul, 2023 (ICT eventtime UTC+8)'
     # events:
     #   - event-name: Academic Talk
     #     eventtime: 08.00 - 09.00 am
