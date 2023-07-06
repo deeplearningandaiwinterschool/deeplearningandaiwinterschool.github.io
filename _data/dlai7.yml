@@ -17,26 +17,26 @@ programs:
     title: 'Day 1: Mon 17 Jul, 2023 (ICT eventtime UTC+7)'
     events:
       - event-name: DLAI7 Opening Remarks
-        eventtime: 08:50 - 09:00 am.
+        eventtime: 07:50 - 08:00 am.
         comments: Welcome speeches by President of APNNS and Director of IEEE R10 (Asia Pacific)
         speaker:
         topic:
         is-break:
 
       - event-name:
-        eventtime: 09:00 - 10:00 am.
+        eventtime: 08:00 - 9:00 am.
         comments:
         speaker: <a href='#Naoyuki_Kubota'><i>Naoyuki Kubota</i></a>
         topic: Topological Intelligence and Topological Clustering
 
       - event-name:
-        eventtime: 10:00 - 11:00 am.
+        eventtime: 9:00 - 10:00 am.
         comments:
         speaker: <a href='#Xiaofeng_Liu'><i>Xiaofeng Liu</i></a>
         topic: Affective Human-Robot Interaction
 
       - event-name:
-        eventtime: 11:00 am. - 12:00 pm.
+        eventtime: 10:00 am. - 11:00 am.
         comments:
         speaker: <a href='#Sriparna_Saha'><i>Sriparna Saha</i></a>
         topic: AI/ML Applications in Digital Health
@@ -48,31 +48,31 @@ programs:
       #   topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning/' target='_blank'>Fundamentals of Deep Learning</a>
 
       - event-name:
-        eventtime: 12:00 - 01:30 pm.
+        eventtime: 11:00 am. - 12:30 pm.
         comments: Lunch Break
         speaker:
         topic:
 
       - event-name:
-        eventtime: 01:30 - 02.30 pm.
+        eventtime: 12:30 - 01.30 pm.
         comments:
         speaker: <a href='#Hamid_Laga'><i>Hamid Laga</a>
         topic: Deep Learning-based 3D/4D Reconstruction and Analysis
 
       - event-name:
-        eventtime: 02:30 - 03:30 pm.
+        eventtime: 01:30 - 02:30 pm.
         comments:
         speaker: <a href='#Joni_Zhong'><i>Joni Zhong</i></a>
         topic: Human centered AI for health care
 
       - event-name:
-        eventtime: 03:30 - 04:30 pm.
+        eventtime: 02:30 - 03:30 pm.
         comments:
         speaker: <a href='#Hwee_Kuan_Lee'><i>Hwee Kuan Lee</i></a>
         topic: "APOLLO: AI Driven CT Coronary Angiography for Clinical and industrial applications"
 
       - event-name:
-        eventtime: 04:30 - 05:30 pm.
+        eventtime: 03:30 - 04:30 pm.
         comments:
         speaker: <a href='#Kwan_Hoong_Ng'><i>Kwan Hoong Ng</i></a>
         topic: Grand Challenges of AI in Medical Imaging
@@ -88,43 +88,43 @@ programs:
       #   topic: <a href='https://drive.google.com/file/d/1WmTUFLneXrejiVd9q1BykxJoSikOQGgo/view?usp=sharing' target='_blank'>Fuzzy Transfer Learning</a>
 
       - event-name:
-        eventtime: 09:00 - 10:00 am.
+        eventtime: 08:00 - 9:00 am.
         comments:
         speaker:  Md Zakir Hossain
         topic: Deep Learning for Assessing and Supporting Autistic Individuals
 
       - event-name:
-        eventtime: 10:00 - 11:00 am.
+        eventtime: 9:00 - 10:00 am.
         comments:
         speaker: <a href='#Wei_Liu'><i>Wei Liu</i></a>
         topic: Query Embeddings for Multi-hop Reasoning Over Knowledge Graphs
 
       - event-name:
-        eventtime: 11:00 am. - 12:00 pm.
+        eventtime: 10:00 am. - 11:00 pm.
         comments:
         speaker: <a href='#Yi_Zhang'><i>Yi Zhang</i></a>
         topic: AI + Informetrics for Tracking Technological Change
 
       - event-name:
-        eventtime: 12:00 - 01:30 pm.
+        eventtime: 11:00 am. - 12:30 pm.
         comments: Lunch Break
         speaker:
         topic:
 
       - event-name:
-        eventtime: 01:30 - 02:30 pm.
+        eventtime: 12:30 - 01:30 pm.
         comments:
         speaker: <a href='#Asif_Ekbal'><i>Asif Ekbal</i></a>
         topic: Neural Networks for Natural Language Processing
 
       - event-name:
-        eventtime: 02:30 - 03:30 pm.
+        eventtime: 01:30 - 02:30 pm.
         comments:
         speaker: <a href='#Siridech_Boonsang'><i>Siridech Boonsang</i></a>
         topic: Advancing Industrial Manufacturing with Generative AI and Synthetic Image Generation
 
       - event-name:
-        eventtime: 03:30 - 04:30 pm.
+        eventtime: 02:30 - 03:30 pm.
         comments:
         speaker: <a href='#Siamak_Mehrkanoon'><i>Siamak Mehrkanoon</i></a>
         topic: Deep Short-Term Weather Elements Forecasting
