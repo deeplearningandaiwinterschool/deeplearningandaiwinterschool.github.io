@@ -14,7 +14,7 @@ about: The concept of deep learning (DL) has been known in the neural network co
 programs:
   - tab-ref: 'Day1'
     tab-name: 'Day 1: Mon 17 Jul, 2023'
-    title: 'Day 1: Mon 17 Jul, 2023 (ICT eventtime UTC+8)'
+    title: 'Day 1: Mon 17 Jul, 2023 (ICT eventtime UTC+7)'
     events:
       - event-name: DLAI7 Opening Remarks
         eventtime: 07:50 - 08:00 am.
@@ -79,7 +79,7 @@ programs:
 
   - tab-ref: 'Day2'
     tab-name: 'Day 2: Tue 18 Jul, 2023'
-    title: 'Day 2: Tue 18 Jul, 2023 (ICT eventtime UTC+8)'
+    title: 'Day 2: Tue 18 Jul, 2023 (ICT eventtime UTC+7)'
     events:
       # - event-name: IEEE-CIS Distinguished Lecturer Talk II
       #   eventtime: 08.00 - 09.00 am.
@@ -137,7 +137,7 @@ programs:
 
   - tab-ref: 'Day3'
     tab-name: 'Day 3: Wed 19 Jul, 2023'
-    title: 'Day 3: Wed 19 Jul, 2023 (ICT eventtime UTC+8)'
+    title: 'Day 3: Wed 19 Jul, 2023 (ICT eventtime UTC+7)'
   #   events:
   #     - event-name: Women in Science and Engineering (WiSE) Session
   #       eventtime: 08.50 - 09.00 am.
@@ -201,7 +201,7 @@ programs:
 
   - tab-ref: 'Day4'
     tab-name: 'Day 4: Thu 20 Jul, 2023'
-    title: 'Day 4: Thu 20 Jul, 2023 (ICT eventtime UTC+8)'
+    title: 'Day 4: Thu 20 Jul, 2023 (ICT eventtime UTC+7)'
   #   events:
   #     - event-name: Academic Talk
   #       eventtime: 08.00 - 09.00 am
@@ -247,7 +247,7 @@ programs:
 
   - tab-ref: 'Day5'
     tab-name: 'Day 5: Fri 21 Jul, 2023'
-    title: 'Day 5: Fri 21 Jul, 2023 (ICT eventtime UTC+8)'
+    title: 'Day 5: Fri 21 Jul, 2023 (ICT eventtime UTC+7)'
     # events:
     #   - event-name: Academic Talk
     #     eventtime: 08.00 - 09.00 am
