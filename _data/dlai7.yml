@@ -90,7 +90,7 @@ programs:
       - event-name:
         eventtime: 08:00 - 09:00 am.
         comments:
-        speaker:  Md Zakir Hossain
+        speaker: <a href='#Md_Zakir_Hossain'><i>Md Zakir Hossain<i></a>
         topic: Deep Learning for Assessing and Supporting Autistic Individuals
 
       - event-name:
