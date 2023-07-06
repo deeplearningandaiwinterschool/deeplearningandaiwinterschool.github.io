@@ -24,13 +24,13 @@ programs:
         is-break:
 
       - event-name:
-        eventtime: 08:00 - 9:00 am.
+        eventtime: 08:00 - 09:00 am.
         comments:
         speaker: <a href='#Naoyuki_Kubota'><i>Naoyuki Kubota</i></a>
         topic: Topological Intelligence and Topological Clustering
 
       - event-name:
-        eventtime: 9:00 - 10:00 am.
+        eventtime: 09:00 - 10:00 am.
         comments:
         speaker: <a href='#Xiaofeng_Liu'><i>Xiaofeng Liu</i></a>
         topic: Affective Human-Robot Interaction
@@ -88,13 +88,13 @@ programs:
       #   topic: <a href='https://drive.google.com/file/d/1WmTUFLneXrejiVd9q1BykxJoSikOQGgo/view?usp=sharing' target='_blank'>Fuzzy Transfer Learning</a>
 
       - event-name:
-        eventtime: 08:00 - 9:00 am.
+        eventtime: 08:00 - 09:00 am.
         comments:
         speaker:  Md Zakir Hossain
         topic: Deep Learning for Assessing and Supporting Autistic Individuals
 
       - event-name:
-        eventtime: 9:00 - 10:00 am.
+        eventtime: 09:00 - 10:00 am.
         comments:
         speaker: <a href='#Wei_Liu'><i>Wei Liu</i></a>
         topic: Query Embeddings for Multi-hop Reasoning Over Knowledge Graphs
