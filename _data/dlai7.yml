@@ -138,42 +138,42 @@ programs:
   - tab-ref: 'Day3'
     tab-name: 'Day 3: Wed 19 Jul, 2023'
     title: 'Day 3: Wed 19 Jul, 2023 (ICT eventtime UTC+7)'
-  #   events:
+    events:
   #     - event-name: Women in Science and Engineering (WiSE) Session
   #       eventtime: 08.50 - 09.00 am.
   #       comments: WiSE opening remarks
   #       speaker:
   #       topic:
 
-  #     - event-name: WiSE Academic Talk
-  #       eventtime: 09.00 - 10.00 am.
-  #       comments:
-  #       speaker: <a href='#Maryam_Doborjeh'><i> Maryam Doborjeh</i></a>, Auckland University of Technology, New Zealand
-  #       topic: <a href='https://drive.google.com/file/d/1vf-8sPTjKKQU8ADfdlixG0Pp4SK7gfZP/view?usp=sharing' target='_blank'>Brain inspired artificial intelligence technology for modelling of spatiotemporal brain data in mental and neurological applications</a>
+      - event-name: Forum for Young Investigators (FYI)
+        eventtime: 09:00 - 10:00 am.
+        comments:
+        speaker: <a href='#Haiqin_Yang'><i> Haiqin Yang</i></a>
+        topic: 'Aspect-level Sentiment Analysis Under Large Language Models: Our Investigation'
 
-  #     - event-name: WiSE Academic Talk
-  #       eventtime: 10.00 - 11.00 am.
-  #       comments:
-  #       speaker: <a href='#Huynh_Thi_Thanh_Binh'><i>Huynh Thi Thanh Binh</i></a>, Hanoi University of Science and Technology, Vietnam
-  #       topic: <a href='https://drive.google.com/file/d/1VrnRXZjgcrF1xXUU0-CpAaKNeF8ABYIm/view?usp=sharing' target='_blank'>Transfer Learning for Collaborative Optimization Problems</a>
+      - event-name: Forum for Young Investigators (FYI)
+        eventtime: 10:00 - 11:00 am.
+        comments:
+        speaker: <a href='#Sirawaj_Itthipuripat'><i>Sirawaj Itthipuripat</i></a>
+        topic: A model-based approach for determiningattention deficits in mild cognitive impairment using scalp-EEG
 
-  #     - event-name: WiSE Academic Talk
-  #       eventtime: 11.00 am. - 12.00 noon
-  #       comments:
-  #       speaker: <a href='#Sonali_Agarwal'><i>Sonali Agarwal</i></a>, Indian Institute of Information Technology Allahabad, India
-  #       topic: <a href='https://drive.google.com/file/d/1so3W3nKI2CXSz96d1bhQVfwEUhFWdGC0/view?usp=sharing' target='_blank'>Explainable AI&#58; current status and future directions</a>
+      - event-name: Forum for Young Investigators (FYI)
+        eventtime: 11:00 am. - 12:00 pm.
+        comments:
+        speaker: <a href='#Nuttida_Rungratsameetaweemana'><i>Nuttida Rungratsameetaweemana</i></a>
+        topic: Random noise promotes robust working memory dynamics in deep learning models
 
-  #     - event-name: WiSE Keynote
-  #       eventtime: 12.00 noon - 01.00 pm.
-  #       comments:
-  #       speaker: <a href='#Hava_Siegelmann'><i> Hava T. Siegelmann</i></a>, University of Massachusetts Amherst, United States
-  #       topic: <a href='https://drive.google.com/file/d/1cceGBBhi4Sv3IsIEUbeDECGexEHcPLBx/view?usp=sharing' target='_blank'>Super Turing Computing Enables Lifelong Learning AI </a>
+      - event-name:
+        eventtime: 12:00 - 01:00 pm.
+        comments:
+        speaker: Lunch Break
+        topic:
 
-  #     - event-name: Forum for Young Investigators (FYI) Session
-  #       eventtime:
-  #       comments:
-  #       speaker:
-  #       topic:
+      - event-name: Hackathon
+        eventtime: 01:00 - 04:00 pm.
+        comments:
+        speaker:
+        topic:
 
   #     - event-name: ACM Distinguished Speaker II
   #       eventtime: 01.00 - 02.00 pm.
@@ -202,30 +202,78 @@ programs:
   - tab-ref: 'Day4'
     tab-name: 'Day 4: Thu 20 Jul, 2023'
     title: 'Day 4: Thu 20 Jul, 2023 (ICT eventtime UTC+7)'
-  #   events:
+    events:
   #     - event-name: Academic Talk
   #       eventtime: 08.00 - 09.00 am
   #       comments:
   #       speaker: <a href='#Mark_Chignell'><i>Mark Chignell</i></a>, University of Toronto, Canada
   #       topic: <a href='https://drive.google.com/file/d/1zQySsraoWpCXOlBp1EmcWRHHE7bo1s0K/view?usp=sharing' target='_blank'>A Computational Approach to Measuring and Managing Cognitive Decline in Older People</a>
 
-  #     - event-name: Academic Talk
-  #       eventtime: 09.00 - 10.00 am.
-  #       comments:
-  #       speaker: <a href='#Taro_Toyoizumi'><i>Taro Toyoizumi</i></a>, RIKEN Center for Brain Science, Japan
-  #       topic: <a href='https://drive.google.com/file/d/1TrAzIvAklXCkRkteCfyrG2ev6Xz3HZO6/view?usp=sharing' target='_blank'>Exploring the learning principle in the brain</a>
+      - event-name:
+        eventtime: 09:00 - 10:00 am.
+        comments:
+        speaker: <a href='#Badri_N_Subudhi'><i>Dr. Badri N Subudhi</i></a>
+        topic: TBA
 
-  #     - event-name: Academic Talk
-  #       eventtime: 10.00 - 11.00 am.
-  #       comments:
-  #       speaker: <a href='#Phayung_Meesad'><i>Phayung Meesad</i></a>
-  #       topic: <a href='https://drive.google.com/file/d/1mVyTWomEPASou2vJ1K5pcN8EfZ97W4cd/view?usp=sharing' target='_blank'>Deep Learning for Image and Natural Language Understanding</a>
+      - event-name:
+        eventtime: 10:00 - 10:10 am.
+        comments: Eye Soothing Break
+        speaker:
+        topic:
 
-  #     - event-name: Academic Talk
-  #       eventtime: 11.00 am. - 12.00 noon
-  #       comments:
-  #       speaker: <a href='#Tuan_Pham'><i>Tuan D. Pham</i></a>
-  #       topic: <a href='https://drive.google.com/file/d/1yyZYGKZ7xHBaD0538CCEJexC7KVl66MC/view?usp=sharing' target='_blank'>Fuzzy Recurrence Plots and Deep Learning for Biomedical Data Analyses</a>
+      - event-name:
+        eventtime: 10:10 - 11:10 am.
+        comments:
+        speaker: <a href='#Surajit_Ghosh'><i>Dr. Surajit Ghosh</i></a>
+        topic: Developing a Flood Extent Monitoring Framework using Deep Learning and Open-Source Data
+
+      - event-name:
+        eventtime: 11:10 - 11:20 am.
+        comments: Eye Soothing Break
+        speaker:
+        topic:
+
+      - event-name:
+        eventtime: 11:20 am. - 12:20 pm.
+        comments:
+        speaker: <a href='#Liam_Ekblad'><i>Mr. Liam Ekblad</i></a>
+        topic: TBA
+
+      - event-name:
+        eventtime: 12:20 - 01:30 pm.
+        comments:
+        speaker: Lunch Break
+        topic:
+
+      - event-name:
+        eventtime: 01:30 - 02:30 pm.
+        comments:
+        speaker: <a href='#Arijit_Sur'><i>Prof. Arijit Sur</i></a>
+        topic: Zero Shot Learning for Computer Vision
+
+      - event-name:
+        eventtime: 02:30 - 02:40 pm.
+        comments: Eye Soothing Break
+        speaker:
+        topic:
+
+      - event-name:
+        eventtime: 02:40 - 03:40 pm.
+        comments:
+        speaker: <a href='#Venketnaresh_Babu_Kupili'><i>Dr. Venketnaresh Babu Kupili</i></a>
+        topic: Texture Image Classification Using Deep Neural Network and Binary Dragon Fly Optimization with a Novel Fitness Function
+
+      - event-name:
+        eventtime: 03:40 - 03:50 pm.
+        comments: Eye Soothing Break
+        speaker:
+        topic:
+
+      - event-name:
+        eventtime: 03:50 - 04:50 pm.
+        comments:
+        speaker: <a href='#Rajarshi_Pal'><i>Dr. Rajarshi Pal</i></a>
+        topic: Face Spoof Detection
 
   #     - event-name:
   #       eventtime: 12.00 noon - 01.00 pm.
@@ -248,12 +296,12 @@ programs:
   - tab-ref: 'Day5'
     tab-name: 'Day 5: Fri 21 Jul, 2023'
     title: 'Day 5: Fri 21 Jul, 2023 (ICT eventtime UTC+7)'
-    # events:
-    #   - event-name: Academic Talk
-    #     eventtime: 08.00 - 09.00 am
-    #     comments:
-    #     speaker: <a href='#Ruck_Thawonmas'><i>Ruck Thawonmas</i></a>, Ritsumeikan University, Japan
-    #     topic: <a href='https://drive.google.com/file/d/17xi_LlAp-QRlT2jfVRlU7tQzXv_Nr5EH/view?usp=sharing' target='_blank'>Fighting Game Research Through a Competition Platform</a>
+    events:
+      - event-name: IEEE R10 Robotics Competition Stage I Pre-Event Workshop
+        eventtime: 09:00 am. - 12:00 pm.
+        comments:
+        speaker: School of Information Technology, KMUTT
+        topic: Robotics Demonstration and Competition (on-site at KMUTT)
 
     #   - event-name: NVIDIA DLI Workshop II (Part I)
     #     eventtime: 09.00 am. - 12.00 noon
@@ -261,17 +309,22 @@ programs:
     #     speaker: <a href='#Chantana_Chantrapornchai'><i>Chantana Chantrapornchai</i></a>, Kasetsart University, Thailand
     #     topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning-for-multi-gpus/' target='_blank'>Fundamentals of Deep Learning for Multi-GPUs</a>
 
-    #   - event-name:
-    #     eventtime: 12.00 noon - 01.00 pm.
-    #     comments: Lunch Break
-    #     speaker:
-    #     topic:
+      - event-name:
+        eventtime: 12:00 - 01:00 pm.
+        comments: Lunch Break
+        speaker:
+        topic:
 
-    #   - event-name:
-    #     eventtime: 01.00 - 04.00 pm.
-    #     comments:
-    #     speaker: <a href='#Chantana_Chantrapornchai'><i>Chantana Chantrapornchai</i></a>, Kasetsart University, Thailand
-    #     topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning-for-multi-gpus/' target='_blank'>Fundamentals of Deep Learning for Multi-GPUs</a>
+      - event-name: Panel Session on Generative AI
+        eventtime: 01:00 - 03:00 pm.
+        comments:
+        speaker: <i>
+                    <a href="#Irwin_King">Irwin King</a>,
+                    <a href="#Sripana_Saha">Sripana Saha</a>,
+                    <a href="#Kasturi_Dewi_Varathan">Kasturi Dewi Varathan</a>,
+                  </i>; moderated by
+                  <i><a href="#Jonathan_Chan">Jonathan H. Chan</a></i>
+        topic:
 
     #   - event-name:
     #     eventtime: 04.00 - 04.15 pm.
@@ -279,11 +332,11 @@ programs:
     #     speaker:
     #     topic:
 
-    #   - event-name: Hackathon Session III + wrap up
-    #     eventtime: 04.15 - 05.00 pm.
-    #     comments: Wrap up of DLAI6 hackathon session + closing remarks
-    #     speaker:
-    #     topic:
+      - event-name:
+        eventtime: 03:00 - 03:30 pm.
+        comments: Closing Remarks
+        speaker:
+        topic:
 
 speakers:
   - name: Asif Ekbal
@@ -363,6 +416,72 @@ speakers:
     img-url: ./assets/images/speakers/DLAI7/Yi_Zhang.jpeg
     name-url: https://profiles.uts.edu.au/yi.zhang
     affiliation: University of Technology Sydney, Australia
+
+  - name: Haiqin Yang
+    id: Haiqin_Yang
+    img-url: ./assets/images/speakers/DLAI5/haiqin_yang.png
+    name-url: https://hqyang.github.io/
+    affiliation: IDEA, China
+
+  - name: Sirawaj Itthipuripat
+    id: Sirawaj_Itthipuripat
+    img-url: ./assets/images/speakers/DLAI7/sirawaj_itthipuripat.jpeg
+    name-url: https://itthipuripat.weebly.com/
+    affiliation: KMUTT, Thailand
+
+  - name: Nuttida Rungratsameetaweemana
+    id: Nuttida_Rungratsameetaweemana
+    img-url: ./assets/images/speakers/DLAI7/nuttida_rungratsameetaweemana.jpeg
+    name-url: https://nrungrat.github.io/
+    affiliation: Columbia University, USA
+
+  - name: Badri N Subudhi
+    id: Badri_N_Subudhi
+    img-url: ./assets/images/speakers/DLAI7/Badri_N_Subudhi.jpeg
+    name-url: https://sites.google.com/view/badrisubudhi/home
+    affiliation: IIT Jammu, India
+
+  - name: Surajit Ghosh
+    id: Surajit_Ghosh
+    img-url: ./assets/images/speakers/DLAI7/surajit_ghosh.jpg
+    name-url: https://research.iitj.ac.in/researcher/surajit-ghosh
+    affiliation: IMWI, Sri Lanka
+
+  - name: Liam Ekblad
+    id: Liam_Ekblad
+    img-url: ./assets/images/speakers/male-holder.jpg
+    name-url:
+    affiliation: University of California, USA
+
+  - name: Arijit Sur
+    id: Arijit_Sur
+    img-url: ./assets/images/speakers/DLAI7/Arijit.png
+    name-url: https://www.iitg.ac.in/arijit/
+    affiliation: IIT Guwahati, India
+
+  - name: Venketnaresh Babu Kupili
+    id: Venketnaresh_Babu_Kupili
+    img-url: ./assets/images/speakers/DLAI7/VNK.jpeg
+    name-url: https://www.researchgate.net/profile/Venkatanareshbabu-Kuppili-2
+    affiliation: NIT Goa, India
+
+  - name: Rajarshi Pal
+    id: Rajarshi_Pal
+    img-url: ./assets/images/speakers/DLAI5/rajarshi_pal.jpg
+    name-url: https://www.idrbt.ac.in/dr-rajarshi-pal/
+    affiliation: IDRBT, India
+
+  - name: Irwin King
+    id: Irwin_King
+    img-url: ./assets/images/speakers/DLAI1/Irwin_King_crop.jpg
+    name-url: http://www.cse.cuhk.edu.hk/irwin.king/
+    affiliation: Chinese University of Hong Kong, Hong Kong, SAR
+
+  - name: Kasturi Dewi Varathan
+    id: Kasturi_Dewi_Varathan
+    img-url: ./assets/images/speakers/DLAI7/Kasturi_Dewi_Varathan.jpeg
+    name-url: https://umexpert.um.edu.my/kasturi.html
+    affiliation: Universiti Malaya, Malaysia
 
 #### Registration
 #### status: [open|closed]
