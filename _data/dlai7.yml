@@ -241,8 +241,8 @@ programs:
 
       - event-name:
         eventtime: 12:20 - 01:30 pm.
-        comments:
-        speaker: Lunch Break
+        comments: Lunch Break
+        speaker:
         topic:
 
       - event-name:
