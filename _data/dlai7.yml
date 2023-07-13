@@ -237,7 +237,7 @@ programs:
         eventtime: 11:20 am. - 12:20 pm.
         comments:
         speaker: <a href='#Liam_Ekblad'><i>Mr. Liam Ekblad</i></a>
-        topic: TBA
+        topic: Connecting spatial climate information to infrastructure operations using deep reinforcement learning
 
       - event-name:
         eventtime: 12:20 - 01:30 pm.
@@ -275,6 +275,12 @@ programs:
         speaker: <a href='#Rajarshi_Pal'><i>Dr. Rajarshi Pal</i></a>
         topic: Face Spoof Detection
 
+      - event-name: 
+        eventtime: 04:50 - 05:00 pm.
+        comments: Valedictory
+        speaker: 
+        topic: 
+
   #     - event-name:
   #       eventtime: 12.00 noon - 01.00 pm.
   #       comments: Lunch Break
@@ -310,13 +316,13 @@ programs:
     #     topic: <a href='https://www.nvidia.com/en-us/training/instructor-led-workshops/fundamentals-of-deep-learning-for-multi-gpus/' target='_blank'>Fundamentals of Deep Learning for Multi-GPUs</a>
 
       - event-name:
-        eventtime: 12:00 - 01:00 pm.
+        eventtime: 12:00 - 01:30 pm.
         comments: Lunch Break
         speaker:
         topic:
 
       - event-name: Panel Session on Generative AI
-        eventtime: 01:00 - 03:00 pm.
+        eventtime: 01:30 - 03:00 pm.
         comments:
         speaker: <i>
                     <a href="#Irwin_King">Irwin King</a>,
@@ -449,9 +455,9 @@ speakers:
 
   - name: Liam Ekblad
     id: Liam_Ekblad
-    img-url: ./assets/images/speakers/male-holder.jpg
+    img-url: ./assets/images/speakers/Liam_Ekblad.jpg
     name-url:
-    affiliation: University of California, USA
+    affiliation: University of California Davis, USA
 
   - name: Arijit Sur
     id: Arijit_Sur
