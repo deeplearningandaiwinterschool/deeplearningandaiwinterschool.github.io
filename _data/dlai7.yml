@@ -169,9 +169,9 @@ programs:
         speaker:
         topic:
 
-      - event-name: Hackathon
+      - event-name: 
         eventtime: 01:00 - 04:00 pm.
-        comments:
+        comments: Hackathon
         speaker:
         topic:
 
