@@ -213,7 +213,7 @@ programs:
         eventtime: 09:00 - 10:00 am.
         comments:
         speaker: <a href='#Badri_N_Subudhi'><i>Dr. Badri N Subudhi</i></a>
-        topic: TBA
+        topic: Deep Learning Architectures for the Thermal Video Surveillance
 
       - event-name:
         eventtime: 10:00 - 10:10 am.
