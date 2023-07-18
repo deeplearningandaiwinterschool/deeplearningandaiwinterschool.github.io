@@ -236,8 +236,8 @@ programs:
       - event-name:
         eventtime: 11:20 am. - 12:20 pm.
         comments:
-        speaker: <a href='#Liam_Ekblad'><i>Mr. Liam Ekblad</i></a>
-        topic: Connecting spatial climate information to infrastructure operations using deep reinforcement learning
+        speaker: <a href='#Debasrita_Chakraborty'><i>dr. Debasrita Chakraborty</i></a>
+        topic: Revolutionizing Research with Deep Learning
 
       - event-name:
         eventtime: 12:20 - 01:30 pm.
@@ -453,11 +453,11 @@ speakers:
     name-url: https://www.iwmi.cgiar.org/about/staff-list/surajit-ghosh/
     affiliation: IMWI, Sri Lanka
 
-  - name: Liam Ekblad
-    id: Liam_Ekblad
-    img-url: ./assets/images/speakers/DLAI7/Liam_Ekblad.jpg
+  - name: Debasrita Chakraborty
+    id: Debasrita_Chakraborty
+    img-url: ./assets/images/speakers/DLAI7/Debasrita_Chakraborty.png
     name-url:
-    affiliation: University of California Davis, USA
+    affiliation: Codelogicx Technologies, India
 
   - name: Arijit Sur
     id: Arijit_Sur
