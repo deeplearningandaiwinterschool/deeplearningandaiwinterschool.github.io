@@ -236,7 +236,7 @@ programs:
       - event-name:
         eventtime: 11:20 am. - 12:20 pm.
         comments:
-        speaker: <a href='#Debasrita_Chakraborty'><i>dr. Debasrita Chakraborty</i></a>
+        speaker: <a href='#Debasrita_Chakraborty'><i>Dr. Debasrita Chakraborty</i></a>
         topic: Revolutionizing Research with Deep Learning
 
       - event-name:
