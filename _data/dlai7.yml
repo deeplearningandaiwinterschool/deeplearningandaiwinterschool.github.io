@@ -132,7 +132,7 @@ programs:
       # - event-name: Academic Talk
       #   eventtime: 04.00 - 05.00 pm.
       #   comments:
-      #   speaker: <a href='#Chakarida_Nukoolkit'><i>Chakarida Nukoolkit</i></a>, King Mongkut's University of Technology Thonburi, Thailand
+      #   speaker: <a href='#arida_Nukoolkit'><i>arida Nukoolkit</i></a>, King Mongkut's University of Technology Thonburi, Thailand
       #   topic: <a href='#' target='_blank'>Data science concepts with case studies in health monitoring systems</a>
 
   - tab-ref: 'Day3'
@@ -457,7 +457,7 @@ speakers:
     id: Debasrita_Chakraborty
     img-url: ./assets/images/speakers/DLAI7/Debasrita_Chakraborty.png
     name-url:
-    affiliation: Codelogicx Technologies, India
+    affiliation: IDEAS-TIH@ISI, India
 
   - name: Arijit Sur
     id: Arijit_Sur
